@@ -1,0 +1,224 @@
+/**============================**/
+/*           Fonts             */
+/**============================**/
+
+
+@font-face {
+    font-family: "notical";
+    src: url("../fonts/brandontext-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandontext-regular-webfont.woff2") format("woff2"), url("../fonts/brandontext-regular-webfont.woff") format("woff"), url("brandontext-regular-webfont.ttf") format("truetype"), url("brandontext-regular-webfont.svg#brandon_textregular") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Base */
+.font-size-10 {
+    font-size: 10px; }
+
+.font-size-11 {
+    font-size: 11px; }
+
+.font-size-12 {
+    font-size: 12px; }
+
+.font-size-13 {
+    font-size: 13px; }
+
+.font-size-14 {
+    font-size: 14px; }
+
+.font-size-15 {
+    font-size: 15px; }
+
+.font-size-16 {
+    font-size: 16px; }
+
+.font-size-17 {
+    font-size: 17px; }
+
+.font-size-18 {
+    font-size: 18px; }
+
+.font-size-19 {
+    font-size: 19px; }
+
+.font-size-20 {
+    font-size: 20px; }
+
+.font-size-21 {
+    font-size: 21px; }
+
+.font-size-22 {
+    font-size: 22px; }
+
+.font-size-23 {
+    font-size: 23px; }
+
+.font-size-24 {
+    font-size: 24px; }
+
+.font-size-25 {
+    font-size: 25px; }
+
+.font-size-26 {
+    font-size: 26px; }
+
+.font-size-27 {
+    font-size: 27px; }
+
+.font-size-28 {
+    font-size: 28px; }
+
+.font-size-29 {
+    font-size: 29px; }
+
+.font-size-30 {
+    font-size: 30px; }
+
+/*nav-top*/
+.main-menu {
+    height: 50px;
+    background-color: #135454;
+    line-height: 25px;
+}
+.main-logo img{
+    height:50px;
+}
+.main-nav {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-menu-content {
+
+}
+.main-menu-content ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.main-menu-content ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #E8A45F;
+}
+
+.main-menu-content ul {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.main-menu-content ul li:hover, .main-menu-content ul li a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #F88E17;
+}
+.main-menu-content ul li a.active {
+    color: #F88E17;
+}
+
+
+.main-menu-content ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 10rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    right: 10px;
+    display: none;
+    padding-left:0;
+}
+.main-menu-content ul li ul li {
+    clear: both;
+    width: 100%;
+    background-color: #D6F2F2;
+    margin-bottom: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 6px;
+    text-align: center;
+}
+.main-menu-content ul li ul li a {
+    color: #000 !important;
+    text-transform: none;
+}
+
+.main-menu-content ul li:hover > ul,
+.main-menu-content ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.main-social-icon-top {
+    float: right;
+    line-height: 50px;
+}
+.main-social-icon-top a{
+    float: right;
+    color: #E8A45F !important;
+    padding-left: 12px;
+}
+.main-social-icon-top a:first-child{
+    visibility: visible;
+}
+.main-social-icon-top a:visited {
+    color: #F88E17 !important;
+}
+
+/*footer*/
+.site-footer {
+    background-color: #135454;
+}
+.content-footer {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.address-footer h3, .policy-footer h3 {
+    font-weight: bold;
+    color: #E8A45F;
+    line-height: 33px;
+}
+.address-footer p {
+    font-weight: bold;
+    color: #E8A45F;
+    line-height: 25px;
+}
+.policy-footer ul {
+    padding-left:0;
+}
+.policy-footer ul li  {
+    list-style: none;
+}
+.policy-footer ul li a {
+    color: #E8A45F;
+    line-height: 25px;
+}
+.icon-social-footer i {
+    background-color: #D6F2F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 12px;
+}
+.advisory-footer {
+    border: 2px solid #E8A45F;
+    box-sizing: border-box;
+}
+.advisory-footer input {
+    background-color: #D6F2F2;
+    line-height: 25px;
+    display: block;
+    width: 100%;
+}
+.advisory-footer button {
+    background: #E8A45F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+}
