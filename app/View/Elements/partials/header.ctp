@@ -22,7 +22,11 @@
         <a><i class="fa fa-user"></i></a>
         <a><i class="fa fa-shopping-cart"></i></a>
         <a><i class="fa fa-phone"></i></a>
+    </div>
 
+    <div class="txt-search-top">
+        <input type="text" class="" id="" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
+        <button class="btn btn-outline-secondary" type="button">Button</button>
     </div>
 
 </div>

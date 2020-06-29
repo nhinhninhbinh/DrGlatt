@@ -91,6 +91,7 @@ body {
     max-width: 85%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 .main-menu-content {
 
@@ -159,6 +160,7 @@ body {
 .main-social-icon-top {
     float: right;
     line-height: 50px;
+    padding-right: 0px;
 }
 .main-social-icon-top a{
     float: right;
@@ -170,6 +172,14 @@ body {
 }
 .main-social-icon-top a:visited {
     color: #F88E17 !important;
+}
+.txt-search-top {
+    background-color: #D6F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    top: 40px;
 }
 
 /*footer*/
