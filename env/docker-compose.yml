@@ -1,0 +1,33 @@
+version: "3.3"
+services:
+  drglatt-db:
+    image: mysql:8.0
+    container_name: drglatt-db
+    hostname: drglatt-db
+    restart: always
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci', '--default-authentication-plugin=mysql_native_password']
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+    ports:
+      - "3306:3306"
+    network_mode: bridge
+
+  drglatt-web:
+    image: drglatt
+    container_name: drglatt-web
+    restart: always
+    hostname: vagrant
+    privileged: true
+    ports:
+      - "443:443"
+      - "80:80"
+    links:
+      - drglatt-db
+    environment:
+      - IS_DOCKER=1
+      - MYSQL_HOST_SYS=drglatt-db
+      - MYSQL_HOST_COMMUNITY=drglatt-db
+      - MHT_ENV=develop
+    volumes:
+      - ./../:/var/www/html/:rw
+    network_mode: bridge
