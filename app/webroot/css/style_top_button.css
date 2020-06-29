@@ -4,8 +4,8 @@
 
 
 @font-face {
-    font-family: "notical";
-    src: url("../fonts/brandontext-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandontext-regular-webfont.woff2") format("woff2"), url("../fonts/brandontext-regular-webfont.woff") format("woff"), url("brandontext-regular-webfont.ttf") format("truetype"), url("brandontext-regular-webfont.svg#brandon_textregular") format("svg");
+    font-family: "NoticialText";
+    src: url('../fonts/NoticialText-Regular.ttf');
     font-style: normal;
     font-weight: normal;
 }
@@ -73,6 +73,10 @@
 
 .font-size-30 {
     font-size: 30px; }
+
+body {
+    font-family: "NoticialText";
+}
 
 /*nav-top*/
 .main-menu {
