@@ -26,7 +26,7 @@
 
     <div class="txt-search-top">
         <input type="text" class="" id="" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
-        <button class="btn btn-outline-secondary" type="button">Button</button>
+        <span id="searchclear" class="glyphicon glyphicon-remove-circle"><i class="fa fa-times" aria-hidden="true"></i></span>
     </div>
 
 </div>
