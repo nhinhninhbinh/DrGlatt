@@ -21,6 +21,11 @@
                     <span>20 nov, 2019 at 9:30pm</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores adipisci optio ex,
                         laboriosam facilis non pariatur itaque illo sunt?</p>
+
+                    <div class="rep-comment" style="margin-right: 16px">
+                        <textarea name="" rows="2" cols="40" style="margin-top:23px">Bình luận ...</textarea>
+                    </div>
+
                 </div>
                 <button class="active">Trả lời</button>
             </div>
