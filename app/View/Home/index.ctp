@@ -1,4 +1,5 @@
 <div id="home">
+	<?php echo $this->element("slide/slide-top")?>
 	<div class="content">
 		<div class="container">
 			<div class="our-product">
@@ -216,9 +217,9 @@
 		<div class="news">
 			<div class="container">
 				<div class="news-content">
-					<div class="corner-top"></div>
+					<div class="corner-top">hihii</div>
 					<div class="text-title">Tin Tức</div>
-					<div class="corner-bottom"></div>
+					<div class="corner-bottom">kkk</div>
 				</div>
 			</div>
 		</div>

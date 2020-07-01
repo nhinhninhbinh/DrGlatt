@@ -1,7 +1,7 @@
 <div id="main-slide-top" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../img/slide1.jpg" alt="First slide">
+      <img class="d-block w-100" src="../img/Rectangle 1.png" alt="First slide">
       <div class="carousel-caption d-none d-md-block cation-main-slide">
         <h5 class="font-weight">Máy Rửa Mặt</h5>
         <p class="font-weight">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
