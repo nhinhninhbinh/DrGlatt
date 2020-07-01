@@ -72,6 +72,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 
     <?= $this->Html->script('main-slide'); ?>
+    <?= $this->Html->script('home'); ?>
 
 </body>
 </html>
