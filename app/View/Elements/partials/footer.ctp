@@ -43,17 +43,17 @@
                 <input type="text" onfocus="this.placeholder = ''" placeholder="Họ và tên*" value="" required class="font-size-18 font-weight">
                 <input type="text" onfocus="this.placeholder = ''" placeholder="Số điện thoại*" value="" required class="font-size-18 font-weight">
                 <input type="text" onfocus="this.placeholder = ''" placeholder="Địa chỉ*" value="" required class="font-size-18 font-weight">
-
-                <select name="" class="font-size-18 font-weight select-product-frm selectpicker" data-width="100%" style="width: 100%;">
+                <select name="" class="font-size-18 font-weight select-product-frm selectpicker" data-size="10" data-width="100%">
                     <option selected>Sản phẩm cần tư vấn</option>
+                    <option data-divider="true"></option>
                     <option>San pham 1</option>
+                    <option data-divider="true"></option>
                     <option>San pham 1</option>
+                    <option data-divider="true"></option>
                     <option>San pham 1</option>
                 </select>
-                <button type="submit" class="btn btn-primary font-weight btn-register-footer">ĐĂNG KÝ NGAY</button>
+                <button type="submit" class="btn btn-primary font-weight btn-register-footer font-size-24 font-weight">ĐĂNG KÝ NGAY</button>
             </form>
         </div>
     </div>
-
-
 </div>

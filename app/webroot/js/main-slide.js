@@ -24,6 +24,7 @@ $(document).ready(function(){
 
     //select product form footer
     $('.select-product-frm').selectpicker();
+    // $('.bootstrap-select .dropdown-menu li').addClass("test");
 
 });
 function searchTop() {
