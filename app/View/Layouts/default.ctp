@@ -37,6 +37,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
     <?= $this->Html->css("style_top_button.css"); ?>
     <?= $this->Html->css("style.css"); ?>
 
+    <!--    main slide
+    https://www.w3schools.com/w3css/w3css_slideshow.asp-->
+    <?= $this->Html->css("main-slide-home.css"); ?>
+
 </head>
 <body>
 	<div id="container">
@@ -72,6 +76,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 
     <?= $this->Html->script('main-slide'); ?>
+    <?php
+    //echo $this->Html->script('home');
+    ?>
 
 </body>
 </html>
