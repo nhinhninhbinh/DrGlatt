@@ -562,3 +562,140 @@ div.review-product img {
   clear: both;
 }
 
+
+/*PRODUCT*/
+#product .container-image{
+  /*position: relative;*/
+}
+#product .container-image img{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#product .product-text{
+  position: absolute;
+  bottom: 0px;
+  font-family: "Noticia";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+}
+#product .container-image hr{
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #000000;
+}
+
+#product .video-box{
+  margin-top: 40px;
+}
+#product .product-desc{
+  /*border: 1px solid black;*/
+  height: 1736.16px;
+  background-image: url('/img/background/Vector 3.png');
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  position: relative;
+}
+
+#product .background-1{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 1578.89px;
+  /*border: 1px solid black;*/
+  background-image: url('/img/background/Vector 5.png');
+  background-repeat: no-repeat;
+}
+
+#product .background-2{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 1595.07px;
+  /*border: 1px solid black;*/
+  background-image: url('/img/background/Vector 4.png');
+  background-repeat: no-repeat;
+}
+
+#product .background-3{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 1056.37px;
+  /*border: 1px solid black;*/
+  background-image: url('/img/background/Vector 6.png');
+  background-repeat: no-repeat;
+}
+
+#product .img-pro-container{
+  width: 100%;
+  height: 720.48px;
+/*  padding-top: 210.14px;
+  position: absolute;*/
+}
+#product .img-pro-container img{
+  width: 100%;
+  height: 100%;
+}
+
+#product .pro-desc{
+  padding-top: 210.14px;
+}
+
+#product .pro-desc-under{
+  margin-top: 40.03px;
+}
+
+#product .text-desc{
+  transform: translate(0, 50%);
+  /*padding-right: 101px;*/
+  display: block;
+}
+
+#product .pro-desc .text-desc{
+  padding-right: 101px;
+}
+
+#product .pro-desc-under .text-desc{
+  padding-left: 9.47px;
+}
+
+#product .text-desc p.title{
+  font-family: "Noticia";
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+
+#product .text-desc p.content{
+  font-family: "Noticia";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#product .action-desc{
+  margin-top: 90.83px;
+  padding-top: 15px;
+  background: linear-gradient(180deg, rgba(241, 240, 241, 0) 0%, #F1F0F1 100%);
+  padding-bottom: 40px;
+}
+
+#product .action-desc-text p{
+  font-family: "Noticia";
+  font-style: normal;
+  font-weight: bold;
+  font-style: 48px;
+  text-align: center;
+}
+
+#product .action-desc .video-container{
+  width: 770px;
+  height: 361px;
+  margin: 0 auto;
+}
+
+
+
