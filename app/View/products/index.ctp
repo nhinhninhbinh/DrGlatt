@@ -93,7 +93,124 @@
 	</div>
 
 	<div class="product-detail">
-		<div class="container"></div>
+		<div class="container">
+			<div class="title">
+				<p style="font-size: 48px;">Một Bước Tiến Trong Beauty Tech</p>
+			</div>
+			<div class="row">
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="row">
+						<p>Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
+						<p>Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
+					</div>
+					<div class="row">
+						<p>Gai dài và mềm hơn</p>
+						<p>Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
+					<div class="row product-image">
+						<div class="container-image">
+							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+						</div>
+					</div>
+					<div class="row">
+						
+					</div>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="row">
+						<p>Đầu bàn chải silicone suốt đời</p>
+						<p>Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
+					</div>
+					<div class="row">
+						<p>Cường độ tùy chỉnh</p>
+						<p>Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="slide-review">
+		<div class="container">
+			<div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row" role="listbox" style="width: auto;">
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                	<div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                <span class="cerousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+		</div>
 	</div>
 
 	<div id="comment-box">
