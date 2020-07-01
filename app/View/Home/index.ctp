@@ -15,9 +15,9 @@
 
 		<div class="top-home" style="margin-top: 15px;">
 			<div class="rec rectangle-63">
-				<div class="rec-text">
+				<div class="rec-text container">
 	   				<hr style="border-color: black; width: 130px;">
-	   				<div class="text"><p>Giá trị của hộp quà</p></div>
+	   				<div class="text"><p>Tưng bừng đón chào bộ sản phẩm</p></div>
 	   			</div>
 			 	 <div class="image-container">
 			    	<a target="_blank" href="img_5terre.jpg">

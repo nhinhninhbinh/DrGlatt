@@ -39,7 +39,9 @@
 		</div>
 	</div>
 
-	<div class="slide"></div>
+	<div class="slide">
+		<?php echo $this->element("slide/slide-top")?>
+	</div>
 
 	<div class="video-box">
 		<div class="container">
@@ -115,7 +117,7 @@
 						</div>
 					</div>
 					<div class="row">
-						
+
 					</div>
 				</div>
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
