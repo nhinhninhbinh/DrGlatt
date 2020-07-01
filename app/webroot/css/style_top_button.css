@@ -93,22 +93,25 @@ button:focus {
 body {
     font-family: "NoticialText";
 }
-
+.clear {
+    clear: both;
+}
 /*nav-top*/
 .main-menu {
     height: 89px;
     background-color: #135454;
     line-height: 67px;
 }
-.main-logo img{
-    height:50px;
+.main-logo{
+    line-height: 89px;
+    float: left;
 }
 .main-nav {
-    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
 .main-menu-content {
+    float: left;
 
 }
 .main-menu-content ul li {
@@ -117,11 +120,11 @@ body {
     padding: 10px;
     position: relative;
     transition-duration: 0.5s;
+    line-height: 69px;
 }
 .main-menu-content ul li a {
     text-transform: uppercase;
     color: #E8A45F;
-    line-height: 25px;
 }
 
 .main-menu-content ul {
@@ -179,12 +182,12 @@ body {
 
 .main-social-icon-top {
     float: right;
-    line-height: 80px;
     padding-right: 0px;
 }
 .main-social-icon-top ul li{
     float: right;
     margin-left: 20px;
+    line-height: 89px;
 }
 .main-social-icon-top a:first-child{
     visibility: visible;
@@ -274,9 +277,9 @@ input#searchinput:focus {
 /*footer*/
 .site-footer {
     background-color: #135454;
+    margin-top: 80px;
 }
 .content-footer {
-    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding: 30px 0;

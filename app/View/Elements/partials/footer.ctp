@@ -1,7 +1,7 @@
-<div class="row content-footer">
+<div class="container row content-footer">
     <div class="col-md-8">
         <div class="row">
-            <a href="" style="width:100%;"><?= $this->Html->image('logo.png', array('alt' => 'Dr glatt')); ?></a>
+            <a href="" style="width:100%;"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>
             <div class="col address-footer">
                 <h3 class="font-size-24 font-weight">Dr Glatt Việt Nam</h3>
                 <p class="font-size-18 font-weight">
@@ -16,7 +16,7 @@
                 <p class="font-size-18 font-weight">Email: customerservice@dr-glatt.com</p>
             </div>
             <div class="col policy-footer">
-                <h3 class="font-size-24">Chính Sách Mua Hàng</h3>
+                <h3 class="font-size-24 font-weight">Chính Sách Mua Hàng</h3>
                 <ul>
                     <li><a class="font-size-18 font-weight" href="">Chính sách bảo mật</a></li>
                     <li><a class="font-size-18 font-weight" href="">Chính sách vận chuyển</a></li>
