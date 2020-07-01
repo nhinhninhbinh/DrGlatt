@@ -44,7 +44,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
         <header class="main-menu" id="main-menu-navbar">
             <?php echo $this->element("partials/header")?>
         </header>
-
+        <div class="clear"></div>
         <div id="content">
 
             <?php echo $this->Flash->render(); ?>
