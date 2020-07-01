@@ -13,4 +13,7 @@ class HomesController extends AppController {
 	public function index(){
 
 	}
+	public function comment() {
+
+    }
 }

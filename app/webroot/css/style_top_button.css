@@ -73,6 +73,8 @@
 
 .font-size-30 {
     font-size: 30px; }
+.font-size-48 {
+    font-size: 48px; }
 .font-weight {
     font-weight: bold;
 }
@@ -92,6 +94,10 @@ button:focus {
 
 body {
     font-family: "NoticialText";
+    color: #000000;
+}
+h2, h3, h4, p {
+    margin-bottom: 0;
 }
 .clear {
     clear: both;
@@ -395,10 +401,13 @@ input#searchinput:focus {
     border:none;
 }
 /*main slide top*/
-#main-slide-top .carousel-inner img.d-block {
-    height: 670px !important;
+.main-slide-home-page .item-slide {
+    position: relative;
 }
-#main-slide-top .cation-main-slide {
+.main-slide-home-page .item-slide img {
+    height: 670px;
+}
+.main-slide-home-page .cation-main-slide {
     position: absolute;
     top: 15%;
     bottom: 20px;
@@ -410,16 +419,16 @@ input#searchinput:focus {
     text-align: left;
     left: 7.5%
 }
-#main-slide-top .cation-main-slide h5 {
+.main-slide-home-page .cation-main-slide h5 {
     font-size: 64px;
     line-height: 87px;
 }
-#main-slide-top .cation-main-slide p {
+.main-slide-home-page .cation-main-slide p {
     max-width: 30%;
     font-size: 24px;
     line-height: 33px;
 }
-#main-slide-top .cation-main-slide .btn-slide-more {
+.main-slide-home-page .cation-main-slide .btn-slide-more {
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
@@ -427,4 +436,68 @@ input#searchinput:focus {
     font-size: 36px;
     line-height: 49px;
     color: #000;
+}
+
+/*comment product*/
+.content-comment {
+    margin: 50px auto;
+}
+.content-comment h3 {
+    font-size: 48px;
+    line-height: 66px;
+}
+.main-content-comment {
+    margin-left: 20%;
+}
+.item-comment {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    margin-bottom: 27px;
+    padding: 5px 5px 10px 20px;
+    position: relative;
+}
+.item-comment:last-child {
+    margin-bottom: 0;
+}
+.item-comment img {
+    float: left;
+}
+.item-comment .info-comment {
+    margin-left: 40px;
+    font-family: 'Roboto';font-size: 18px;
+    color: rgba(0, 0, 0, 0.65);
+}
+.item-comment .info-comment h4 {
+    color: #000;
+}
+.item-comment button {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'Roboto';font-size: 18px;
+    padding: 2px 6px;
+    color: rgba(0, 0, 0, 0.65);
+}
+.item-comment button.active {
+    background-color: #E8A45F;
+    color: #000;
+}
+.rep-comment textarea {
+    background: #D9D9D9;
+    border:none;
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top:10px;
+    padding: 10px;
+    font-family: 'Roboto';
+    width: 100%;
 }
