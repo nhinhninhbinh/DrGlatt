@@ -15,7 +15,11 @@ class ProductsController extends AppController {
     }
 
     public function cart() {
-    	
+
+    }
+
+    public function infoCustomOrder() {
+
     }
 
 }
