@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
 	// resize tag input
-	
-
 	$('input[type="text"]')
 	    // event handler
 	    .keyup(resizeInput)
@@ -31,8 +29,20 @@ $(document).ready(function() {
 	  $("#total").val(total);
 	  
 	});
+
+	// total cart
+	var total = 0;
+	$('.cart-plus-minus input').each(function(){
+	    total += +this.value;
+	});
+	$(".cart-product .total-cart #total").val(total + '.000Vnđ');
 });
 
 function resizeInput() {
     $(this).attr('size', $(this).val().length);
+}
+
+//delete row in cart and miss delete in db
+function deleteRowCart(element) {
+	$(element).parent().parent().remove();  
 }

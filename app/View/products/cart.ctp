@@ -55,12 +55,12 @@
                         </div>
 
                   </td>
-                  <td class="font-size-18 font-weight">25.000Vnđ <i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                  <td class="font-size-18 font-weight">25.000Vnđ <span onclick='deleteRowCart(this)'><i class="fa fa-trash-o" aria-hidden="true"></i></span></td>
                 </tr>
             </tbody>
         </table>
         <div class="total-cart">
-            <p class="font-size-18 font-weight">Tổng: <span class="font-size-24 font-weight">750.000Vnđ</span></p>
+            <p class="font-size-18 font-weight">TỔNG: <input type="text" id="total" class="font-size-24 font-weight" value="750.000Vnđ"/></p>
             <button class="font-size-24 font-weight">Tiến hành đặt hàng</button>
         </div>
     </div>
