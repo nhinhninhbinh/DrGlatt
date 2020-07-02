@@ -96,6 +96,7 @@
 		<div class="container"></div>
 	</div>
 
+
 	<div id="comment-box">
 		<div class="container">
 		    <div class="content-comment">
@@ -109,7 +110,7 @@
 		                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores adipisci optio ex,
 		                        laboriosam facilis non pariatur itaque illo sunt?</p>
 		                </div>
-		                <button>Trả lời</button>
+		                <button class="btn-rep-comment">Trả lời</button>
 		            </div>
 		            <div class="clear"></div>
 		            <div class="item-comment">
@@ -120,17 +121,23 @@
 		                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores adipisci optio ex,
 		                        laboriosam facilis non pariatur itaque illo sunt?</p>
 		                </div>
-		                <button class="active">Trả lời</button>
+		                <button class="active btn-rep-comment">Trả lời</button>
+
+                        <div class="rep-comment" style="margin-left:50px;">
+                            <textarea name="" rows="2" cols="50" placeholder="Bình luận ..."></textarea>
+                        </div>
+                        <button class="btn-send-rep-comment">Gửi</button>
+
 		            </div>
 		            <div class="clear"></div>
 
-
 		            <div class="rep-comment">
 		                <h4 class="font-size-24 font-weight">Bình Luận:</h4>
-		                <textarea name="" rows="4" cols="50">Bình luận ...</textarea>
+		                <textarea name="" rows="4" cols="50" placeholder="Bình luận ..."></textarea>
 		            </div>
-
+                    <button class="btn-send-comment">Gửi</button>
 		        </div>
+
 		    </div>
 		</div>
 	</div>

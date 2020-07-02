@@ -39,6 +39,12 @@ $(document).ready(function(){
     $('.select-product-frm').selectpicker();
     // $('.bootstrap-select .dropdown-menu li').addClass("test");
 
+
+    // remove placeholder on focus $('input,textarea') in comment product page
+    $('textarea').focus(function(){
+        $(this).removeAttr('placeholder');
+    });
+
 });
 function searchTop() {
   $('.txt-search-top').css('display', 'block');

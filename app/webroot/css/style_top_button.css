@@ -453,8 +453,10 @@ input#searchinput:focus {
     border: 1px solid #BDBDBD;
     box-sizing: border-box;
     margin-bottom: 27px;
-    padding: 5px 5px 10px 20px;
+    padding: 4px 18px 10px 17px;
     position: relative;
+    display: block;
+    overflow: auto;
 }
 .item-comment:last-child {
     margin-bottom: 0;
@@ -470,15 +472,11 @@ input#searchinput:focus {
 .item-comment .info-comment h4 {
     color: #000;
 }
-.item-comment button {
+.item-comment button, .main-content-comment button.btn-send-comment {
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
     color: rgba(0, 0, 0, 0.65);
-    position: absolute;
-    top: 5px;
-    right: 5px;
-
     border: 1px solid #BDBDBD;
     box-sizing: border-box;
     border-radius: 7px;
@@ -486,10 +484,28 @@ input#searchinput:focus {
     padding: 2px 6px;
     color: rgba(0, 0, 0, 0.65);
 }
+.item-comment button.btn-rep-comment {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.item-comment button.btn-send-rep-comment, .main-content-comment button.btn-send-comment {
+    float: right;
+    padding: 2px 12px;
+}
+.item-comment:last-child {
+    padding: 2px 6px;
+    color: rgba(0, 0, 0, 0.65);
+}
 .item-comment button.active {
     background-color: #E8A45F;
     color: #000;
 }
+
+.avatar-user-comment {
+    margin:0;
+}
+
 .rep-comment textarea {
     background: #D9D9D9;
     border:none;
@@ -501,6 +517,9 @@ input#searchinput:focus {
     font-family: 'Roboto';
     width: 100%;
 }
-rep-comment h4 {
+.rep-comment textarea::placeholder {
+    color: #fff;
+}
+.rep-comment h4 {
     margin: 7px 0px;
 }
