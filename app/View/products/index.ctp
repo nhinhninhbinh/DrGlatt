@@ -96,6 +96,73 @@
 		<div class="container"></div>
 	</div>
 
+    <div class="item-product-use">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img id="expandedImg" style="width:100%" src="../img/image23.png">
+                </div>
+                <div class="col item-use-text">
+                    <h2 class="font-weight font-size-48">Mẹo Sử Dụng</h2>
+                    <ul>
+                        <li onclick="clickItemUse(this);">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">1</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/image23.png" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                        <li onclick="clickItemUse(this);" class="active">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">2</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                        <li onclick="clickItemUse(this);">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">3</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                        <li onclick="clickItemUse(this);">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">4</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="item-product-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col content-item-product">
+                    <h2 class="font-weight font-size-48">Lune 3</h2>
+                    <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
+                        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 star"></label>
+                        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 star"></label>
+                        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 star"></label>
+                        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 star"></label>
+                        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star"></label>
+                    </div>
+                    <div class="clear"></div>
+                    <h4 class="font-weight font-size-24 price">3.000.000Vnđ</h4>
+                    <p class="description-product">Thiết bị làm sạch và mát xa mặt
+                        LUNA 3 là điều cần thiết mới trong quy trình chăm sóc da của bạn. Nó giúp loại bỏ tạp chất và vi trùng nhờ các xung T-Sonic ™ được cải thiện, bất kể mức năng lượng được chọn từ 16 cường độ. Thiết kế cải tiến của LUNA 3 bao gồm các chân silicon dài hơn và mềm hơn. Và nếu bạn đồng bộ hóa LUNA 3 với ứng dụng FOREO, bạn sẽ nhận được bốn kỹ thuật massage mặt sẽ mang lại cho bạn làn da sáng mịn đến lạ thường.</p>
+
+                    <p class="choose-color">
+                        <span class="text-color font-weight font-size-18">Chọn màu:</span>
+
+                        <i class="fa fa-circle active" aria-hidden="true" style="color: #92C4E2"></i>
+                        <i class="fa fa-circle" aria-hidden="true" style="color: #FF64B0"></i>
+                        <i class="fa fa-circle" aria-hidden="true" style="color: #9828BF"></i>
+                    </p>
+                    <hr class="line-item-product"/>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<div id="comment-box">
 		<div class="container">
