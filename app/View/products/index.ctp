@@ -3,9 +3,9 @@
 	<div class="top-product">
 		<div class="container">
 			<div class="product-list row">
-				<div class="col-lg-4 col-md-4 col-12">
+				<div class="col-lg-4 col-md-4 col-12 new-product">
 					<div class="container-image">
-						<?php echo $this->Html->image('products/image 29.png', array('class' => '')); ?>
+						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
 						<div class="product-text">
 							<p>LUNA 3</p>
 							<hr>
@@ -13,9 +13,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-12">
+				<div class="col-lg-4 col-md-4 col-12 new-product">
 					<div class="container-image">
-						<?php echo $this->Html->image('products/image 30.png', array('class' => '')); ?>
+						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
 						<div class="product-text">
 							<p>LUNA 3</p>
 							<hr>
@@ -24,9 +24,9 @@
 					</div>
 					
 				</div>
-				<div class="col-lg-4 col-md-4 col-12">
+				<div class="col-lg-4 col-md-4 col-12 new-product">
 					<div class="container-image">
-						<?php echo $this->Html->image('products/image 31.png', array('class' => '')); ?>
+						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
 						<div class="product-text">
 							<p>LUNA 3</p>
 							<hr>
@@ -99,40 +99,110 @@
 			<div class="title">
 				<p style="font-size: 48px;">Một Bước Tiến Trong Beauty Tech</p>
 			</div>
-			<div class="row">
+			<div class="row content-detail">
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-					<div class="row">
-						<p>Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
-						<p>Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
+					<div class="row" style="margin-bottom: 79px;">
+						<p class="title-text" style="font-size: 24px;">Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
+						<p class="desc-text" style="font-size: 18px;">Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
 					</div>
 					<div class="row">
-						<p>Gai dài và mềm hơn</p>
-						<p>Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
+						<p class="title-text" style="font-size: 24px;">Gai dài và mềm hơn</p>
+						<p class="desc-text" style="font-size: 18px;">Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
 					</div>
 				</div>
 				<div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
-					<div class="row product-image">
-						<div class="container-image">
-							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+					<div class="row tab-product-image">
+						<div class="tab-container-image">
+							<img id="expandedImg" src="/img/products/image 26.png">
 						</div>
 					</div>
 					<div class="row">
-
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery">
+							<div class="sub-gallery active">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery">
+								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery">
+								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-					<div class="row">
-						<p>Đầu bàn chải silicone suốt đời</p>
-						<p>Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
+					<div class="row" style="margin-bottom: 79px;">
+						<p class="title-text" style="font-size: 24px;">Đầu bàn chải silicone suốt đời</p>
+						<p class="desc-text" style="font-size: 18px;">Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
 					</div>
 					<div class="row">
-						<p>Cường độ tùy chỉnh</p>
-						<p>Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
+						<p class="title-text" style="font-size: 24px;">Cường độ tùy chỉnh</p>
+						<p class="desc-text" style="font-size: 18px;">Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<div class="item-product-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
+                	<div class="row tab-product-image">
+						<div class="tab-container-image">
+							<img id="expandedImg" src="/img/products/image 26.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery">
+							<div class="sub-gallery active">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery">
+								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery">
+								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="col content-item-product">
+                    <h2 class="font-weight font-size-48">Lune 3</h2>
+                    <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
+                        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 star"></label>
+                        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 star"></label>
+                        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 star"></label>
+                        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 star"></label>
+                        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star"></label>
+                    </div>
+                    <div class="clear"></div>
+                    <h4 class="font-weight font-size-24 price">3.000.000Vnđ</h4>
+                    <p class="description-product">Thiết bị làm sạch và mát xa mặt
+                        LUNA 3 là điều cần thiết mới trong quy trình chăm sóc da của bạn. Nó giúp loại bỏ tạp chất và vi trùng nhờ các xung T-Sonic ™ được cải thiện, bất kể mức năng lượng được chọn từ 16 cường độ. Thiết kế cải tiến của LUNA 3 bao gồm các chân silicon dài hơn và mềm hơn. Và nếu bạn đồng bộ hóa LUNA 3 với ứng dụng FOREO, bạn sẽ nhận được bốn kỹ thuật massage mặt sẽ mang lại cho bạn làn da sáng mịn đến lạ thường.</p>
+
+                    <p class="choose-color">
+                        <span class="text-color font-weight font-size-18">Chọn màu:</span>
+
+                        <i class="fa fa-circle active" aria-hidden="true" style="color: #92C4E2"></i>
+                        <i class="fa fa-circle" aria-hidden="true" style="color: #FF64B0"></i>
+                        <i class="fa fa-circle" aria-hidden="true" style="color: #9828BF"></i>
+                    </p>
+                    <hr class="line-item-product"/>
+                    <div class="button-group">
+			    		<button class="button cart-button"><?php echo $this->Html->image('icon/cart.png', array('class' => 'cart-icon')); ?></button>
+			    		<button class="button buy-button active">Mua Ngay</button>
+			    	</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<div class="slide-review">
 		<div class="container">
