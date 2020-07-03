@@ -83,7 +83,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
     <?= $this->Html->script('main-slide'); ?>
     <?= $this->Html->script('common'); ?>
-    <?= $this->Html->script('home');
-    ?>
+
 </body>
 </html>

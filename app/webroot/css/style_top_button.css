@@ -112,6 +112,9 @@ h2, h3, h4, p {
     float: left;
 
 }
+.main-menu-content ul {
+    margin-bottom: 0px;
+}
 .main-menu-content ul li {
     list-style: none;
     float: left;
@@ -144,7 +147,7 @@ h2, h3, h4, p {
 .main-menu-content ul li ul {
     visibility: hidden;
     opacity: 0;
-    min-width: 10rem;
+    min-width: 15rem;
     position: absolute;
     transition: all 0.5s ease;
     right: 10px;
@@ -196,7 +199,9 @@ h2, h3, h4, p {
 .main-social-icon-top a:visited {
     color: #F88E17 !important;
 }
-
+.main-social-icon-top ul li ul li {
+    line-height: 42px;
+}
 .main-social-icon-top .search-main-top, .main-social-icon-top .phone-number-main-top, .cart-main-top, .contact-main-top {
     position: relative;
 }
@@ -250,7 +255,10 @@ input#searchinput:focus {
     background-color: #D6F2F2;
     z-index: 9;
 }
-.contact-main-top ul{
+.main-social-icon-top .contact-main-top ul li {
+    margin-left: 0px;
+}
+.main-social-icon-top .contact-main-top ul{
     position: absolute;
     z-index: 99;
     top: 59px;
@@ -260,17 +268,26 @@ input#searchinput:focus {
     min-width: 10rem;
 
 }
-.contact-main-top ul li{
-    width: 238px;
+.main-social-icon-top .contact-main-top ul li {
+    width: 279px;
 }
-.contact-main-top ul li:last-child {
+.main-social-icon-top .contact-main-top ul li:hover {
+    background: #4086EB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main-social-icon-top .contact-main-top ul li:last-child {
     margin-bottom: 0;
 }
-.contact-main-top ul li a{
+.main-social-icon-top .contact-main-top ul li a{
     color: #000;
 }
-.contact-main-top ul > li > a > i {
-    padding-right:5px;
+.main-social-icon-top .contact-main-top ul li a:hover {
+    text-decoration: none;
+}
+.main-social-icon-top .contact-main-top ul > li > a > i {
+    padding-right: 13px;
+    font-size: 18px;
+    font-weight: bold;
 }
 /*footer*/
 .site-footer {
@@ -747,29 +764,169 @@ input#searchinput:focus {
     color: #135454;
     padding-left: 28px;
     border: none;
-    background-color: none;
+    background-color: transparent;
 }
-.cart-product .total-cart button{
+.cart-product .total-cart button, .info-custom-order .method-payment .detail-method-payment button {
     background: #FF1B1B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
     padding: 10px 78px 11px;
     margin-top:30px;
     border:none;
+    cursor: pointer;
 }
 
 /*info custom order*/
 .info-custom-order {
     margin-top: 80px;
 }
-.info-custom-order h4 {
+.info-custom-order .row {
+    margin:0px;
+}
+.info-custom-order label {
+    padding: 0px;
+}
+
+.info-custom-order h4, .method-payment h4 {
     font-size: 30px;
     margin: 0px;
+    margin-bottom: 39px;
 }
-.info-custom-order input {
+.info-custom-order .col {
+    padding: 0;
+}
+.info-custom-order .col-sm-5 {
+    max-width: 32.666667%;
+}
+.info-custom-order .col-sm-7 {
+    max-width: 63.0333333%;
+    flex: 63.0333333%;
+}
+.info-custom-order input[type="text"], .info-custom-order textarea {
     border: 1px solid #E8A45F;
     box-sizing: border-box;
     font-style: italic;
-    color: color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     border-radius: 0px;
+    margin-bottom: 21px;
+    padding: 8px 7px;
 }
+.info-custom-order textarea {
+    min-width: 100%;
+    margin-bottom: 0px;
+}
+.info-custom-order div.form-group div {
+    padding:0px;
+    margin-left: 27px;
+}
+.info-custom-order .tbl-your-order tr:first-child td, .tbl-your-order tr td, .tbl-your-order tr:first-child {
+    border-top: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    padding:21px 0px;
+}
+.info-custom-order .tbl-your-order {
+    margin-bottom: 0px;
+}
+.info-custom-order .tbl-your-order tr td:nth-child(2n) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info-custom-order .tbl-your-order tr td:last-child {
+    float: right;
+}
+.info-custom-order .tbl-your-order tr {
+    border-top: 1px solid #E8A45F;
+}
+.info-custom-order .your-order {
+    margin-left:64px;
+}
+
+.info-custom-order .col-md-4 {
+    max-width: 35.333333%;
+    flex: 0 0 35.333333%;
+}
+.info-custom-order .tbl-your-order tr td.total-price {
+    color: #135454;
+}
+.info-custom-order .method-payment {
+    margin: 80px 0px;
+    overflow: auto;
+}
+.info-custom-order .method-payment .detail-method-payment {
+    width: 79%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-custom-order .method-payment .choose-paymen {
+    position: relative;
+    margin-bottom: 21px;
+}
+.info-custom-order .method-payment .detail-method-payment button {
+    float: right;
+    padding: 10px 43px;
+    margin-top:30px;
+    cursor: pointer;
+}
+.info-custom-order .method-payment .choose-paymen input[type="radio"] {
+    -webkit-appearance: none;
+    width: 15px; height: 15px; border-radius: 50%;
+    display: block;
+    float: left;
+    top: 45%;
+    position: absolute;
+    border: 1px solid #E8A45F;
+    box-sizing: border-box;
+
+}
+.info-custom-order .method-payment .choose-paymen input[type="radio"]:checked {
+    background-color: #135454;;
+}
+.info-custom-order .method-payment .choose-paymen .content-choose-payment {
+    border: 1px solid #E8A45F;
+    box-sizing: border-box;
+    padding: 17px;
+    vertical-align: middle;
+    margin-left: 24px;
+}
+.info-custom-order .method-payment .choose-paymen .content-choose-payment img {
+    float: left;
+    margin-right: 9px;
+}
+
+/*orderTracking*/
+#orderTracking .modal-content {
+    border: 2px solid #E8A45F;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    padding: 50px 33px;
+    text-align: center;
+}
+#orderTracking .modal-dialog {
+    max-width: 1020px;
+}
+#orderTracking p.title-thanks {
+    line-height: 66px;
+    color: #135454;
+    padding-bottom: 30px;
+}
+#orderTracking p.title-tracking {
+    line-height: 66px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+#orderTracking .modal-content button {
+    background: #E8A45F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    padding: 10px 50px;
+    line-height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*detail-order*/
+
+
+
+

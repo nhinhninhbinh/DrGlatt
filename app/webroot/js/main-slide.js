@@ -1,5 +1,8 @@
 $(document).ready(function(){
     // search icon top
+    $(".search-main-top").mouseover(function() {
+        $('.txt-search-top').css('display', 'block');
+    });
     $("#searchclear").click(function(){
         $('.txt-search-top').css('display', 'none');
         // $("#searchinput").val('');
