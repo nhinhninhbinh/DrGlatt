@@ -429,6 +429,9 @@ input#searchinput:focus {
     font-size: 36px;
     line-height: 49px;
     color: #000;
+    font-weight: bold;
+    margin-top: 17px;
+    font-family: "Noticia";
 }
 
 /*comment product*/

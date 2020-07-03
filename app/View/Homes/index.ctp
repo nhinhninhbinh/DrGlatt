@@ -1,6 +1,6 @@
 <div id="home">
 	<?php echo $this->element("slide/slide-top")?>
-	<div class="content">
+	<div class="content" style="margin-top: 100px;">
 		<div class="container">
 			<div class="our-product">
 				<div class="title-1">
@@ -15,10 +15,10 @@
 
 		<div class="top-home" style="margin-top: 15px;">
 			<div class="rec rectangle-63">
-				<div class="rec-text container">
+<!-- 				<div class="rec-text container">
 	   				<hr style="border-color: black; width: 130px;">
 	   				<div class="text"><p>Tưng bừng đón chào bộ sản phẩm</p></div>
-	   			</div>
+	   			</div> -->
 			 	 <div class="image-container">
 			    	<a target="_blank" href="img_5terre.jpg">
 			      	<?php echo $this->Html->image('exam.png', array('class' => 'product-img')); ?>
@@ -28,19 +28,32 @@
 
 
 			<div class="rec rectangle-64">
-				<div class="rec-text">
+<!-- 				<div class="rec-text">
 	   				<hr style="border-color: black; width: 130px;">
 	   				<div class="text"><p>Giá trị của hộp quà</p></div>
-	   			</div>
+	   			</div> -->
 			  	<div class="image-container">
 			    	<a target="_blank" href="img_forest.jpg">
 			      		<?php echo $this->Html->image('exam.png', array('class' => 'product-img')); ?>
 			    	</a>
 			  	</div>
 			</div>
-
-			<div class="clearfix"></div>
+			<div class="intro-text container">
+				<div class="grid container" style="display: flex;justify-content: space-between; position: absolute; margin-top: 146px;">
+					<div class="rec-text">
+		   				<hr style="border-color: black; width: 130px;">
+		   				<div class="text"><p>Giá trị của hộp quà</p></div>
+		   			</div>
+					<div class="rec-text">
+		   				<div style="float: right;"><hr style="border-color: black; width: 130px;"></div><br>
+		   				<div class="text" style="float: right;"><p>Tưng bừng đón chào bộ sản phẩm</p></div>
+		   			</div>
+		   			
+				</div>
+			</div>
+			
 		</div>
+		<div class="clearfix"></div>
 
 		<!-- product list -->
 		<div class="product-list">
@@ -217,10 +230,37 @@
 		<div class="news">
 			<div class="container">
 				<div class="news-content">
-					<div class="corner-top">hihii</div>
-					<div class="text-title">Tin Tức</div>
-					<div class="corner-bottom">kkk</div>
-				</div>
+					<div class="corner-top"></div>
+					<div class="content">
+						<div class="text-title">Tin Tức</div>
+
+						<div class="row"> 
+						  	<div class="col-md-4 col-lg-4 image-col-1">
+						    <div class="container-img-1"><img src="../img/corner-bearty/1.png" style="width:100%"></div>
+						  	</div>
+						  	<div class="col-md-4 col-lg-4">
+							    <div class="image-col2-row1">
+							    	<img src="../img/corner-bearty/1.png">
+							    </div>
+							    <div class="image-col2-row2">
+							    	<img src="../img/corner-bearty/1.png">
+							    </div>
+						  	</div>  
+						  	<div class="col-md-4 col-lg-4">
+							    <div class="image-col3-row1">
+							    	<img src="../img/corner-bearty/1.png">
+							    </div>
+							    <div class="image-col3-row2">
+							    	<img src="../img/corner-bearty/1.png">
+							    </div>
+							    <div class="button-news" style="margin-top: 63px; text-align: center;">
+									<button class="button button-more">Xem Thêm</button>
+								</div>
+						  	</div>
+						</div>
+
+					</div>
+				<div class="corner-bottom"></div>
 			</div>
 		</div>
 
