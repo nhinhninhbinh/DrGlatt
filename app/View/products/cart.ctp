@@ -61,7 +61,7 @@
         </table>
         <div class="total-cart">
             <p class="font-size-18 font-weight">TỔNG: <input type="text" id="total" class="font-size-24 font-weight" value="750.000Vnđ"/></p>
-            <button class="font-size-24 font-weight">Tiến hành đặt hàng</button>
+            <a href="/infoCustomOrder"><button class="font-size-24 font-weight">Tiến hành đặt hàng</button></a>
         </div>
     </div>
 </div>

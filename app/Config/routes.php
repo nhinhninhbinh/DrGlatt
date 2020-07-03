@@ -25,7 +25,22 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+//	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+
+Router::connect('/', array('controller' => 'Homes', 'action' => 'index'));
+Router::connect('/about', array('controller' => 'Homes', 'action' => 'about'));
+Router::connect('/product', array('controller' => 'Products', 'action' => 'index'));
+Router::connect('/buy', array('controller' => 'Products', 'action' => 'buy'));
+Router::connect('/beauty-corner', array('controller' => 'Homes', 'action' => 'beautyCorner'));
+Router::connect('/cart', array('controller' => 'Products', 'action' => 'cart'));
+Router::connect('/infoCustomOrder', array('controller' => 'Products', 'action' => 'infoCustomOrder'));
+Router::connect('/detailOrder', array('controller' => 'Products', 'action' => 'detailOrder'));
+
+Router::connect('/review', array('controller' => 'Homes', 'action' => 'review'));
+Router::connect('/faq', array('controller' => 'Homes', 'action' => 'faq'));
+Router::connect('/news', array('controller' => 'Homes', 'action' => 'news'));
+
+
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */

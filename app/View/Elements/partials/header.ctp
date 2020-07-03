@@ -1,20 +1,28 @@
 <div class="container main-nav">
     <div class="main-logo">
-        <a href=""><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>
+        <a href="/"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>
     </div>
     <div class="main-menu-content">
         <ul>
-            <li><a class="font-size-18 font-weight" href="">Về chúng tôi</a></li>
             <li>
-                <a class="font-size-18 active font-weight" href="">Sản phẩm</a>
+                <a class="font-size-18 font-weight" href="/about">Về chúng tôi</a>
                 <ul>
-                    <li><a class="font-size-18 font-weight" href="#">San pham 1</a></li>
-                    <li><a class="font-size-18 font-weight" href="#">San pham 2</a></li>
-                    <li><a class="font-size-18 font-weight" href="#">San pham 3</a></li>
+                    <li><a class="font-size-18 font-weight" href="/about">Câu chuyện Dr Glatt</a></li>
+                    <li><a class="font-size-18 font-weight" href="/review">Review sản phẩm</a></li>
+                    <li><a class="font-size-18 font-weight" href="/faq">Hỏi đáp</a></li>
+                    <li><a class="font-size-18 font-weight" href="/news">Tin tức</a></li>
                 </ul>
             </li>
-            <li><a class="font-size-18 font-weight" href="">Mua hàng</a></li>
-            <li><a class="font-size-18 font-weight" href="">Góc làm đẹp</a></li>
+            <li>
+                <a class="font-size-18 active font-weight" href="/product">Sản phẩm</a>
+                <ul>
+                    <li><a class="font-size-18 font-weight" href="/product">San pham 1</a></li>
+                    <li><a class="font-size-18 font-weight" href="/product">San pham 2</a></li>
+                    <li><a class="font-size-18 font-weight" href="/product">San pham 3</a></li>
+                </ul>
+            </li>
+            <li><a class="font-size-18 font-weight" href="/buy">Mua hàng</a></li>
+            <li><a class="font-size-18 font-weight" href="/beauty-corner">Góc làm đẹp</a></li>
         </ul>
     </div>
     <div class="main-social-icon-top">
@@ -36,7 +44,7 @@
 
             </li>
             <li class="cart-main-top">
-                <a href="javascript:void(0);"><img src="../img/icon_top/cart.png"></a>
+                <a href="/cart"><img src="../img/icon_top/cart.png"></a>
                 <span class="font-size-18 font-weight">3</span>
             </li>
             <li class="phone-number-main-top">

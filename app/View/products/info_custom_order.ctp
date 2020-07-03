@@ -102,7 +102,7 @@
         <div class="modal-content">
             <p class="title-thanks font-size-48 font-weight">Cảm ơn bạn đã mua hàng tại <img src="../img/logo.png"></p>
             <p class="title-tracking font-size-48 font-weight">Theo dõi đơn hàng của bạn</p>
-            <a href=""><button type="button" class="btn btn-oder-tracking font-size-24 font-weight">Theo dõi đơn hàng</button></a>
+            <a href="/detailOrder"><button type="button" class="btn btn-oder-tracking font-size-24 font-weight">Theo dõi đơn hàng</button></a>
         </div>
     </div>
 </div>
