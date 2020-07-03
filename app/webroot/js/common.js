@@ -38,22 +38,7 @@ $(document).ready(function(){
         }
     });
 
-    // Add active class to the current button (highlight it)
-        // var header = document.getElementById("tab-gallery");
-        // var btns = header.getElementsByClassName("sub-gallery");
-        // for (var i = 0; i < btns.length; i++) {
-        //     btns[i].addEventListener("click", function() {
-        //         var current = document.getElementsByClassName("active");
-        //         var className = current[0].className;
-        //         current[0].className = className.replace(" active", "");
-        //         this.className += " active";
-        //         console.log(current[0].className);
-        //         console.log(this.className);
-        //     });
-
-        // }
-
-    $('.sub-gallery').on('click', function(){
+    $('.sub-gallery-1').on('click', function(){
         var current = document.getElementsByClassName("active");
         var expandImg = document.getElementById("expandedImg")
         expandImg.src = $(this).children().attr('src')
@@ -61,9 +46,26 @@ $(document).ready(function(){
 
         current[1].className = current[1].className.replace(" active", "");
         $(this).addClass('active');
-        // console.log($(this).addClass('active'));
-        // console.log(current);
 
     });
 
+    $('.sub-gallery-2').on('click', function(){
+        var current = document.getElementsByClassName("active");
+        var expandImg = document.getElementById("expandedImg1")
+        expandImg.src = $(this).children().attr('src')
+        expandImg.parentElement.style.display = "block";
+
+        current[1].className = current[1].className.replace(" active", "");
+        $(this).addClass('active');
+
+    });
+
+    $('.text-tab').on('click', function(){
+        console.log('ok');
+    });
+
 });
+
+// var tabAction = function(){
+
+// }

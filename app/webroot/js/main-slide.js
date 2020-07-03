@@ -1,21 +1,5 @@
 $(document).ready(function(){
-  // main slide top
-    var myIndex = 0;
-    carousel();
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-    // end main slide
-
-  // search icon top
+    // search icon top
     $("#searchclear").click(function(){
         $('.txt-search-top').css('display', 'none');
         // $("#searchinput").val('');
@@ -39,7 +23,19 @@ $(document).ready(function(){
     $('.select-product-frm').selectpicker();
     // $('.bootstrap-select .dropdown-menu li').addClass("test");
 
+
+    // remove placeholder on focus $('input,textarea') in comment product page
+    $('textarea').focus(function(){
+        $(this).removeAttr('placeholder');
+    });
+
 });
 function searchTop() {
   $('.txt-search-top').css('display', 'block');
+}
+
+function clickItemUse(tags) {
+    var expandImg = document.getElementById("expandedImg");
+    expandImg.src = $(tags).children('img').attr('src')
+    expandImg.parentElement.style.display = "block";
 }

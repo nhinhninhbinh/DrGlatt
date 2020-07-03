@@ -30,7 +30,7 @@
 
 .sub-gallery:hover{
   opacity: 1;
-  background: rgba(37, 108, 108, 0.65);;
+  background: #F4CA9A;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 

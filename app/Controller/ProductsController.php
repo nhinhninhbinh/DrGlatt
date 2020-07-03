@@ -6,6 +6,10 @@ class ProductsController extends AppController {
 
     }
 
+    public function goclamdep(){
+
+    }
+
 }
 
 

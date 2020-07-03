@@ -117,17 +117,17 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="emulated-flex-gap tab-gallery" id="tab-gallery">
-							<div class="sub-gallery active">
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
+							<div class="sub-gallery sub-gallery-1 active">
 								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
 							</div>
-							<div class="sub-gallery">
+							<div class="sub-gallery sub-gallery-1">
 								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
 							</div>
-							<div class="sub-gallery">
+							<div class="sub-gallery sub-gallery-1">
 								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
 							</div>
-							<div class="sub-gallery">
+							<div class="sub-gallery sub-gallery-1">
 								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
 							</div>
 						</div>
@@ -147,27 +147,62 @@
 		</div>
 	</div>
 
+	<div class="item-product-use">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img id="expandedImg" style="width:100%" src="../img/image23.png">
+                </div>
+                <div class="col item-use-text">
+                    <h2 class="font-weight font-size-48">Mẹo Sử Dụng</h2>
+                    <ul>
+                        <li class="text-tab">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">1</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/image23.png" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                        <li class="active" class="text-tab">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">2</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                        <li class="text-tab">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">3</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                        <li class="text-tab">
+                            <p href="javascript:void(0);" class="font-weight font-size-48 number-use">4</p>
+                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
+                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
 	<div class="item-product-detail">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
                 	<div class="row tab-product-image">
 						<div class="tab-container-image">
-							<img id="expandedImg" src="/img/products/image 26.png">
+							<img id="expandedImg1" src="/img/products/image 26.png">
 						</div>
 					</div>
 					<div class="row">
-						<div class="emulated-flex-gap tab-gallery" id="tab-gallery">
-							<div class="sub-gallery active">
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-1">
+							<div class="sub-gallery sub-gallery-2 active">
 								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
 							</div>
-							<div class="sub-gallery">
+							<div class="sub-gallery sub-gallery-2">
 								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
 							</div>
-							<div class="sub-gallery">
+							<div class="sub-gallery sub-gallery-2">
 								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
 							</div>
-							<div class="sub-gallery">
+							<div class="sub-gallery sub-gallery-2">
 								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
 							</div>
 						</div>
@@ -285,6 +320,8 @@
 		</div>
 	</div>
 
+    <div class="clear"></div>
+
 	<div id="comment-box">
 		<div class="container">
 		    <div class="content-comment">
@@ -298,7 +335,7 @@
 		                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores adipisci optio ex,
 		                        laboriosam facilis non pariatur itaque illo sunt?</p>
 		                </div>
-		                <button>Trả lời</button>
+		                <button class="btn-rep-comment">Trả lời</button>
 		            </div>
 		            <div class="clear"></div>
 		            <div class="item-comment">
@@ -309,17 +346,23 @@
 		                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores adipisci optio ex,
 		                        laboriosam facilis non pariatur itaque illo sunt?</p>
 		                </div>
-		                <button class="active">Trả lời</button>
+		                <button class="active btn-rep-comment">Trả lời</button>
+
+                        <div class="rep-comment" style="margin-left:50px;">
+                            <textarea name="" rows="2" cols="50" placeholder="Bình luận ..."></textarea>
+                        </div>
+                        <button class="btn-send-rep-comment">Gửi</button>
+
 		            </div>
 		            <div class="clear"></div>
 
-
 		            <div class="rep-comment">
 		                <h4 class="font-size-24 font-weight">Bình Luận:</h4>
-		                <textarea name="" rows="4" cols="50">Bình luận ...</textarea>
+		                <textarea name="" rows="4" cols="50" placeholder="Bình luận ..."></textarea>
 		            </div>
-
+                    <button class="btn-send-comment">Gửi</button>
 		        </div>
+
 		    </div>
 		</div>
 	</div>
