@@ -99,15 +99,17 @@
 			<div class="title">
 				<p style="font-size: 48px;">Một Bước Tiến Trong Beauty Tech</p>
 			</div>
-			<div class="row content-detail">
+			<div class="row content-detail" style="max-height: 574px; padding-left: 43px; padding-right: 43px;flex-wrap: nowrap; overflow: hidden;">
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-					<div class="row" style="margin-bottom: 79px;">
-						<p class="title-text" style="font-size: 24px;">Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
-						<p class="desc-text" style="font-size: 18px;">Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
-					</div>
-					<div class="row">
-						<p class="title-text" style="font-size: 24px;">Gai dài và mềm hơn</p>
-						<p class="desc-text" style="font-size: 18px;">Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
+					<div class="desc">
+						<div class="row" style="margin-bottom: 79px;">
+							<p class="title-text" style="font-size: 24px;">Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
+							<p class="desc-text" style="font-size: 18px;">Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
+						</div>
+						<div class="row">
+							<p class="title-text" style="font-size: 24px;">Gai dài và mềm hơn</p>
+							<p class="desc-text" style="font-size: 18px;">Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
@@ -117,7 +119,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-1">
 							<div class="sub-gallery sub-gallery-1 active">
 								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
 							</div>
@@ -134,14 +136,34 @@
 					</div>
 				</div>
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-					<div class="row" style="margin-bottom: 79px;">
-						<p class="title-text" style="font-size: 24px;">Đầu bàn chải silicone suốt đời</p>
-						<p class="desc-text" style="font-size: 18px;">Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
+					<div class="desc">
+						<div class="row" style="margin-bottom: 79px;">
+							<p class="title-text" style="font-size: 24px;">Đầu bàn chải silicone suốt đời</p>
+							<p class="desc-text" style="font-size: 18px;">Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
+						</div>
+						<div class="row">
+							<p class="title-text" style="font-size: 24px;">Cường độ tùy chỉnh</p>
+							<p class="desc-text" style="font-size: 18px;">Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
+						</div>
 					</div>
-					<div class="row">
-						<p class="title-text" style="font-size: 24px;">Cường độ tùy chỉnh</p>
-						<p class="desc-text" style="font-size: 18px;">Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
-					</div>
+				</div>
+			</div>
+			<div class="row feature">
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
+					<p class="title-text" style="font-size: 24px;">650 công dụng</p>
+					<p class="desc-text" style="font-size: 18px;">mỗi lần sạc đầy</p>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
+					<p class="title-text" style="font-size: 24px;">Massage làm săn chắc</p>
+					<p class="desc-text" style="font-size: 18px;">các thói quen được tích hợp trong ứng dụng</p>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
+					<p class="title-text" style="font-size: 24px;">Thiết kế của Thụy Điển</p>
+					<p class="desc-text" style="font-size: 18px;">100% không thấm nước</p>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text-end">
+					<p class="title-text" style="font-size: 24px;">35 lần vệ sinh hơn</p>
+					<p class="desc-text" style="font-size: 18px;">hơn lông bàn chải nylon</p>
 				</div>
 			</div>
 		</div>
@@ -192,7 +214,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-1">
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
 							<div class="sub-gallery sub-gallery-2 active">
 								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
 							</div>

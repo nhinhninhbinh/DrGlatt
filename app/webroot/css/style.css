@@ -840,6 +840,91 @@ button.buy-button{
   margin-top: 60px;
 }
 
+#product .feature{
+  margin-top: 49px;
+}
+
+#product .feature-text{
+  border-right: 1px solid #E8A45F;
+  text-align: center;
+  /*transform: rotate(90deg);*/
+}
+
+#product .product-detail .desc{
+  /*padding-left: 43px;*/
+  /*padding-right: 64px;*/
+}
+
+/*ABOUT*/
+#about .title{
+  font-family: "Noticia";
+  font-weight: 48px;
+  font-style: normal;
+  line-height: 66px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  margin-bottom: 40px;
+
+}
+
+#about .content{
+  font-family: "Noticia";
+  font-weight: 30px;
+  font-style: normal;
+  line-height: 41px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+#about{
+  margin-top:  80px;
+}
+
+#about .content1{
+  margin-bottom: 60px;
+}
+
+#faq ul.sub-menu.collapse p{
+  font-family: "Noticia";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#faq ul.sub-menu.faq.collapse{
+  padding-bottom: 32px;
+}
+
+/*buy*/
+.buy ul {
+    /*display: inline-flex;*/
+    padding-left: 0px;
+}
+.buy ul li {
+    float: left;
+    margin-right: 26px;
+    width: 30.33333%;
+    margin-bottom: 55px;
+}
+.buy ul li:nth-child(even) {
+    margin-right: 0;
+    float: right;
+}
+.buy ul li img {
+    width: 100%;
+}
+.buy ul li p.title {
+    padding: 10px 0 7px;
+}
+.buy ul li p.content {
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 25px;
+}
+
+
 
 
 

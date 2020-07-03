@@ -1,11 +1,11 @@
-<div id="detail">
-	<div class="container">
-		<div class="row">
-			<div class="col-6 col-sm-6 col-md-4 col-lg-4">
-				<?php echo $this->element("partials/nav-side-menu-left")?>
-			</div>
-			<div class="col-6 col-sm-6 col-md-8 col-lg-8 corner-beauty">
-				<ul>
+<div id="beauty-corner">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+                <?php echo $this->element("partials/nav-side-menu-left")?>
+            </div>
+            <div class="col-6 col-sm-6 col-md-8 col-lg-8 corner-beauty">
+                <ul>
                     <li>
                         <img src="../img/corner-bearty/1.png">
                         <p class="title font-weight font-size-24">Lorem ipsum dolor sit amet</p>
@@ -46,7 +46,7 @@
 
                     <a href="#"><img src="../img/icon/next.png"></a>
                 </div>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>

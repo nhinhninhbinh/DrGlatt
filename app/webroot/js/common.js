@@ -40,22 +40,25 @@ $(document).ready(function(){
 
     $('.sub-gallery-1').on('click', function(){
         var current = document.getElementsByClassName("active");
-        var expandImg = document.getElementById("expandedImg")
-        expandImg.src = $(this).children().attr('src')
+        var expandImg = document.getElementById("expandedImg");
+        expandImg.src = $(this).children().attr('src');
         expandImg.parentElement.style.display = "block";
 
         current[1].className = current[1].className.replace(" active", "");
         $(this).addClass('active');
+        console.log(current[1]);
 
     });
 
     $('.sub-gallery-2').on('click', function(){
-        var current = document.getElementsByClassName("active");
-        var expandImg = document.getElementById("expandedImg1")
-        expandImg.src = $(this).children().attr('src')
+        var header = document.getElementById("tab-gallery-2");
+        var current = header.getElementsByClassName("active");
+        var expandImg = document.getElementById("expandedImg1");
+        expandImg.src = $(this).children().attr('src');
         expandImg.parentElement.style.display = "block";
 
         current[1].className = current[1].className.replace(" active", "");
+        // current.removeClass("active");
         $(this).addClass('active');
 
     });
