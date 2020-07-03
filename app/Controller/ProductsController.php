@@ -22,6 +22,10 @@ class ProductsController extends AppController {
 
     }
 
+    public function detailOrder() {
+
+    }
+
 }
 
 
