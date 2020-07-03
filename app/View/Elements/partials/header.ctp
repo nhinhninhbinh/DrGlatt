@@ -13,7 +13,7 @@
                     <li><a class="font-size-18 font-weight" href="#">San pham 3</a></li>
                 </ul>
             </li>
-            <li><a class="font-size-18 font-weight" href="">Muahàng</a></li>
+            <li><a class="font-size-18 font-weight" href="">Mua hàng</a></li>
             <li><a class="font-size-18 font-weight" href="">Góc làm đẹp</a></li>
         </ul>
     </div>

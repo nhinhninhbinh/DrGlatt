@@ -3,9 +3,9 @@
 	<div class="top-product">
 		<div class="container">
 			<div class="product-list row">
-				<div class="col-lg-4 col-md-4 col-12">
+				<div class="col-lg-4 col-md-4 col-12 new-product">
 					<div class="container-image">
-						<?php echo $this->Html->image('products/image 29.png', array('class' => '')); ?>
+						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
 						<div class="product-text">
 							<p>LUNA 3</p>
 							<hr>
@@ -13,9 +13,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-12">
+				<div class="col-lg-4 col-md-4 col-12 new-product">
 					<div class="container-image">
-						<?php echo $this->Html->image('products/image 30.png', array('class' => '')); ?>
+						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
 						<div class="product-text">
 							<p>LUNA 3</p>
 							<hr>
@@ -24,9 +24,9 @@
 					</div>
 					
 				</div>
-				<div class="col-lg-4 col-md-4 col-12">
+				<div class="col-lg-4 col-md-4 col-12 new-product">
 					<div class="container-image">
-						<?php echo $this->Html->image('products/image 31.png', array('class' => '')); ?>
+						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
 						<div class="product-text">
 							<p>LUNA 3</p>
 							<hr>
@@ -39,7 +39,9 @@
 		</div>
 	</div>
 
-	<div class="slide"></div>
+	<div class="slide">
+		<?php echo $this->element("slide/slide-top")?>
+	</div>
 
 	<div class="video-box">
 		<div class="container">
@@ -93,10 +95,81 @@
 	</div>
 
 	<div class="product-detail">
-		<div class="container"></div>
+		<div class="container">
+			<div class="title">
+				<p style="font-size: 48px;">Một Bước Tiến Trong Beauty Tech</p>
+			</div>
+			<div class="row content-detail" style="max-height: 574px; padding-left: 43px; padding-right: 43px;flex-wrap: nowrap; overflow: hidden;">
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="desc">
+						<div class="row" style="margin-bottom: 79px;">
+							<p class="title-text" style="font-size: 24px;">Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
+							<p class="desc-text" style="font-size: 18px;">Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
+						</div>
+						<div class="row">
+							<p class="title-text" style="font-size: 24px;">Gai dài và mềm hơn</p>
+							<p class="desc-text" style="font-size: 18px;">Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
+					<div class="row tab-product-image">
+						<div class="tab-container-image">
+							<img id="expandedImg" src="/img/products/image 26.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-1">
+							<div class="sub-gallery sub-gallery-1 active">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery sub-gallery-1">
+								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery sub-gallery-1">
+								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery sub-gallery-1">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="desc">
+						<div class="row" style="margin-bottom: 79px;">
+							<p class="title-text" style="font-size: 24px;">Đầu bàn chải silicone suốt đời</p>
+							<p class="desc-text" style="font-size: 18px;">Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
+						</div>
+						<div class="row">
+							<p class="title-text" style="font-size: 24px;">Cường độ tùy chỉnh</p>
+							<p class="desc-text" style="font-size: 18px;">Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row feature">
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
+					<p class="title-text" style="font-size: 24px;">650 công dụng</p>
+					<p class="desc-text" style="font-size: 18px;">mỗi lần sạc đầy</p>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
+					<p class="title-text" style="font-size: 24px;">Massage làm săn chắc</p>
+					<p class="desc-text" style="font-size: 18px;">các thói quen được tích hợp trong ứng dụng</p>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
+					<p class="title-text" style="font-size: 24px;">Thiết kế của Thụy Điển</p>
+					<p class="desc-text" style="font-size: 18px;">100% không thấm nước</p>
+				</div>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text-end">
+					<p class="title-text" style="font-size: 24px;">35 lần vệ sinh hơn</p>
+					<p class="desc-text" style="font-size: 18px;">hơn lông bàn chải nylon</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
-    <div class="item-product-use">
+	<div class="item-product-use">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -105,22 +178,22 @@
                 <div class="col item-use-text">
                     <h2 class="font-weight font-size-48">Mẹo Sử Dụng</h2>
                     <ul>
-                        <li onclick="clickItemUse(this);">
+                        <li class="text-tab">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">1</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
                             <img src="../img/image23.png" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li onclick="clickItemUse(this);" class="active">
+                        <li class="active" class="text-tab">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">2</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
                             <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li onclick="clickItemUse(this);">
+                        <li class="text-tab">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">3</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
                             <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li onclick="clickItemUse(this);">
+                        <li class="text-tab">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">4</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
                             <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
@@ -131,12 +204,32 @@
         </div>
     </div>
 
-    <div class="clear"></div>
-
-    <div class="item-product-detail">
+	<div class="item-product-detail">
         <div class="container">
             <div class="row">
-                <div class="col"></div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
+                	<div class="row tab-product-image">
+						<div class="tab-container-image">
+							<img id="expandedImg1" src="/img/products/image 26.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
+							<div class="sub-gallery sub-gallery-2 active">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery sub-gallery-2">
+								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery sub-gallery-2">
+								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+							</div>
+							<div class="sub-gallery sub-gallery-2">
+								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+							</div>
+						</div>
+					</div>
+                </div>
                 <div class="col content-item-product">
                     <h2 class="font-weight font-size-48">Lune 3</h2>
                     <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
@@ -159,10 +252,97 @@
                         <i class="fa fa-circle" aria-hidden="true" style="color: #9828BF"></i>
                     </p>
                     <hr class="line-item-product"/>
+                    <div class="button-group">
+			    		<button class="button cart-button"><?php echo $this->Html->image('icon/cart.png', array('class' => 'cart-icon')); ?></button>
+			    		<button class="button buy-button active">Mua Ngay</button>
+			    	</div>
                 </div>
             </div>
         </div>
     </div>
+
+	<div class="slide-review">
+		<div class="container">
+			<div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row" role="listbox" style="width: auto;">
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                	<div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="responsive">
+					  	<div class="review-product">
+					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
+					  </div>
+					</div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                <span class="cerousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+		</div>
+	</div>
+
+    <div class="clear"></div>
 
 	<div id="comment-box">
 		<div class="container">

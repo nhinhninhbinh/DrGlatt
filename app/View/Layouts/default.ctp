@@ -37,6 +37,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
 
     <?= $this->Html->css("style_top_button.css"); ?>
+    <?= $this->Html->css("common.css"); ?>
     <?= $this->Html->css("style.css"); ?>
 
     <!--    main slide
@@ -81,8 +82,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 
     <?= $this->Html->script('main-slide'); ?>
-    <?php
-    //echo $this->Html->script('home');
+    <?= $this->Html->script('common'); ?>
+    <?= $this->Html->script('home');
     ?>
 </body>
 </html>

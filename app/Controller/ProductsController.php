@@ -6,10 +6,6 @@ class ProductsController extends AppController {
 
     }
 
-    public function goclamdep(){
-
-    }
-
     public function detail(){
 
     }
@@ -19,6 +15,14 @@ class ProductsController extends AppController {
     }
 
     public function infoCustomOrder() {
+
+    }
+
+    public function buy() {
+
+    }
+
+    public function goclamdep() {
 
     }
 
