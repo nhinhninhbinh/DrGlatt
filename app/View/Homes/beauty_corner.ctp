@@ -82,16 +82,16 @@
                         </div>
                     </div>
                 </div>
-             </div>
-            <div class="clear"></div>
-            <div class="pagination-corner-beauty">
-                <a href="#"><img src="../img/icon/pre.png"></a>
-                <a href="#">1</a>
-                <a href="#" class="active">2</a>
-                <a href="#">3</a>
+                <div class="clear"></div>
+                <div class="pagination-corner-beauty">
+                    <a href="#"><img src="../img/icon/pre.png"></a>
+                    <a href="#">1</a>
+                    <a href="#" class="active">2</a>
+                    <a href="#">3</a>
 
-                <a href="#"><img src="../img/icon/next.png"></a>
-            </div>
+                    <a href="#"><img src="../img/icon/next.png"></a>
+                </div>
+             </div>
             </div>
         </div>
     </div>

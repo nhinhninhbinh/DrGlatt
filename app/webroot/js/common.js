@@ -67,6 +67,14 @@ $(document).ready(function(){
         console.log('ok');
     });
 
+    $(".buy-button").on('click', function(){
+        window.location.href = "/Products/cart";
+    });
+
+    $(".cart-button").on('click', function(){
+        window.location.href = "/Products/cart";
+    });
+
 });
 
 // var tabAction = function(){

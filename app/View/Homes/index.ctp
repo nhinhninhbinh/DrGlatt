@@ -15,12 +15,8 @@
 
 		<div class="top-home" style="margin-top: 15px;">
 			<div class="rec rectangle-63">
-<!-- 				<div class="rec-text container">
-	   				<hr style="border-color: black; width: 130px;">
-	   				<div class="text"><p>Tưng bừng đón chào bộ sản phẩm</p></div>
-	   			</div> -->
 			 	 <div class="image-container">
-			    	<a target="_blank" href="img_5terre.jpg">
+			    	<a target="" href="/product">
 			      	<?php echo $this->Html->image('exam.png', array('class' => 'product-img')); ?>
 			    	</a>
 			  	</div>
@@ -28,12 +24,8 @@
 
 
 			<div class="rec rectangle-64">
-<!-- 				<div class="rec-text">
-	   				<hr style="border-color: black; width: 130px;">
-	   				<div class="text"><p>Giá trị của hộp quà</p></div>
-	   			</div> -->
 			  	<div class="image-container">
-			    	<a target="_blank" href="img_forest.jpg">
+			    	<a target="" href="/product">
 			      		<?php echo $this->Html->image('exam.png', array('class' => 'product-img')); ?>
 			    	</a>
 			  	</div>
@@ -179,7 +171,7 @@
 					</div>
 				</div>
 				<div class="button-review">
-					<button class="button button-more">Xem Thêm</button>
+					<a href="/review"><button class="button button-more">Xem Thêm</button></a>
 				</div>
 			</div>
 		</div>
@@ -216,8 +208,7 @@
 								<p class="text-title">Góc Làm Đẹp</p>
 						    	<p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Phasellus id nisi quis justo tempus mollis sed et dui. In hac habitasse platea dictumst.</p>
 						    	<div class="button-beauty-corner">
-						    		<!-- <button type="button" class="btn btn-dark">Xem Thêm</button> -->
-									<button class="button button-more">Xem Thêm</button>
+									<a href="/review"><button class="button button-more">Xem Thêm</button></a>
 								</div>
 							</div>
 						</div>
@@ -254,7 +245,7 @@
 							    	<img src="../img/corner-bearty/1.png">
 							    </div>
 							    <div class="button-news" style="margin-top: 63px; text-align: center;">
-									<button class="button button-more">Xem Thêm</button>
+									<a href="/news"><button class="button button-more">Xem Thêm</button></a>
 								</div>
 						  	</div>
 						</div>
@@ -339,3 +330,6 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+</script>

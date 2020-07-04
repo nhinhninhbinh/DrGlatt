@@ -39,11 +39,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
     <?= $this->Html->css("style_top_button.css"); ?>
     <?= $this->Html->css("common.css"); ?>
     <?= $this->Html->css("style.css"); ?>
-
-    <!--    main slide
-    https://www.w3schools.com/w3css/w3css_slideshow.asp-->
-    <?= $this->Html->css("main-slide-home.css"); ?>
-
     <?= $this->Html->css("responsive.css"); ?>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

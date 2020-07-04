@@ -1,3 +1,4 @@
+
 #main-menu-navbar{
   background: #135454;
 }
@@ -229,6 +230,11 @@ button.cart-button{
   color: #EB5757;
 }
 
+button.cart-button:hover{
+  background: #FF1B1B;
+  color: #000000;
+}
+
 button.buy-button{
   border: none;
   border-radius: 22px;
@@ -240,7 +246,10 @@ button.buy-button{
   color: #EB5757;
   padding: 12px 16px;
 }
-
+button.buy-button:hover{
+  background: #FF1B1B;
+  color: #000000;
+}
 #home .button-group{
   transform: translateY(-50%);
 }
@@ -961,10 +970,6 @@ button.buy-button{
   margin-bottom: 19px;
 }
 
-#about{
-  margin-top:  80px;
-}
-
 #about .content1{
   margin-bottom: 60px;
 }
@@ -1067,6 +1072,17 @@ button.buy-button{
     }
 
     #beauty-corner .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+        grid-gap: 2rem;
+    }
+
+    #review .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+        grid-gap: 2rem;
+    }
+    #news .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
         grid-gap: 2rem;
