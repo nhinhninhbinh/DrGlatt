@@ -1,4 +1,8 @@
 <div id="review">
+    <div class="slide">
+        <?php echo $this->element("slide/slide-top")?>
+    </div>
+
     <div class="container">
         <div class="row" style="margin-top: 80px;">
             <div class="col-6 col-sm-6 col-md-4 col-lg-4">
