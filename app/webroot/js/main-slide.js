@@ -32,6 +32,10 @@ $(document).ready(function(){
         $(this).removeAttr('placeholder');
     });
 
+    // var heightDiv = $('.address-detail-order-one');
+    // $('.detail-order div.row > div.col .address-detail-order').height(heightDiv);
+    // console.log(heightDiv.height());
+
 });
 function searchTop() {
   $('.txt-search-top').css('display', 'block');

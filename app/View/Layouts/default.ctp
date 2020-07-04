@@ -31,11 +31,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
     <link href="https://allfont.net/allfont.css?fonts=noticia-text" rel="stylesheet" type="text/css" />
 
-
     <!-- Latest compiled and minified CSS (select button product)
     https://bootstrapbay.com/blog/useful-bootstrap-4-select-picker-for-your-forms/ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
 
+  
     <?= $this->Html->css("style_top_button.css"); ?>
     <?= $this->Html->css("common.css"); ?>
     <?= $this->Html->css("style.css"); ?>
@@ -44,6 +44,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
     https://www.w3schools.com/w3css/w3css_slideshow.asp-->
     <?= $this->Html->css("main-slide-home.css"); ?>
 
+    <?= $this->Html->css("responsive.css"); ?>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
@@ -72,14 +73,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
     <!-- Latest compiled and minified JavaScript (select button product)
     https://bootstrapbay.com/blog/useful-bootstrap-4-select-picker-for-your-forms/ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    
 
     <?= $this->Html->script('main-slide'); ?>
     <?= $this->Html->script('common'); ?>

@@ -105,8 +105,12 @@ h2, h3, h4, p {
     background-color: #135454;
 }
 .main-logo{
+    display: block;
     line-height: 89px;
     float: left;
+}
+.main-menu-content .navbar img{
+    display: none;
 }
 .main-nav {
     margin-left: auto;
@@ -114,7 +118,15 @@ h2, h3, h4, p {
 }
 .main-menu-content {
     float: left;
+    margin-left: 87px;
+    line-height: 89px;
+}
+.main-menu-content .main-logo-mobile {
+    display: none;
+}
 
+.main-menu-content .navbar {
+    padding: 0px;
 }
 .main-menu-content ul {
     margin-bottom: 0px;
@@ -141,23 +153,24 @@ h2, h3, h4, p {
 .main-menu-content ul li:hover, .main-menu-content ul li a:hover {
     cursor: pointer;
     text-decoration: none;
+
     color: #F88E17;
 }
 .main-menu-content ul li a.active {
     color: #F88E17;
 }
 
-
 .main-menu-content ul li ul {
     visibility: hidden;
     opacity: 0;
-    min-width: 15rem;
+    min-width: 19rem;
     position: absolute;
     transition: all 0.5s ease;
     right: 10px;
     display: none;
     padding-left:0;
     z-index: 99;
+    transition: all 0.5s ease;
 }
 .main-menu-content ul li ul li, .contact-main-top ul li {
     clear: both;
@@ -180,6 +193,7 @@ h2, h3, h4, p {
     visibility: visible;
     opacity: 1;
     display: block;
+    
 }
 .main-menu-content ul li ul li:hover, .main-menu-content ul li ul li:visited, .main-menu-content ul li ul li.active {
     background-color: #EFFAFA;
@@ -717,7 +731,7 @@ figcaption p{
     font-size: 24px;
     line-height: 33px;
 }
-.cart-product tr td {
+.cart-product tr td, .detail-order .list-product-choose tr td {
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
     vertical-align: middle;
@@ -727,7 +741,7 @@ figcaption p{
     padding-left: 23px;
     cursor: pointer;
 }
-.cart-product tr td div.cart-plus-minus {
+.cart-product tr td div.cart-plus-minus, .detail-order .list-product-choose tr td div.cart-plus-minus {
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
     width: 91px;
@@ -736,13 +750,13 @@ figcaption p{
     margin: auto;
 
 }
-.cart-product tr td div.cart-plus-minus button{
+.cart-product tr td div.cart-plus-minus button, .detail-order .list-product-choose tr td div.cart-plus-minus button {
     background: none;
     padding:0px;
     font-weight: bold;
     font-size: 24px;
 }
-.cart-product tr td div.cart-plus-minus input {
+.cart-product tr td div.cart-plus-minus input, .detail-order .list-product-choose tr td div.cart-plus-minus input {
     font-family: 'Roboto';font-size: 24px; font-weight: bold;
     border: none;
     text-align: center;
@@ -925,7 +939,164 @@ figcaption p{
 }
 
 /*detail-order*/
+.detail-order {
+    margin-top: 80px;
+}
+.detail-order h2 {
+    margin-bottom: 60px;
+}
+.detail-order h2, .detail-order h4 {
+    margin:0px;
+}
+.detail-order h4 {
+    padding-bottom: 30px;
+}
+.detail-order div.row {
+    margin: 0;
+    margin-top: 30px;
+}
+.detail-order div.row div.col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.detail-order div.row div.col .address-detail-order, .detail-order div.row div.col .address-detail-order-one {
+    background: #F1F0F1;
+    border: 1px solid #E8A45F;
+    box-sizing: border-box;
+    margin-right: 30px;
+    padding: 13px 9px;
+}
+.detail-order div.row div.col .address-detail-order {
+    height: 201px;
+}
+.detail-order div.row div.col:last-child{
+    margin-right: 0px;
+}
+.detail-order div.row div.col .address-detail-order p{
+    line-height: 33px;
+}
+.detail-order div.row div.col .address-detail-order p.name-detail-order {
+    line-height: 27px;
+    padding-bottom: 6px;
+}
+.detail-order .list-product-choose table {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: #F1F0F1;
+    border: 1px solid #E8A45F;
+    box-sizing: border-box;
+}
+
+.detail-order .list-product-choose .table th {
+    padding: 13px 14px;
+    border-left: 0;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid #E8A45F;
+}
+.detail-order .list-product-choose .table td {
+     border: 1px solid #E8A45F;
+     border-left: 0px;
+     border-right: 0px;
+}
+.detail-order .list-product-choose .table td img{
+    float: left;
+    margin-right: 13px;
+}
+.detail-order .list-product-choose .cal-tranfer-product table {
+    border:none;
+    background-color: transparent;
+    margin-top: 0px;
+}
+.detail-order .list-product-choose .cal-tranfer-product table tr {
+    float: right;
+    border: none;
+}
+.detail-order .list-product-choose .cal-tranfer-product table tr td {
+    border:none;
+    padding: 0px;
+    text-align: right;
+    padding-right: 69px;
+}
+.detail-order .list-product-choose .cal-tranfer-product table tr td span {
+    display: block;
+    line-height: 33px;
+    padding-bottom: 13px;
+}
+
+/*order tracking progress*/
+.detail-order .status-order-progress {
+    margin-top: 48px;
+}
+
+.detail-order .steps .step {
+    display: block;
+    width: 100%;
+    text-align: center
+}
+
+.detail-order .steps .step .step-icon-wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+    /*height: 80px;*/
+}
+
+.detail-order .steps .step .step-icon-wrap::before,
+.detail-order .steps .step .step-icon-wrap::after {
+    display: block;
+    position: absolute;
+    top: 13%;
+    width: 50%;
+    height: 19px;
+    background-color: #F1F0F1;
+    content: '';
+}
+
+.detail-order .steps .step .step-icon-wrap::before {
+    left: 0
+}
+
+.detail-order .steps .step .step-icon-wrap::after {
+    right: 0
+}
+
+.detail-order .steps .step .step-icon {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    color: #374250;
+}
+
+.detail-order .steps .step .step-title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.detail-order .steps .step:first-child .step-icon-wrap::before {
+    display: none
+}
+
+.detail-order .steps .step:last-child .step-icon-wrap::after {
+    display: none
+}
+
+.detail-order .steps .step.completed .step-icon-wrap::before,
+.detail-order .steps .step.completed .step-icon-wrap::after {
+    background-color: #135454;
+}
+
+.detail-order .steps .step.completed .step-icon {
+    border-color: #135454;
+    background-color: #135454;
+}
 
 
 
-
+.bg-faded, .bg-secondary {
+    background-color: #f5f5f5 !important;
+}

@@ -1,29 +1,42 @@
+
+
+      
+
+
 <div class="container main-nav">
     <div class="main-logo">
         <a href="/"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>
     </div>
     <div class="main-menu-content">
-        <ul>
-            <li>
-                <a class="font-size-18 font-weight" href="/about">Về chúng tôi</a>
-                <ul>
-                    <li><a class="font-size-18 font-weight" href="/about">Câu chuyện Dr Glatt</a></li>
-                    <li><a class="font-size-18 font-weight" href="/review">Review sản phẩm</a></li>
-                    <li><a class="font-size-18 font-weight" href="/faq">Hỏi đáp</a></li>
-                    <li><a class="font-size-18 font-weight" href="/news">Tin tức</a></li>
+        <nav class="navbar navbar-expand-md navbar-light main-nav-head">
+            <a href="/"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="font-size-18 font-weight" href="/about">Về chúng tôi</a>
+                        <ul>
+                            <li><a class="font-size-18 font-weight" href="/about">Câu chuyện Dr Glatt</a></li>
+                            <li><a class="font-size-18 font-weight" href="/review">Review sản phẩm</a></li>
+                            <li><a class="font-size-18 font-weight" href="/faq">Hỏi đáp</a></li>
+                            <li><a class="font-size-18 font-weight" href="/news">Tin tức</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="font-size-18 active font-weight" href="/product">Sản phẩm</a>
+                        <ul>
+                            <li><a class="font-size-18 font-weight" href="/product">San pham 1</a></li>
+                            <li><a class="font-size-18 font-weight" href="/product">San pham 2</a></li>
+                            <li><a class="font-size-18 font-weight" href="/product">San pham 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="font-size-18 font-weight" href="/buy">Mua hàng</a></li>
+                    <li class="nav-item dropdown"><a class="font-size-18 font-weight" href="/beauty-corner">Góc làm đẹp</a></li>
                 </ul>
-            </li>
-            <li>
-                <a class="font-size-18 active font-weight" href="/product">Sản phẩm</a>
-                <ul>
-                    <li><a class="font-size-18 font-weight" href="/product">San pham 1</a></li>
-                    <li><a class="font-size-18 font-weight" href="/product">San pham 2</a></li>
-                    <li><a class="font-size-18 font-weight" href="/product">San pham 3</a></li>
-                </ul>
-            </li>
-            <li><a class="font-size-18 font-weight" href="/buy">Mua hàng</a></li>
-            <li><a class="font-size-18 font-weight" href="/beauty-corner">Góc làm đẹp</a></li>
-        </ul>
+            </div>
+        </nav>
     </div>
     <div class="main-social-icon-top">
         <ul>
@@ -56,5 +69,5 @@
 </div>
 <div class="clear"></div>
 
-
+<!-- Static navbar -->
 
