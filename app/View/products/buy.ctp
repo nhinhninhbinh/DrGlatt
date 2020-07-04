@@ -337,14 +337,17 @@
                                                 <tr>
                                                   <td class="font-size-24" style="padding-top: 37px;">Ngày sinh</td>
                                                   <td  style="padding-top: 37px;">
-                                                    
-                                                      <select name="day" id="day" class="form-enter">
-                                                        <option value="" class="select-first">Ngày</option>
+                                                    <!-- <div class="custom-select"> -->
+                                                      <select name="day" id="day" class="form-enter" style="margin-right: 16px">
+                                                        <option value="">Ngày</option>
                                                       </select>
-                                                    <div class="custom-select">
-                                                      <select name="month" id="month" class="form-enter"><option value="" class="select-first">Tháng</option></select>
+                                                    <!-- </div> -->
+                                                    <div class="custom-select" style="margin-right: 16px;">
+                                                      <select name="month" id="month" class="form-enter"><option value="">Tháng</option></select>
                                                     </div>
-                                                    <select name="year" id="yeaer" class="form-enter"><option value=""class="select-first">Năm</option></select>
+                                                    <!-- <div class="custom-select"> -->
+                                                    <select name="year" id="yeaer" class="form-enter"><option value="">Năm</option></select>
+                                                    <!-- </div> -->
                                                   </td>
                                                 </tr>
                                                 <tr>
@@ -392,8 +395,9 @@ for (var i = 1; i < 13; i++) {
 var d = new Date();
 var year = d.getFullYear();
 
-$('body').on('DOMSubtreeModified', 'div.same-as-selected', function(){
+$('body').on('DOMSubtreeModified', '#loginUser tr td div.same-as-selected', function(){
   // console.log($(this).text());
+  // getDaysInMonth($(this).text(), year, $('#loginUser tr td div.select-selected'));
   getDaysInMonth($(this).text(), year, $('#day'));
 });
 
@@ -554,69 +558,71 @@ document.addEventListener("click", closeAllSelect);
     padding-left: 18px;
 }
 #loginUser tr td select.form-enter {
-  width: 30%;
+  width: 29%;
   color: rgba(0, 0, 0, 0.2);
 }
 
-/*#loginUser tr td select.form-enter:focus option:hover,
-#loginUser tr td select.form-enter:focus option:focus,
-#loginUser tr td select.form-enter:focus option:active,
-#loginUser tr td select.form-enter:focus option:checked {
-  color: red;
-  background: #D6F2F2 !important;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}*/
-
+/*custom select box*/
 /*the container must be positioned relative:*/
 #loginUser tr td div.custom-select {
   position: relative;
-  font-family: Arial;
+  background: #D6F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 29%;
+  height: auto;
+  padding: 0px;
+}
+#loginUser tr td div.custom-select select#month option {
+  color: #000 !important;
 }
 
 #loginUser tr td div.custom-select select {
   display: none; /*hide original SELECT element:*/
 }
-
-#loginUser tr td div.select-selected {
-  background-color: DodgerBlue;
-}
-
 /*style the arrow inside the select element:*/
 #loginUser tr td div.select-selected:after {
+  font-family: FontAwesome;
   position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
+  content: "\f107";
+  top: 9px;
+  right: 20px;
   width: 0;
   height: 0;
-  border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /*point the arrow upwards when the select box is open (active):*/
 #loginUser tr td div.select-selected.select-arrow-active:after {
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.2) transparent;
   top: 7px;
 }
 
 /*style the items (options), including the selected item:*/
 #loginUser tr td div.select-items div,#loginUser tr td div.select-selected {
-  color: #ffffff;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 18px;
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
   user-select: none;
 }
-
+#loginUser tr td div.select-selected {
+  border:none;
+}
 /*style items (options):*/
 #loginUser tr td div.select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background: #C4E0E0;;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   top: 100%;
   left: 0;
   right: 0;
   z-index: 99;
+  text-align: center;
 }
 
 /*hide the items when the select box is closed:*/
@@ -625,7 +631,9 @@ document.addEventListener("click", closeAllSelect);
 }
 
 #loginUser tr td div.select-items div:hover, #loginUser tr td div.same-as-selected {
-  background-color: rgba(0, 0, 0, 0.1);
+  background: #D6F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #000;
 }
 /*end custom select of date*/
 
