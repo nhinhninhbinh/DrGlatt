@@ -1,8 +1,3 @@
-
-
-      
-
-
 <div class="container main-nav">
     <div class="main-logo">
         <a href="/"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>

@@ -42,7 +42,7 @@
                     <tr>
                         <td></td>
                         <td>x2</td>
-                        <td>Lorem ipsum sfsdf</td>
+                        <td>Lorem ipsum</td>
                     </tr>
                     <tr>
                         <td colspan="2">Phí vận chuyển</td>

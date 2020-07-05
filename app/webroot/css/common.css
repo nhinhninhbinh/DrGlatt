@@ -19,7 +19,7 @@
   padding: 10px;
   background: #D5DBD0;
   margin-top: 20px;
-  max-height: 105px;
+  height: 105px;
 }
 
 .sub-gallery img{
@@ -51,7 +51,7 @@
 .tab-product-image{
   background: #D5DBD0;
   padding: 29px 39px 31px 28px;
-  max-height: 449px;
+  height: 449px;
 }
 .image-detail{
   padding: 0px 66px;
@@ -187,6 +187,7 @@
 .nav-side-menu li a {
   text-decoration: none;
   color: #000000;
+  font-family: "Noticia";
 }
 .nav-side-menu li a i {
   padding-left: 10px;
@@ -247,14 +248,54 @@ body {
     margin: 0 10px;
     padding:0px 12px;
     font-size: 36px;
+    font-family: "Noticia";
 }
 .pagination-corner-beauty img {
     margin-top: -10px;
 }
 .pagination-corner-beauty a.active {
     background-color: #E8A45F;
-}
-s
+  }
+
+.carousel-control-next-icon:after{
+    font-family: FontAwesome;
+ 
 
 
+     content: "\f054";
+      font-size: 24px;
+  }
+  .carousel-control-prev-icon:after{
+    font-family: FontAwesome;
+      content: "\f053";
+      font-size: 24px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    background: none;
+    
+  }
+  @media(min-width: 1440px){
+    .carousel-control-next-icon{
+      transform: translate(74px, -65px);
+    }
+    .carousel-control-prev-icon{
+      transform: translate(-74px, -65px);
+    }
 
+  }
+
+  @media (min-width: 1024px) and (max-width: 1399px){
+      .carousel-control-next-icon{
+      transform: translate(62px, -65px);
+    }
+    .carousel-control-prev-icon{
+      transform: translate(-62px, -65px);
+    }
+  }
+  @media (min-width: 320px) and (max-width: 1023px){
+      .carousel-control-next-icon{
+      transform: translate(40px, -65px);
+    }
+    .carousel-control-prev-icon{
+      transform: translate(-40px, -65px);
+    }

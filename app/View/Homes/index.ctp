@@ -159,11 +159,11 @@
 					                </div>
 					            </div>
 					            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-					                <span class="cerousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+					                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					                <span class="sr-only">Previous</span>
 					            </a>
 					            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-					                <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+					                <span class="carousel-control-next-icon" aria-hidden="true"></span>
 					                <span class="sr-only">Next</span>
 					            </a>
 					        </div>
@@ -227,22 +227,22 @@
 
 						<div class="row"> 
 						  	<div class="col-md-4 col-lg-4 image-col-1">
-						    <div class="container-img-1"><img src="../img/corner-bearty/1.png" style="width:100%"></div>
+						    <div class="container-img-1"><img src="../img/imagebeauty/image 10.png" style="width:100%"></div>
 						  	</div>
 						  	<div class="col-md-4 col-lg-4">
 							    <div class="image-col2-row1">
-							    	<img src="../img/corner-bearty/1.png">
+							    	<img src="../img/imagebeauty/image 9.png">
 							    </div>
 							    <div class="image-col2-row2">
-							    	<img src="../img/corner-bearty/1.png">
+							    	<img src="../img/imagebeauty/image 8.png">
 							    </div>
 						  	</div>  
 						  	<div class="col-md-4 col-lg-4">
 							    <div class="image-col3-row1">
-							    	<img src="../img/corner-bearty/1.png">
+							    	<img src="../img/imagebeauty/image 11.png">
 							    </div>
 							    <div class="image-col3-row2">
-							    	<img src="../img/corner-bearty/1.png">
+							    	<img src="../img/imagebeauty/image 12.png">
 							    </div>
 							    <div class="button-news" style="margin-top: 63px; text-align: center;">
 									<a href="/news"><button class="button button-more">Xem Thêm</button></a>
@@ -279,7 +279,7 @@
 									</ul>
 						    	</div>
 						    	<div class="button-group">
-						    		<button class="button cart-button"><?php echo $this->Html->image('icon/cart.png', array('class' => 'cart-icon')); ?></button>
+						    		<button class="button cart-button"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #EB5757; border-radius: 4px;"></i></button>
 						    		<button class="button buy-button active">Mua Ngay</button>
 						    	</div>
 						  	</div>
@@ -299,7 +299,7 @@
 									</ul>
 						    	</div>
 						    	<div class="button-group">
-						    		<button class="button cart-button"><?php echo $this->Html->image('icon/cart.png', array('class' => 'cart-icon')); ?></button>
+						    		<button class="button cart-button"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #EB5757; border-radius: 4px;"></i></button>
 						    		<button class="button buy-button">Mua Ngay</button>
 						    	</div>
 						  	</div>
@@ -319,7 +319,7 @@
 									</ul>
 						    	</div>
 						    	<div class="button-group">
-						    		<button class="button cart-button"><?php echo $this->Html->image('icon/cart.png', array('class' => 'cart-icon')); ?></button>
+						    		<button class="button cart-button"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #EB5757; border-radius: 4px;"></i></button>
 						    		<button class="button buy-button">Mua Ngay</button>
 						    	</div>
 						  	</div>
@@ -331,5 +331,7 @@
 	</div>
 </div>
 
-<script type="text/javascript">
-</script>
+<style type="text/css">
+
+	
+</style>

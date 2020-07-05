@@ -1,4 +1,10 @@
-
+@font-face {
+font-family: 'Noticia';
+src: url('/fonts/NoticiaText-Bold.ttf') format('truetype'),
+     url('/fonts/NoticiaText-BoldItalic.ttf') format('truetype'),
+     url('/fonts/NoticiaText-Italic.ttf') format('truetype'),
+     url('/fonts/NoticiaText-Regular.ttf')  format('truetype')
+}
 #main-menu-navbar{
   background: #135454;
 }
@@ -159,18 +165,6 @@ div.review-product img {
   margin-top: 53px;
 }
 
-#home .button-more {
-  background: #E8A45F;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 20px;
-  font-size: 36px;
-  font-family: "Noticia";
-  font-weight: bold;
-  font-style: normal;
-  padding: 4px 29.3px 10px;
-}
-
 #home .promo-1 {
   background: #EBF5F0;
 }
@@ -208,6 +202,10 @@ div.review-product img {
   padding: 2px 0px 2px 0px; 
 }
 
+.combo-text li{
+    margin-bottom: 18px;
+}
+
 #home .promo-desc {
   padding: 15px;
   text-align: left;
@@ -221,13 +219,8 @@ div.review-product img {
 button.cart-button{
   border: none;
   border-radius: 22px;
-  background: #C0CDBF;
-  padding: 12px 16px;
-  font-size: 36px;
-/*  font-family: "Noticia";
-  font-style: normal;
-  font-weight: normal;*/
   color: #EB5757;
+  background: #C0CDBF;
 }
 
 button.cart-button:hover{
@@ -239,12 +232,10 @@ button.buy-button{
   border: none;
   border-radius: 22px;
   background: #C0CDBF;
-  font-size: 36px;
   font-family: "Noticia";
   font-style: normal;
   font-weight: normal;
   color: #EB5757;
-  padding: 12px 16px;
 }
 button.buy-button:hover{
   background: #FF1B1B;
@@ -366,6 +357,10 @@ button.buy-button:hover{
 
 #home .beauty-corner-text{
   top:43px;
+}
+
+#home .beauty-corner{
+  margin-top: 109px
 }
 
 #home .text-title{
@@ -1149,9 +1144,228 @@ button.buy-button:hover{
     line-height: 25px;
 }
 
+/*buy*/
+#yearBirth, #monthBirth, #dateBirth{
+    padding: 7px 0px 10px 6px;
+    background: #D6F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+#yearBirth, #monthBirth{
+  margin-right: 16px;
+}
+#yearBirth  option[value="0"], #monthBirth  option[value="0"], #dateBirth option[value="0"]{
+  display: none;
+  color: rgba(0, 0, 0, 0.2);
+}
+select#yearBirth, select#monthBirth, select#dateBirth {
+  font-family: Noticia Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.2)
+}
 
+select#yearBirth option, select#monthBirth option, select#dateBirth option{
+  border:none;
+  background: #C4E0E0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.left-content{
+    padding-left: 36px;
+    /*border-right:2px solid #E8A45F;*/
+    /*transform: rotate(90deg);*/
+}
 
+#loginUser .content-text{
+    padding-bottom: 113px;
+    padding-right: 21px;
+}
+#loginUser .content-text p{
+    font-family: "Noticia";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+#loginUser .right-content{
+    border-left: 2px solid #E8A45F;
+    height: 100%;
+}
+#loginUser .right-content li a{
+    font-family:"Noticia";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #135454;
+}
 
+#loginUser .forget-pass{
+    font-family: "Noticia";
+    font-weight: bold;
+    font-style: normal;
+}
 
+#loginUser .login-form{
+    margin-top: 40px;
+    padding-right: 49px;
+}
+
+#loginUser tr td input.form-enter {
+    width: 100%;
+    font-family: "Noticia";
+    font-family: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    background: #D6F2F2;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+}
+
+#loginUser tr td input.login, input.logFb, input.signUp {
+    width: 100%;
+    font-family: "Noticia";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+#loginUser tr td input.login {
+    background: #E8A45F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+#loginUser tr td input.logFb {
+    background: #5181DC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+
+}
+
+#loginUser tr td input.signUp {
+    background: #FF1B1B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+#loginUser .check-box{
+    display: inline-flex;
+}
+
+#loginUser .check-box .sex{
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: "Noticia";
+}
+
+#loginUser input.signUp, input.login, input.logFb{
+  border: none;
+  cursor: pointer;
+}
+
+#loginUser input.signUp:hover{
+  background:  #FF1493;
+}
+
+#home .button-more {
+  background: #E8A45F;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 36px;
+  font-family: "Noticia";
+  font-weight: bold;
+  font-style: normal;
+  
+}
+
+@media(min-width: 1024px){
+  button.button.button-more{
+    padding: 4px 29.3px 10px;
+  }
+  button.button.cart-button, button.button.buy-button{
+    padding: 12px 16px;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1023px){
+  button.button.button-more{
+    width: 100%;
+  }
+}
+@media(max-width: 768px){
+  button.button.cart-button, button.button.buy-button{
+    font-size: 36px;
+    padding: 4px;
+  }
+}
+@media(min-width: 769px) and(max-width: 1023px){
+  button.button.cart-button, button.button.buy-button{
+    padding: 12px;
+  }
+}
+@media (max-width: 767.98px) {
+  /*By default, containers are only full-width on xs screens. 
+  This makes them full-width om sm screens as well*/
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100% !important;
+  }
+}
 

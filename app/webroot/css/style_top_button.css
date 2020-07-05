@@ -89,7 +89,7 @@ button:focus {
 }
 
 body, body * {
-    font-family: 'Noticia Text', arial;
+    font-family: 'Noticia', arial;
     color: #000000;
     font-size: 18px;
 }
@@ -323,6 +323,10 @@ input#searchinput:focus {
 .content-footer a, li, option{
     font-family: "Noticia";
 }
+
+.content-footer input, .select-product-frm{
+    font-family: "Noticia";
+}
 .content-footer .row div.col{
     padding-left: 0;
     margin-top: 15px;
@@ -333,11 +337,22 @@ input#searchinput:focus {
 }
 .advisory-footer h3 {
     text-align: center;
+    margin-bottom: 13.55px;
 }
-.address-footer p {
+.address-footer p, .policy-footer p {
     color: #E8A45F;
     line-height: 25px;
-    margin-bottom: 0;
+    margin-bottom: 6px;
+}
+.policy-footer ul{
+    margin-bottom: 30px;
+}
+
+.address-footer h3 {
+    margin-bottom: 16px;
+}
+.policy-footer h3{
+    margin-bottom: 14px;
 }
 .policy-footer ul {
     padding-left:0;
@@ -360,6 +375,10 @@ input#searchinput:focus {
 }
 .icon-social-footer img {
     padding: 5px;
+}
+
+.icon-social-footer i{
+    margin-right: 15px;
 }
 .advisory-footer {
     border: 2px solid #E8A45F;
@@ -434,6 +453,19 @@ input#searchinput:focus {
     line-height: 33px;
     border:none;
 }
+@media(min-width: 1024px){
+    .btn-register-footer{
+        padding: 10px 12px;
+    }
+}
+@media(max-width: 1023px){
+    .btn-register-footer{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
 /*main slide top*/
 @keyframes slidy {
 0% { left: 0%; }
@@ -499,6 +531,7 @@ figcaption p{
     margin-top: 17px;
     font-family: "Noticia";
     transform: translate(50%, 17px);
+    padding: 4px 25px 10px 33px;
 }
 #captioned-gallery-sub{
     margin-bottom: 80px;
@@ -527,6 +560,7 @@ figcaption p{
 }
 .main-content-comment {
     margin-left: 20%;
+    margin-top: 40px;
 }
 .item-comment {
     border: 1px solid #BDBDBD;
