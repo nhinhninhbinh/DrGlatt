@@ -59,9 +59,9 @@
         <div class="method-payment">
             <h4 class="font-weight">PHƯƠNG THỨC THANH TOÁN</h4>
             <div class="detail-method-payment">
-                <div class="choose-paymen">
+                <div class="choose-paymen choose-paymen-cod active">
                     <input type="radio" id="male" name="cod" value="" checked>
-                    <div class="content-choose-payment">
+                    <div class="content-choose-payment payment-cod">
                         <img src="../img/payment/1.png">
                         <div class="form-choose-payment">
                             <p class="title font-weight font-size-18">Thu tiền tại nhà (COD)</p>
@@ -69,9 +69,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="choose-paymen">
+                <div class="choose-paymen choose-paymen-transfer">
                     <input type="radio" id="male" name="cod" value="">
-                    <div class="content-choose-payment">
+                    <div class="content-choose-payment payment-transfer">
                         <img src="../img/payment/2.png">
                         <div class="form-choose-payment">
                             <p class="title font-weight font-size-18">Chuyển khoản (ATM)</p>
@@ -79,9 +79,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="choose-paymen">
+                <div class="choose-paymen choose-paymen-nganluong">
                     <input type="radio" id="male" name="cod" value="">
-                    <div class="content-choose-payment">
+                    <div class="content-choose-payment payment-nganluong">
                         <img src="../img/payment/3.png">
                         <div class="form-choose-payment">
                             <p class="title font-weight font-size-18">Thanh toán thông qua Nganluong.vn</p>
@@ -106,3 +106,22 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $('.choose-paymen-cod').on('click', function(){
+        $('.choose-paymen').removeClass('active');
+        $(this).find('input').prop('checked', true);
+        $(this).addClass('active');
+    });
+    $('.choose-paymen-transfer').on('click', function(){
+        $('.choose-paymen').removeClass('active');
+
+        $(this).find('input').prop('checked', true);
+        $(this).addClass('active');
+    });
+    $('.choose-paymen-nganluong').on('click', function(){
+        $('.choose-paymen').removeClass('active');
+        $(this).find('input').prop('checked', true);
+        $(this).addClass('active');
+    });
+</script>
