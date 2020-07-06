@@ -251,10 +251,9 @@ body {
 .pagination-corner-beauty img {
     margin-top: -10px;
 }
-.pagination-corner-beauty a.active {
+.pagination-corner-beauty a:hover, .pagination-corner-beauty a.active {
     background-color: #E8A45F;
+    color: #000;
 }
-s
-
 
 
