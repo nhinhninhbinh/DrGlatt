@@ -1,6 +1,6 @@
 <div id="detail">
     <div class="slide">
-        <?php echo $this->element("slide/slide-top")?>
+        <?php echo $this->element("slide/slide-sub-page")?>
     </div>
 
     <div class="container">

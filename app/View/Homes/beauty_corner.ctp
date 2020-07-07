@@ -1,6 +1,6 @@
 <div id="beauty-corner">
     <div class="slide">
-        <?php echo $this->element("slide/slide-top")?>
+        <?php echo $this->element("slide/slide-sub-page")?>
     </div>
     <div class="container">
         <div class="row">
@@ -13,11 +13,11 @@
                     <div class="gallery-item">
                         <img class="gallery-image" src="/img/imagebeauty/spa-la-gi-01 (1).png">
                         <div class="desc">
-                            <div class="product-name">
+                            <div class="title-text">
                                 <p style="font-size: 24px;">Lorem ipsum dolor sit amet</p>
                             </div>
-                            <div class="price">
-                                <p style="font-size: 18px;">Phasellus id nisi quis justo tempus mollis sed et dui. In hac habitasse platea dictumst./p>
+                            <div class="content-text">
+                                <p style="font-size: 18px;">Phasellus id nisi quis justo tempus mollis sed et dui. In hac habitasse platea dictumst.</p>
                             </div>
                         </div>
                     </div>
@@ -25,10 +25,10 @@
                     <div class="gallery-item">
                         <img class="gallery-image" src="/img/imagebeauty/lam-dep-massage-spa-ngoc-diep-beauty-8.png">
                         <div class="desc">
-                            <div class="product-name">
+                            <div class="title-text">
                                 <p style="font-size: 24px;">Lorem ipsum dolor sit amet</p>
                             </div>
-                            <div class="price">
+                            <div class="content-text">
                                 <p style="font-size: 18px;">Phasellus id nisi quis justo tempus mollis sed et dui. In hac habitasse platea dictumst.</p>
                             </div>
                         </div>
@@ -37,10 +37,10 @@
                     <div class="gallery-item">
                         <img class="gallery-image" src="/img/imagebeauty/foody-mobile--9-_hinhmob-jpg-291-635730731456075952.png">
                         <div class="desc">
-                            <div class="product-name">
+                            <div class="title-text">
                                 <p style="font-size: 24px;">Lorem ipsum dolor sit amet</p>
                             </div>
-                            <div class="price">
+                            <div class="content-text">
                                 <p style="font-size: 18px;">Phasellus id nisi quis justo tempus mollis sed et dui. In hac habitasse platea dictumst.</p>
                             </div>
                         </div>
@@ -49,10 +49,10 @@
                     <div class="gallery-item">
                         <img class="gallery-image" src="/img/imagebeauty/spa-la-gi-01 (1).png">
                         <div class="desc">
-                            <div class="product-name">
+                            <div class="title-text">
                                 <p style="font-size: 24px;">Lorem ipsum dolor sit amet</p>
                             </div>
-                            <div class="price">
+                            <div class="content-text">
                                 <p style="font-size: 18px;">Phasellus id nisi quis justo tempus mollis sed et dui. In hac habitasse platea dictumst.</p>
                             </div>
                         </div>

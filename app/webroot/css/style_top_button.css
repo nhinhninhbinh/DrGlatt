@@ -49,7 +49,7 @@
 .font-size-24 {
     font-size: 24px;
     font-weight: bold;
-    font-family: "Noticia";
+    /*font-family: "Roboto";?*/
     font-style: normal; }
 
 .font-size-25 {
@@ -87,12 +87,6 @@ textarea:focus,
 button:focus {
     outline: none;
 }
-
-body, body * {
-    font-family: 'Noticia', arial;
-    color: #000000;
-    font-size: 18px;
-}
 h2, h3, h4, p {
     margin-bottom: 0;
 }
@@ -117,7 +111,7 @@ h2, h3, h4, p {
     margin-right: auto;
 }
 .main-nav a, li{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .main-menu-content {
     float: left;
@@ -321,11 +315,11 @@ input#searchinput:focus {
     padding: 30px 0;
 }
 .content-footer a, li, option{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 
 .content-footer input, .select-product-frm{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .content-footer .row div.col{
     padding-left: 0;
@@ -489,6 +483,9 @@ figure {
 div#captioned-gallery { 
   width: 100%; overflow: hidden; 
 }
+div#captioned-gallery-sub { 
+  width: 100%; overflow: hidden; 
+}
 figure.slider { 
   position: relative; width: 500%;
   font-size: 0; animation: 30s slidy infinite; 
@@ -511,11 +508,12 @@ figure.slider figure figcaption {
 }
 
 #captioned-gallery figure.slider figure figcaption{
-    width: 40%;
+    width: 462px;
+    /*height: 208px;*/
 }
 
 figcaption p{
-    font-family: "Noticia";
+    font-family: "Roboto";
     font-weight: bold;
     font-style: normal;
 }
@@ -528,25 +526,26 @@ figcaption p{
     line-height: 49px;
     color: #000;
     font-weight: bold;
-    margin-top: 17px;
-    font-family: "Noticia";
-    transform: translate(50%, 17px);
+    margin-top: 13px;
+    font-family: "Roboto";
+    transform: translate(17%, 17px);
     padding: 4px 25px 10px 33px;
 }
-#captioned-gallery-sub{
+#captioned-gallery, #captioned-gallery-sub{
     margin-bottom: 80px;
 }
 
-#captioned-gallery{
-    margin-bottom: 80px;
-}
-
-#captioned-gallery-subpage .container-text{
-    width: 40%;
+#captioned-gallery-sub figure.slider figure figcaption{
+    width: 100%;
     float: right;
 }
 
-#captioned-gallery-subpage figure.slider img{
+#captioned-gallery-sub figure.slider figure figcaption .desc-content{
+    width: 462px;
+    float: right;
+}
+
+#captioned-gallery-sub figure.slider img{
     transform: scaleX(-1);
 }
 
@@ -772,7 +771,7 @@ figcaption p{
     line-height: 33px;
 }
 .detail-order h2{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .cart-product tr td, .detail-order .list-product-choose tr td {
     text-align: center;
@@ -823,7 +822,7 @@ figcaption p{
     background-color: transparent;
 }
 .info-custom-order h4, td, p{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .cart-product .total-cart button, .info-custom-order .method-payment .detail-method-payment button {
     background: #FF1B1B;
@@ -1000,7 +999,7 @@ figcaption p{
 }
 .detail-order h2, .detail-order h4 {
     margin:0px;
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .detail-order h4 {
     padding-bottom: 30px;

@@ -39,12 +39,13 @@ $(document).ready(function(){
     });
 
     $('.sub-gallery-1').on('click', function(){
-        var current = document.getElementsByClassName("active");
+        var header = document.getElementById("tab-gallery-1");
+        var current = header.getElementsByClassName("active");
         var expandImg = document.getElementById("expandedImg");
         expandImg.src = $(this).children().attr('src');
         expandImg.parentElement.style.display = "block";
 
-        current[1].className = current[1].className.replace(" active", "");
+        current[0].className = current[0].className.replace(" active", "");
         $(this).addClass('active');
 
     });
@@ -56,7 +57,7 @@ $(document).ready(function(){
         expandImg.src = $(this).children().attr('src');
         expandImg.parentElement.style.display = "block";
 
-        current[1].className = current[1].className.replace(" active", "");
+        current[0].className = current[0].className.replace(" active", "");
         $(this).addClass('active');
 
     });

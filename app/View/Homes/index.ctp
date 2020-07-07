@@ -6,7 +6,7 @@
 				<div class="title-1">
 					<div class="divider"></div>
 					<div class="title-1-text">
-						Sản phẩm của chúng tôi
+						Sản Phẩm Của Chúng Tôi
 					</div>
 					<div class="divider"></div>
 				</div>
@@ -16,27 +16,27 @@
 		<div class="top-home" style="margin-top: 15px;">
 			<div class="rec rectangle-63">
 			 	 <div class="image-container">
-			    	<a target="" href="/product">
+			    	<!-- <a target="" href="/product"> -->
 			      	<?php echo $this->Html->image('exam.png', array('class' => 'product-img')); ?>
-			    	</a>
+			    	<!-- </a> -->
 			  	</div>
 			</div>
 
 
 			<div class="rec rectangle-64">
 			  	<div class="image-container">
-			    	<a target="" href="/product">
+			    	<!-- <a target="" href="/product"> -->
 			      		<?php echo $this->Html->image('exam.png', array('class' => 'product-img')); ?>
-			    	</a>
+			    	<!-- </a> -->
 			  	</div>
 			</div>
 			<div class="intro-text container">
-				<div class="grid container" style="display: flex;justify-content: space-between; position: absolute; margin-top: 146px;">
+				<div class="grid container" style="display: flex;justify-content: space-between; position: absolute; margin-top: 146px; padding-left: 0px;">
 					<div class="rec-text">
-		   				<hr style="border-color: black; width: 130px;">
-		   				<div class="text"><p>Giá trị của hộp quà</p></div>
+		   				<div style="float: left;"><hr style="border-color: black; width: 130px;"></div><br>
+		   				<div class="text" style="float: right;"><p>Giá trị của hộp quà</p></div>
 		   			</div>
-					<div class="rec-text">
+					<div class="rec-text" style="padding-right: 16px;">
 		   				<div style="float: right;"><hr style="border-color: black; width: 130px;"></div><br>
 		   				<div class="text" style="float: right;"><p>Tưng bừng đón chào bộ sản phẩm</p></div>
 		   			</div>
@@ -53,25 +53,25 @@
 			  	<div class="row">
 
 				    <div class="col-lg-6 col-md-6 col-12 product-img">
-				      	<a href="#" class="d-block mb-4 h-100">
+				      	<a href="/Products/detail" class="d-block mb-4 h-100">
 			            	<?php echo $this->Html->image('image 16.png', array('class' => '')); ?>
 			          	</a>
 			    	</div>
 
 				    <div class="col-lg-6 col-md-6 col-12 product-img">
-				      	<a href="#" class="d-block mb-4 h-100">
+				      	<a href="/Products/detail" class="d-block mb-4 h-100">
 			            	<?php echo $this->Html->image('image 17.png', array('class' => '')); ?>
 			          	</a>
 			    	</div>
 
 			    	<div class="col-lg-6 col-md-6 col-12 product-img">
-				      	<a href="#" class="d-block mb-4 h-100">
+				      	<a href="/Products/detail" class="d-block mb-4 h-100">
 			            	<?php echo $this->Html->image('image 18.png', array('class' => '')); ?>
 			          	</a>
 			    	</div>
 
 			    	<div class="col-lg-6 col-md-6 col-12 product-img">
-				      	<a href="#" class="d-block mb-4 h-100">
+				      	<a href="/Products/detail" class="d-block mb-4 h-100">
 			            	<?php echo $this->Html->image('image 19.png', array('class' => '')); ?>
 			          	</a>
 			    	</div>
@@ -96,7 +96,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
 					                	<div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -104,7 +106,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 					                    <div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -112,7 +116,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 					                    <div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -120,7 +126,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 					                    <div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -128,7 +136,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 					                    <div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -136,7 +146,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 					                    <div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -144,7 +156,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 					                    <div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -152,7 +166,9 @@
 					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 					                    <div class="responsive">
 										  	<div class="review-product">
-										    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<a href="/Homes/review">
+										    		<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	</a>
 										    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
 										  </div>
 										</div>
@@ -227,23 +243,35 @@
 
 						<div class="row"> 
 						  	<div class="col-md-4 col-lg-4 image-col-1">
-						    <div class="container-img-1"><img src="../img/imagebeauty/image 10.png" style="width:100%"></div>
+							    <a href="/news">
+							    	<div class="container-img-1">
+								    	<img src="../img/imagebeauty/image 10.png" style="width:100%">
+								    </div>
+							    </a>
 						  	</div>
 						  	<div class="col-md-4 col-lg-4">
-							    <div class="image-col2-row1">
-							    	<img src="../img/imagebeauty/image 9.png">
-							    </div>
-							    <div class="image-col2-row2">
-							    	<img src="../img/imagebeauty/image 8.png">
-							    </div>
+							    <a href="/news">
+							    	<div class="image-col2-row1">
+								    	<img src="../img/imagebeauty/image 9.png">
+								    </div>
+							    </a>
+							    <a href="/news">
+							    	<div class="image-col2-row2">
+								    	<img src="../img/imagebeauty/image 8.png">
+								    </div>
+							    </a>
 						  	</div>  
 						  	<div class="col-md-4 col-lg-4">
-							    <div class="image-col3-row1">
-							    	<img src="../img/imagebeauty/image 11.png">
-							    </div>
-							    <div class="image-col3-row2">
-							    	<img src="../img/imagebeauty/image 12.png">
-							    </div>
+							    <a href="/news">
+							    	<div class="image-col3-row1">
+								    	<img src="../img/imagebeauty/image 11.png">
+								    </div>
+							    </a>
+							    <a href="news">
+							    	<div class="image-col3-row2">
+								    	<img src="../img/imagebeauty/image 12.png">
+								    </div>
+							    </a>
 							    <div class="button-news" style="margin-top: 63px; text-align: center;">
 									<a href="/news"><button class="button button-more">Xem Thêm</button></a>
 								</div>
@@ -271,11 +299,12 @@
 						    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
 						    	<div class="promo-desc">
 						    		<ul class="combo-text">
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
+									  	<li>2 hộp 20 viên</li>
+									  	<li>Miễn phí giao hàng toàn quốc</li>
+									  	<li>Da trắng sáng hơn</li>
+									  	<li>Se khít lỗ chân lông</li>
+									  	<li>Đánh tan thâm nám và sạm </li>
+									  	<li>Xóa mờ các vết chân chim </li>
 									</ul>
 						    	</div>
 						    	<div class="button-group">
@@ -291,11 +320,12 @@
 						    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
 						    	<div class="promo-desc">
 						    		<ul class="combo-text">
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
+									  	<li>2 hộp 20 viên</li>
+									  	<li>Miễn phí giao hàng toàn quốc</li>
+									  	<li>Da trắng sáng hơn</li>
+									  	<li>Se khít lỗ chân lông</li>
+									  	<li>Đánh tan thâm nám và sạm </li>
+									  	<li>Xóa mờ các vết chân chim </li>
 									</ul>
 						    	</div>
 						    	<div class="button-group">
@@ -311,11 +341,12 @@
 						    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
 						    	<div class="promo-desc">
 						    		<ul class="combo-text">
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
-									  	<li>this is my text</li>
+									  	<li>2 hộp 20 viên</li>
+									  	<li>Miễn phí giao hàng toàn quốc</li>
+									  	<li>Da trắng sáng hơn</li>
+									  	<li>Se khít lỗ chân lông</li>
+									  	<li>Đánh tan thâm nám và sạm </li>
+									  	<li>Xóa mờ các vết chân chim </li>
 									</ul>
 						    	</div>
 						    	<div class="button-group">

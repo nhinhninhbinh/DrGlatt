@@ -1,4 +1,3 @@
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 <div id="product">
 	<div class="top-product" style="margin-top: 18px;">
 		<div class="container">
@@ -46,7 +45,7 @@
 	</div>
 
 	<div class="slide">
-		<?php echo $this->element("slide/slide-top")?>
+		<?php echo $this->element("slide/slide-sub-page")?>
 	</div>
 
 	<div class="video-box">
@@ -83,7 +82,7 @@
 				</div>
 				<div class="col-lg-5 col-md-5 col-5">
 					<div class="text-desc">
-						<p class="title">Làm Sạch Xứng Đáng Một Spa</p>
+						<p class="title">LUNA 3 Là Làn Da Hoàn Hảo</p>
 						<p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 					</div>
 				</div>
@@ -109,12 +108,12 @@
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
 					<div class="desc">
 						<div class="row" style="margin-bottom: 79px;">
-							<p class="title-text" style="font-size: 24px;">Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
-							<p class="desc-text" style="font-size: 18px;">Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
+							<p class="title-text" style="font-size: 24px; line-height: 28px">Sự kỳ diệu của việc làm sạch T-Sonic ™</p>
+							<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7);">Làm sạch sâu với 8.000 xung T-Sonic ™ mỗi phút giúp loại bỏ tạp chất, bã nhờn dư thừa, cặn trang điểm và da chết.</p>
 						</div>
 						<div class="row">
-							<p class="title-text" style="font-size: 24px;">Gai dài và mềm hơn</p>
-							<p class="desc-text" style="font-size: 18px;">Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
+							<p class="title-text" style="font-size: 24px; line-height: 28px">Gai dài và mềm hơn</p>
+							<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7);">Đầu của bàn chải LUNA 3 không chỉ lớn hơn LUNA 2 30%, mà các điểm tiếp xúc silicon của nó dài hơn 30% và mềm hơn 25%. Điều này có nghĩa là bạn sẽ có một sự làm sạch nhẹ nhàng tốt hơn.</p>
 						</div>
 					</div>
 				</div>
@@ -144,12 +143,12 @@
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
 					<div class="desc">
 						<div class="row" style="margin-bottom: 79px;">
-							<p class="title-text" style="font-size: 24px;">Đầu bàn chải silicone suốt đời</p>
-							<p class="desc-text" style="font-size: 18px;">Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
+							<p class="title-text" style="font-size: 24px; line-height: 28px">Đầu bàn chải silicone suốt đời</p>
+							<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7);">Không cần thay đổi phụ kiện và FOREO đảm bảo rằng LUNA 3 của bạn trong suốt thời gian sử dụng</p>
 						</div>
 						<div class="row">
-							<p class="title-text" style="font-size: 24px;">Cường độ tùy chỉnh</p>
-							<p class="desc-text" style="font-size: 18px;">Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
+							<p class="title-text" style="font-size: 24px; line-height: 28px">Cường độ tùy chỉnh</p>
+							<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7);">Với 16 mức công suất khác nhau, LUNA 3 cho phép bạn điều chỉnh cường độ theo sở thích của bạn. Cá nhân hóa trải nghiệm làm sạch của bạn dựa trên loại da của bạn.</p>
 						</div>
 					</div>
 				</div>
@@ -157,19 +156,19 @@
 			<div class="row feature">
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
 					<p class="title-text" style="font-size: 24px;">650 công dụng</p>
-					<p class="desc-text" style="font-size: 18px;">mỗi lần sạc đầy</p>
+					<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7);">mỗi lần sạc đầy</p>
 				</div>
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
 					<p class="title-text" style="font-size: 24px;">Massage làm săn chắc</p>
-					<p class="desc-text" style="font-size: 18px;">các thói quen được tích hợp trong ứng dụng</p>
+					<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7);">các thói quen được tích hợp trong ứng dụng</p>
 				</div>
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text">
 					<p class="title-text" style="font-size: 24px;">Thiết kế của Thụy Điển</p>
-					<p class="desc-text" style="font-size: 18px;">100% không thấm nước</p>
+					<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7);">100% không thấm nước</p>
 				</div>
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3 feature-text-end">
 					<p class="title-text" style="font-size: 24px;">35 lần vệ sinh hơn</p>
-					<p class="desc-text" style="font-size: 18px;">hơn lông bàn chải nylon</p>
+					<p class="desc-text" style="font-size: 18px; line-height: 21px; font-weight: 500; color: rgba(0, 0, 0, 0.7); ">hơn lông bàn chải nylon</p>
 				</div>
 			</div>
 		</div>
@@ -247,7 +246,7 @@
                     </div>
                     <div class="clear"></div>
                     <h4 class="font-weight font-size-24 price">3.000.000Vnđ</h4>
-                    <p class="description-product">Thiết bị làm sạch và mát xa mặt
+                    <p class="description-product font-size-18" style="font-weight: 500;">Thiết bị làm sạch và mát xa mặt
                         LUNA 3 là điều cần thiết mới trong quy trình chăm sóc da của bạn. Nó giúp loại bỏ tạp chất và vi trùng nhờ các xung T-Sonic ™ được cải thiện, bất kể mức năng lượng được chọn từ 16 cường độ. Thiết kế cải tiến của LUNA 3 bao gồm các chân silicon dài hơn và mềm hơn. Và nếu bạn đồng bộ hóa LUNA 3 với ứng dụng FOREO, bạn sẽ nhận được bốn kỹ thuật massage mặt sẽ mang lại cho bạn làn da sáng mịn đến lạ thường.</p>
 
                     <p class="choose-color">
@@ -268,84 +267,92 @@
     </div>
 
 	<div class="slide-review">
-		<div class="container">
-			<div id="carousel-example" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner row" role="listbox" style="width: auto;">
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-                	<div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="responsive">
-					  	<div class="review-product">
-					    	<?php echo $this->Html->image('image-1.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-					    	<div class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</div>
-					  </div>
-					</div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-                <span class="cerousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></i></span>
-                <span class="sr-only">Next</span>
-            </a>
+		<div class="top-content container">
+			<div id="carousel-example-video" class="carousel slide" data-ride="carousel">
+	            <div class="carousel-inner row" role="listbox" style="width: auto;">
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4 active">
+	                	<div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc" style="margin-top: 13.99px;"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+	                    <div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+	                    <div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 34.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+	                    <div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+	                    <div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+	                    <div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 34.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+	                    <div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+	                    <div class="responsive">
+						  	<div class="review-product">
+						    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+						    	</div>
+						  	</div>
+						</div>
+	                </div>
+	            </div>
+	            <a class="carousel-control-prev" href="#carousel-example-video" role="button" data-slide="prev">
+	                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	                <span class="sr-only">Previous</span>
+	            </a>
+	            <a class="carousel-control-next" href="#carousel-example-video" role="button" data-slide="next">
+	                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	                <span class="sr-only">Next</span>
+	            </a>
+	        </div>
         </div>
-		</div>
 	</div>
 
     <div class="clear"></div>
