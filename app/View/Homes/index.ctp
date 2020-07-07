@@ -13,7 +13,7 @@
 			</div>
 		</div>
 
-		<div class="top-home" style="margin-top: 15px;">
+		<div class="top-home" style="margin-top: 70px;">
 			<div class="rec rectangle-63">
 			 	 <div class="image-container">
 			    	<!-- <a target="" href="/product"> -->

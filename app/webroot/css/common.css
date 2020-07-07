@@ -58,6 +58,9 @@ button.btn-slide-more, button.button-more{
 .tab-product-image{
   background: #D5DBD0;
   padding: 29px 39px 31px 28px;
+  height: 389px;
+}
+.item-product-detail .tab-product-image{
   height: 449px;
 }
 .image-detail{
@@ -82,6 +85,14 @@ button.btn-slide-more, button.button-more{
 	font-size: 24px;
 	line-height: 28px;
 	color: #000000;
+}
+.nav-side-menu .title-menu {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
 }
 .nav-side-menu {
   overflow: auto;
