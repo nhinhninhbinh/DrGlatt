@@ -155,6 +155,7 @@
     .navbar-main-menu .head-nav-side-menu ul li span.arrow {
         display: block;
         float: right;
+        line-height: 34px;
     }
     .navbar-main-menu .head-nav-side-menu ul li a {
         color: #000;
@@ -162,6 +163,7 @@
     .navbar-main-menu .head-nav-side-menu ul.sub-menu {
         position: static;
         width: 100%;
+        display: block;
     }
     .navbar-main-menu .head-nav-side-menu ul.sub-menu li {
         float: none;
