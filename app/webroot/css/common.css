@@ -67,20 +67,20 @@ button.btn-slide-more, button.button-more{
 
 /*nav-menu*/
 .sub-title-menu{
-	font-family: Noticia Text;
+	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 18px;
-	line-height: 25px;
+	line-height: 21px;
 	color: #000000;
 }
 
-.title-menu {
-	font-family: Noticia Text;
+#faq .title-menu {
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
-	line-height: 33px;
+	line-height: 28px;
 	color: #000000;
 }
 .nav-side-menu {
@@ -174,7 +174,7 @@ button.btn-slide-more, button.button-more{
 .nav-side-menu li a {
   text-decoration: none;
   color: #000000;
-  font-family: "Noticia";
+  font-family: "Roboto";
 }
 .nav-side-menu li a i {
   padding-left: 10px;
@@ -235,7 +235,7 @@ body {
     margin: 0 10px;
     padding:0px 12px;
     font-size: 36px;
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .pagination-corner-beauty img {
     margin-top: -10px;

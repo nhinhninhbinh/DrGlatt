@@ -374,6 +374,11 @@ input#searchinput:focus {
 .icon-social-footer i{
     margin-right: 15px;
 }
+
+.icon-social-footer {
+   font-size: 18px;
+}
+
 .advisory-footer {
     border: 2px solid #E8A45F;
     box-sizing: border-box;
