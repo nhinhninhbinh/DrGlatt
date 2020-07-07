@@ -10,8 +10,8 @@ $(document).ready(function(){
         if(index>imageCount-1){
             index=0;
         }
-        sliderRadios[index].click();
-        console.log(sliderRadios[index].id);
+        // sliderRadios[index].click();
+        // console.log(sliderRadios[index].id);
     },delay);
 
 
@@ -63,9 +63,9 @@ $(document).ready(function(){
 
     });
 
-    $('.text-tab').on('click', function(){
-        console.log('ok');
-    });
+    // $('.text-tab').on('click', function(){
+    //     console.log('ok');
+    // });
 
     $(".buy-button").on('click', function(){
         window.location.href = "/Products/cart";

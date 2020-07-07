@@ -1,42 +1,36 @@
-
-
-      
-
-
-<div class="container main-nav">
+<div class="container navbar-main-menu">
     <div class="main-logo">
         <a href="/"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>
     </div>
-    <div class="main-menu-content">
-        <nav class="navbar navbar-expand-md navbar-light main-nav-head">
-            <a href="/"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="font-size-18 font-weight" href="/about">Về chúng tôi</a>
-                        <ul>
-                            <li><a class="font-size-18 font-weight" href="/about">Câu chuyện Dr Glatt</a></li>
-                            <li><a class="font-size-18 font-weight" href="/review">Review sản phẩm</a></li>
-                            <li><a class="font-size-18 font-weight" href="/faq">Hỏi đáp</a></li>
-                            <li><a class="font-size-18 font-weight" href="/news">Tin tức</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="font-size-18 active font-weight" href="/product">Sản phẩm</a>
-                        <ul>
-                            <li><a class="font-size-18 font-weight" href="/product">San pham 1</a></li>
-                            <li><a class="font-size-18 font-weight" href="/product">San pham 2</a></li>
-                            <li><a class="font-size-18 font-weight" href="/product">San pham 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="font-size-18 font-weight" href="/buy">Mua hàng</a></li>
-                    <li class="nav-item dropdown"><a class="font-size-18 font-weight" href="/beauty-corner">Góc làm đẹp</a></li>
-                </ul>
-            </div>
-        </nav>
+    <div class="nav-side-menu">
+        <div class="brand"><a href="/"><?= $this->Html->image('logo.svg', array('alt' => 'Dr glatt')); ?></a></div>
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content1"></i>
+        <div class="menu-list">
+            <ul id="menu-content1" class="menu-content collapse out">
+                <li  data-toggle="collapse" data-target="#products1" class="collapsed active">
+                    <a class="font-size-18 font-weight" href="#">Về chúng tôi<span class="arrow"></span></a>
+                    <ul class="sub-menu collapse" id="products1">
+                        <li class="active"><a class="font-size-18 font-weight" href="/about">Câu chuyện Dr Glatt</a></li>
+                        <li><a class="font-size-18 font-weight" href="/review">Review sản phẩm</a></li>
+                        <li><a class="font-size-18 font-weight" href="/faq">Hỏi đáp</a></li>
+                        <li><a class="font-size-18 font-weight" href="/news">Tin tức</a></li>
+                    </ul>
+                </li>
+                <li data-toggle="collapse" data-target="#main-product" class="collapsed">
+                    <a class="font-size-18 font-weight" href="#">Sản phẩm <span class="arrow"></span></a>
+                    <ul class="sub-menu collapse" id="main-product">
+                        <li><a class="font-size-18 font-weight" href="/product">San pham 1</a></li>
+                        <li><a class="font-size-18 font-weight" href="/product">San pham 2</a></li>
+                        <li><a class="font-size-18 font-weight" href="/product">San pham 3</a></li>
+                    </ul>
+                </li>
+                <li><a class="font-size-18 font-weight" href="/buy">Mua hàng</a></li>
+                <li><a class="font-size-18 font-weight" href="/beauty-corner">Góc làm đẹp</a></li>
+                <li class="login-mobile">
+                    <a class="font-size-18 font-weight" href="#">Đăng nhập</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="main-social-icon-top">
         <ul>
@@ -54,7 +48,6 @@
                     <li><a class="font-size-18 font-weight" href="#">Đăng ký</a></li>
                     <li><a class="font-size-18 font-weight" href="#"><i class="fa fa-facebook"></i>Đăng nhập bằng facebook</a></li>
                 </ul>
-
             </li>
             <li class="cart-main-top">
                 <a href="/cart"><img src="../img/icon_top/cart.png"></a>

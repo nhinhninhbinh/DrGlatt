@@ -173,30 +173,30 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img id="expandedImg" style="width:100%" src="../img/image23.png">
+                    <img id="expandedImgUse" style="width:100%; height: 644px" src="../img/image23.png">
                 </div>
                 <div class="col item-use-text">
                     <h2 class="font-weight font-size-48">Mẹo Sử Dụng</h2>
-                    <ul>
-                        <li class="text-tab">
+                    <ul id="method-use">
+                        <li class="text-tab active" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">1</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
-                            <img src="../img/image23.png" alt="Snow" style="width:100%; display: none" >
+                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li class="active" class="text-tab">
+                        <li class="text-tab" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">2</p>
-                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
-                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                            <p class="font-weight font-size-24 text-use-product">Làm ẩm da mặt, thoa sữa rửa mặt yêu thích của bạn lên LUNA 3 và nhấn nút khởi động hai lần.</p>
+                            <img src="../img/slide1.jpg" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li class="text-tab">
+                        <li class="text-tab" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">3</p>
-                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
-                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                            <p class="font-weight font-size-24 text-use-product">Trượt LUNA 3 theo chuyển động tròn trên khuôn mặt của bạn cho đến khi bộ hẹn giờ tích hợp tắt.</p>
+                            <img src="../img/image 16.png" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li class="text-tab">
+                        <li class="text-tab" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">4</p>
-                            <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
-                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                            <p class="font-weight font-size-24 text-use-product">Rửa sạch LUNA 3, lau khô mặt và tiếp tục thói quen chăm sóc da của bạn.</p>
+                            <img src="../img/image 17.png" alt="Snow" style="width:100%; display: none" >
                         </li>
                     </ul>
                 </div>
