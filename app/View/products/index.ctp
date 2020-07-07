@@ -214,27 +214,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
-                	<div class="row tab-product-image">
-						<div class="tab-container-image">
-							<img id="expandedImg1" src="/img/products/image 26.png">
-						</div>
-					</div>
-					<div class="row">
-						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
-							<div class="sub-gallery sub-gallery-2 active">
-								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
-							</div>
-							<div class="sub-gallery sub-gallery-2">
-								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
-							</div>
-							<div class="sub-gallery sub-gallery-2">
-								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
-							</div>
-							<div class="sub-gallery sub-gallery-2">
-								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
-							</div>
-						</div>
-					</div>
+                	<?php echo $this->element("products/color")?>
                 </div>
                 <div class="col content-item-product">
                     <h2 class="font-weight font-size-48">Lune 3</h2>
@@ -250,12 +230,11 @@
                     <p class="description-product">Thiết bị làm sạch và mát xa mặt
                         LUNA 3 là điều cần thiết mới trong quy trình chăm sóc da của bạn. Nó giúp loại bỏ tạp chất và vi trùng nhờ các xung T-Sonic ™ được cải thiện, bất kể mức năng lượng được chọn từ 16 cường độ. Thiết kế cải tiến của LUNA 3 bao gồm các chân silicon dài hơn và mềm hơn. Và nếu bạn đồng bộ hóa LUNA 3 với ứng dụng FOREO, bạn sẽ nhận được bốn kỹ thuật massage mặt sẽ mang lại cho bạn làn da sáng mịn đến lạ thường.</p>
 
-                    <p class="choose-color">
+                    <p class="choose-color" id="choose-color-item">
                         <span class="text-color font-weight font-size-18">Chọn màu:</span>
-
-                        <i class="fa fa-circle active" aria-hidden="true" style="color: #92C4E2"></i>
-                        <i class="fa fa-circle" aria-hidden="true" style="color: #FF64B0"></i>
-                        <i class="fa fa-circle" aria-hidden="true" style="color: #9828BF"></i>
+                        <i class="fa fa-circle active" aria-hidden="true" style="color: #92C4E2" onclick="clickItemColor(this)"></i>
+                        <i class="fa fa-circle" aria-hidden="true" style="color: #FF64B0" onclick="clickItemColor(this)"></i>
+                        <i class="fa fa-circle" aria-hidden="true" style="color: #9828BF" onclick="clickItemColor(this)"></i>
                     </p>
                     <hr class="line-item-product"/>
                     <div class="button-group">

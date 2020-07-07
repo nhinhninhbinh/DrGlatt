@@ -55,3 +55,36 @@ function clickItemUse(tags) {
     expandedImgUse.src = $(tags).children('img').attr('src');
     expandedImgUse.parentElement.style.display = "block";
 }
+function clickItemColor(tag) {
+    var header = document.getElementById('choose-color-item');
+    var getClassActive = header.getElementsByClassName('active');
+    getClassActive[0].className = getClassActive[0].className.replace("active","");
+    $(tag).addClass('active');
+
+    var color = '';
+   
+    var x = $(tag).css('color');
+    color = hexc(x);
+    if (color === '#92c4e2') {
+        // xanh
+         // $(".image-detail").html('products/color');
+    }
+    if (color === '#ff64b0') {
+        // hong
+    }
+    if (color === '#9828bf') {
+        // tim
+    }
+    
+}
+
+function hexc(colorval) {
+  var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+  delete(parts[0]);
+  for (var i = 1; i <= 3; ++i) {
+    parts[i] = parseInt(parts[i]).toString(16);
+    if (parts[i].length == 1) parts[i] = '0' + parts[i];
+  }
+  color = '#' + parts.join('');
+  return color;
+}
