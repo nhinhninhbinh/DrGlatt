@@ -39,6 +39,7 @@ Router::connect('/detailOrder', array('controller' => 'Products', 'action' => 'd
 Router::connect('/review', array('controller' => 'Homes', 'action' => 'review'));
 Router::connect('/faq', array('controller' => 'Homes', 'action' => 'faq'));
 Router::connect('/news', array('controller' => 'Homes', 'action' => 'news'));
+Router::connect('/detail', array('controller' => 'Products', 'action' => 'detail'));
 
 
 /**

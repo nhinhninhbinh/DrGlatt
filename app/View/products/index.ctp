@@ -4,35 +4,41 @@
 		<div class="container">
 			<div class="product-list row">
 				<div class="col-lg-4 col-md-4 col-12 new-product">
-					<div class="container-image">
-						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
-						<div class="product-text">
-							<p>LUNA 3</p>
-							<hr>
-							<p>DECOUVRIR</p>
+					<a href="/Products/detail">
+						<div class="container-image detail">
+							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+							<div class="product-text">
+								<p>LUNA 3</p>
+								<hr>
+								<p>DECOUVRIR</p>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-12 new-product">
-					<div class="container-image">
-						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
-						<div class="product-text">
-							<p>LUNA 3</p>
-							<hr>
-							<p>DECOUVRIR</p>
+					<a href="/Products/detail">
+						<div class="container-image detail">
+							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+							<div class="product-text">
+								<p>LUNA 3</p>
+								<hr>
+								<p>DECOUVRIR</p>
+							</div>
 						</div>
-					</div>
+					</a>
 					
 				</div>
 				<div class="col-lg-4 col-md-4 col-12 new-product">
-					<div class="container-image">
-						<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
-						<div class="product-text">
-							<p>LUNA 3</p>
-							<hr>
-							<p>DECOUVRIR</p>
+					<a href="/Products/detail">
+						<div class="container-image detail">
+							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+							<div class="product-text">
+								<p>LUNA 3</p>
+								<hr>
+								<p>DECOUVRIR</p>
+							</div>
 						</div>
-					</div>
+					</a>
 					
 				</div>
 			</div>
@@ -99,7 +105,7 @@
 			<div class="title">
 				<p style="font-size: 48px;">Một Bước Tiến Trong Beauty Tech</p>
 			</div>
-			<div class="row content-detail" style="max-height: 574px; padding-left: 43px; padding-right: 43px;flex-wrap: nowrap; overflow: hidden;">
+			<div class="row content-detail" style="padding-left: 43px; padding-right: 43px;flex-wrap: nowrap; overflow: hidden;">
 				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
 					<div class="desc">
 						<div class="row" style="margin-bottom: 79px;">
@@ -253,7 +259,7 @@
                     </p>
                     <hr class="line-item-product"/>
                     <div class="button-group">
-			    		<button class="button cart-button"><?php echo $this->Html->image('icon/cart.png', array('class' => 'cart-icon')); ?></button>
+			    		<button class="button cart-button"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #EB5757; border-radius: 4px;"></i></button>
 			    		<button class="button buy-button active">Mua Ngay</button>
 			    	</div>
                 </div>

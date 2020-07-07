@@ -1,12 +1,12 @@
 $(document).ready(function(){
     if ($(window).width() > 767) {
         //remove even click li tag
-        $('.navbar-main-menu .nav-side-menu ul li').on('click', function (e) {
+        $('.navbar-main-menu .head-nav-side-menu ul li').on('click', function (e) {
             e.stopPropagation();
         });
     } else {
-        $('.navbar-main-menu .nav-side-menu ul li').unbind('mouseenter');
-        $('.navbar-main-menu .nav-side-menu ul li').unbind('mouseleave');
+        $('.navbar-main-menu .head-nav-side-menu ul li').unbind('mouseenter');
+        $('.navbar-main-menu .head-nav-side-menu ul li').unbind('mouseleave');
     }
 
     // search icon top
