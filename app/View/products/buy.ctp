@@ -359,10 +359,10 @@
                                 <a href="#signUp" data-toggle="tab" style="padding-left: 113px;">Đăng ký</a>
                             </li>
                         </ul>
-                      
-                          
+
+
                         <div class="tab-content">
-                            <div id="login" class="tab-pane fade in active">
+                            <div id="login" class="tab-pane active">
                                 <div class="login-form">
                                           <form style="padding-left: 11px;">
                                             <table style="width: 100%;">
@@ -396,19 +396,19 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="font-size-24" >SĐT</td> 
+                                                    <td class="font-size-24" >SĐT</td>
                                                     <td style="padding-top: 17px;">
                                                         <input type="password" name="pwd" class="form-enter" placeholder="Nhập số điện thoại">
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="font-size-24" >Email</td> 
+                                                    <td class="font-size-24" >Email</td>
                                                     <td style="padding-top: 17px;">
                                                         <input type="password" name="pwd" class="form-enter" placeholder="Nhập email">
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="font-size-24" >Mật khẩu</td> 
+                                                    <td class="font-size-24" >Mật khẩu</td>
                                                     <td style="padding-top: 17px;">
                                                         <input type="password" name="pwd" class="form-enter" placeholder="Mật khẩu từ 6 đến 12 ký tự">
                                                     </td>
@@ -447,11 +447,12 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="font-size-24""></td> 
+                                                    <td class="font-size-24""></td>
                                                     <td style="padding-top: 46px;">
                                                         <input class="signUp" type="submit" value="Đăng ký">
                                                     </td>
                                                 </tr>
+
                                             </table>
                                       </form>
                                 </div>
@@ -464,6 +465,134 @@
     </div>
 </div>
 
+<script type="text/javascript">
+// http://jsfiddle.net/hirani89/bq9uog1q/
+function getDaysInMonth(month, year, daySelector) {
+    var date = new Date(year, month - 1, 1); //get first date in month ,1
+    var days = [];
+    while (date.getMonth() == month - 1) {
+        days[date.getDate()] = (date.getDate());
+        date.setDate(date.getDate() + 1);
+    }
+    daySelector.find('option').remove();
+    daySelector.append($("<option></option>").attr("value", '').text("Ngày"));
+    for (var key in days) {
+        daySelector.append($("<option></option>").attr("value", key).text(days[key]));
+    }
+}
+
+for (var i = 1; i < 13; i++) {
+    $('#month')
+        .append($("<option></option>")
+        .attr("value", i)
+        .text(i));
+}
+
+var d = new Date();
+var year = d.getFullYear();
+
+$('body').on('DOMSubtreeModified', '#loginUser tr td div.same-as-selected', function(){
+  // console.log($(this).text());
+  // getDaysInMonth($(this).text(), year, $('#loginUser tr td div.select-selected'));
+  getDaysInMonth($(this).text(), year, $('#day'));
+});
+
+
+// $('#month').change(function () {
+//   alert('aaa');
+//     var monthYear = $('#month').val();
+//     getDaysInMonth(monthYear, year, $('#day'));
+// });
+
+
+for (var i = 1970; i <= year; i++) {
+    $('#yeaer')
+        .append($("<option></option>")
+        .attr("value", i)
+        .text(i));
+}
+</script>
+
+<script>
+var x, i, j, l, ll, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+</script>
 
 
 <!-- modal forget pass -->

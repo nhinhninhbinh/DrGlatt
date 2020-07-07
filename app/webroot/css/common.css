@@ -98,7 +98,7 @@
   margin: 0px;
   line-height: 35px;
   cursor: pointer;
-  /*    
+  /*
     .collapsed{
        .arrow:before{
                  font-family: FontAwesome;
@@ -253,18 +253,18 @@ body {
 .pagination-corner-beauty img {
     margin-top: -10px;
 }
-.pagination-corner-beauty a.active {
+.pagination-corner-beauty a:hover, .pagination-corner-beauty a.active {
     background-color: #E8A45F;
+    color: #000;
   }
 
 .carousel-control-next-icon:after{
     font-family: FontAwesome;
- 
 
-
-     content: "\f054";
-      font-size: 24px;
-  }
+		color: #000;
+		content: "\f054";
+    font-size: 24px;
+}
   .carousel-control-prev-icon:after{
     font-family: FontAwesome;
       content: "\f053";
@@ -272,7 +272,7 @@ body {
   }
   .carousel-control-next-icon, .carousel-control-prev-icon{
     background: none;
-    
+
   }
   @media(min-width: 1440px){
     .carousel-control-next-icon{
@@ -299,3 +299,4 @@ body {
     .carousel-control-prev-icon{
       transform: translate(-40px, -65px);
     }
+	}
