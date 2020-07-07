@@ -88,7 +88,7 @@
     /*}*/
 /*}*/
 
-@media (min-width: 1023.99px) {
+@media (min-width: 1024px) {
     .head-nav-side-menu .toggle-btn{
         display: none;
     }
@@ -97,10 +97,27 @@
         margin:0px;
         padding-left: 0px;
     }
+}
+
+@media (min-width: 1023px) and (max-width: 1024px) {
+    /*.head-nav-side-menu .toggle-btn{
+        display: none;
+    }
+    .head-nav-side-menu .menu-list .collapse {
+        display: block;
+        margin:0px;
+        padding-left: 0px;
+    }*/
+    .navbar-main-menu .head-nav-side-menu {
+        margin-left: 20px;
+    }
+    .navbar-main-menu .head-nav-side-menu ul li {
+        padding: 0px 5px;
+    }
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .navbar-main-menu .head-nav-side-menu {
         line-height: 89px;
         margin-left: 0px;
@@ -135,10 +152,12 @@
     .navbar-main-menu .head-nav-side-menu ul {
         padding-left:0px;
     }
-
     .navbar-main-menu .head-nav-side-menu ul li span.arrow {
         display: block;
         float: right;
+    }
+    .navbar-main-menu .head-nav-side-menu ul li a {
+        color: #000;
     }
     .navbar-main-menu .head-nav-side-menu ul.sub-menu {
         position: static;
@@ -147,6 +166,9 @@
     .navbar-main-menu .head-nav-side-menu ul.sub-menu li {
         float: none;
         box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .navbar-main-menu .head-nav-side-menu ul.sub-menu li a {
+        padding-left: 5px;
     }
     .navbar-main-menu .head-nav-side-menu ul.sub-menu li:last-child {
         /*margin-bottom: 0px;*/
@@ -171,18 +193,16 @@
     .navbar-main-menu .head-nav-side-menu ul li:last-child {
         border-bottom: none;
     }
-
     .navbar-main-menu .head-nav-side-menu ul li a {
         line-height: normal;
     }
-    /*.main-social-icon-top {*/
-        /*display: none;*/
-    /*}*/
-
-    /*.navbar-main-menu .head-nav-side-menu .menu-list .menu-content {*/
-        /*display: block;*/
-    /*}*/
-
+    .container.navbar-main-menu {
+        position: relative !important; 
+    }
+    .main-social-icon-top {
+        position: absolute;
+        right: 0px;
+    }
 }
 
 @media (max-width: 768px){
