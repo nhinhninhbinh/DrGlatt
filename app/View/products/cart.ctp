@@ -3,6 +3,7 @@
         <?php echo $this->element("slide/slide-sub-page")?>
     </div>
     <div class="container">
+      <div class="table-responsive list-product-choose">
         <table class="table table-bordered">
             <thead class="thead-orange">
                 <tr>
@@ -67,6 +68,7 @@
             <a href="/infoCustomOrder"><button class="font-size-24 font-weight">Tiến hành đặt hàng</button></a>
         </div>
     </div>
+  </div>
 </div>
 <div class="clear"></div>
 <?= $this->Html->script('cart'); 

@@ -289,27 +289,27 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img id="expandedImg" style="width:100%" src="../img/image23.png">
+                    <img id="expandedImgUse" style="width:100%" src="../img/image23.png">
                 </div>
-                <div class="col item-use-text">
+                <div class="col item-use-text" id="method-use">
                     <h2 class="font-weight font-size-48">Mẹo Sử Dụng</h2>
                     <ul>
-                        <li class="text-tab">
+                        <li class="text-tab" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">1</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
                             <img src="../img/image23.png" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li class="active" class="text-tab">
+                        <li class="active" class="text-tab" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">2</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
                             <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li class="text-tab">
+                        <li class="text-tab" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">3</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
-                            <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
+                            <img src="../img/slide1.jpg" alt="Snow" style="width:100%; display: none" >
                         </li>
-                        <li class="text-tab">
+                        <li class="text-tab" onclick="clickItemUse(this)">
                             <p href="javascript:void(0);" class="font-weight font-size-48 number-use">4</p>
                             <p class="font-weight font-size-24 text-use-product">Kết nối LUNA 3 của bạn với ứng dụng FOREO qua Bluetooth (để mở khóa LUNA 3 trước khi sử dụng lần đầu tiên).</p>
                             <img src="../img/slide2.jpg" alt="Snow" style="width:100%; display: none" >
@@ -323,29 +323,78 @@
 	<div class="item-product-detail">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail">
-                	<div class="row tab-product-image">
-						<div class="tab-container-image">
-							<img id="expandedImg1" src="/img/products/image 26.png">
-						</div>
-					</div>
-					<div class="row">
-						<div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
-							<div class="sub-gallery sub-gallery-2 active">
-								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
-							</div>
-							<div class="sub-gallery sub-gallery-2">
-								<img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
-							</div>
-							<div class="sub-gallery sub-gallery-2">
-								<img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
-							</div>
-							<div class="sub-gallery sub-gallery-2">
-								<img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
-							</div>
-						</div>
-					</div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail image-detail-item" id="92C4E2">
+                    <div class="row tab-product-image">
+                        <div class="tab-container-image">
+                            <img id="expandedImg1" src="/img/products/image 26.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
+                            <div class="sub-gallery sub-gallery-2 active">
+                                <img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail image-detail-item" id="FF64B0" style="display: none;">
+                    <div class="row tab-product-image">
+                        <div class="tab-container-image">
+                            <img id="expandedImg1" src="/img/products/image 21.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
+                            <div class="sub-gallery sub-gallery-2 active">
+                                <img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 image-detail image-detail-item" id="9828BF" style="display: none;">
+                    <div class="row tab-product-image">
+                        <div class="tab-container-image">
+                            <img id="expandedImg1" src="/img/products/image 27.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="emulated-flex-gap tab-gallery" id="tab-gallery-2">
+                            <div class="sub-gallery sub-gallery-2 active">
+                                <img src="/img/products/image 27.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 26.png" alt="" class="sub-gallery-img">
+                            </div>
+                            <div class="sub-gallery sub-gallery-2">
+                                <img src="/img/products/image 28.png" alt="" class="sub-gallery-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col content-item-product">
                     <h2 class="font-weight font-size-48">Lune 3</h2>
                     <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
@@ -360,13 +409,14 @@
                     <p class="description-product font-size-18" style="font-weight: 500;">Thiết bị làm sạch và mát xa mặt
                         LUNA 3 là điều cần thiết mới trong quy trình chăm sóc da của bạn. Nó giúp loại bỏ tạp chất và vi trùng nhờ các xung T-Sonic ™ được cải thiện, bất kể mức năng lượng được chọn từ 16 cường độ. Thiết kế cải tiến của LUNA 3 bao gồm các chân silicon dài hơn và mềm hơn. Và nếu bạn đồng bộ hóa LUNA 3 với ứng dụng FOREO, bạn sẽ nhận được bốn kỹ thuật massage mặt sẽ mang lại cho bạn làn da sáng mịn đến lạ thường.</p>
 
-                    <p class="choose-color">
+                    <div class="choose-color" id="choose-color-item">
                         <span class="text-color font-weight font-size-18">Chọn màu:</span>
-
-                        <i class="fa fa-circle active" aria-hidden="true" style="color: #92C4E2"></i>
-                        <i class="fa fa-circle" aria-hidden="true" style="color: #FF64B0"></i>
-                        <i class="fa fa-circle" aria-hidden="true" style="color: #9828BF"></i>
-                    </p>
+                        <ul>
+                            <li><div class="active" style="background-color: #92C4E2;" onclick="clickItemColor(this)"></div></li>
+                            <li><div style="background-color: #FF64B0;" onclick="clickItemColor(this)"></div></li>
+                            <li><div style="background-color: #9828BF;" onclick="clickItemColor(this)"></div></li>
+                        </ul>
+                    </div>
                     <hr class="line-item-product"/>
                     <div class="button-group">
 			    		<button class="button cart-button"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #EB5757; border-radius: 4px;"></i></button>
