@@ -277,6 +277,29 @@ h2, h3, h4, p {
 .main-social-icon-top .search-main-top, .main-social-icon-top .phone-number-main-top, .cart-main-top, .contact-main-top {
     position: relative;
 }
+
+/*icon active and no-active*/
+.main-social-icon-top .phone-number-main-top img.active,
+.main-social-icon-top .contact-main-top img.active,
+.main-social-icon-top .search-main-top img.active {
+    display: none;
+}
+.main-social-icon-top .phone-number-main-top:hover img.no-active,
+.main-social-icon-top .contact-main-top:hover img.no-active,
+.main-social-icon-top .search-main-top:hover img.no-active{
+    display: none;
+}
+.main-social-icon-top .phone-number-main-top:hover img.active,
+.main-social-icon-top .contact-main-top:hover img.active,
+.main-social-icon-top .search-main-top:hover img.active {
+    display: block;
+}
+/* end icon active and no-active*/
+.main-social-icon-top .contact-main-top:hover ul {
+    display: block;
+}
+
+
 .main-social-icon-top .txt-search-top {
     z-index: 9;
     position: absolute;

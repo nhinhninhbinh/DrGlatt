@@ -35,16 +35,21 @@
     <div class="main-social-icon-top">
         <ul>
             <li class="search-main-top">
-                <a href="javascript:void(0);" onclick="return searchTop();" class="search-top"><img src="../img/icon_top/search.png"></a>
+                <a href="javascript:void(0);" onclick="return searchTop();" class="search-top">
+                    <img class="no-active" src="../img/icon_top/search.png">
+                    <img class="active" src="../img/icon_top/search-active.png">
+                </a>
                 <div class="txt-search-top">
                     <img class="icon-search-top" src="../img/icon_top/search-top.png">
                     <input type="text" class="" id="searchinput"/>
                     <img id="searchclear" class="icon-clear-search" src="../img/icon_top/X.png">
-<!--                    <span id="searchclear" class="glyphicon glyphicon-remove-circle"><i class="fa fa-times" aria-hidden="true"></i></span>-->
                 </div>
             </li>
             <li class="contact-main-top">
-                <a href="javascript:void(0);"><img src="../img/icon_top/username.png"></a>
+                <a href="javascript:void(0);">
+                    <img class="no-active" src="../img/icon_top/username.png">
+                    <img class="active" src="../img/icon_top/username-active.png">
+                </a>
                 <ul>
                     <li><a class="font-size-18 font-weight" href="#">Đăng nhập</a></li>
                     <li><a class="font-size-18 font-weight" href="#">Đăng ký</a></li>
@@ -57,7 +62,8 @@
             </li>
             <li class="phone-number-main-top" style="margin-left: 0px;">
                 <a href="javascript:void(0);" class="phone-number-top">
-                    <img src="../img/icon_top/phone.svg">
+                    <img class="no-active" src="../img/icon_top/phone.svg">
+                    <img class="active" src="../img/icon_top/phone-active.svg">
                 </a>
                 <span class="font-size-18 font-weight">0915229082</span>
             </li>
