@@ -1,45 +1,156 @@
 <div id="product">
 	<div class="top-product" style="margin-top: 18px;">
 		<div class="container">
-			<div class="product-list row">
-				<div class="col-lg-4 col-md-4 col-12 new-product">
-					<a href="/Products/detail">
-						<div class="container-image detail">
-							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
-							<div class="product-text">
-								<p>LUNA 3</p>
-								<hr>
-								<p>DECOUVRIR</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12 new-product">
-					<a href="/Products/detail">
-						<div class="container-image detail">
-							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
-							<div class="product-text">
-								<p>LUNA 3</p>
-								<hr>
-								<p>DECOUVRIR</p>
-							</div>
-						</div>
-					</a>
-					
-				</div>
-				<div class="col-lg-4 col-md-4 col-12 new-product">
-					<a href="/Products/detail">
-						<div class="container-image detail">
-							<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
-							<div class="product-text">
-								<p>LUNA 3</p>
-								<hr>
-								<p>DECOUVRIR</p>
-							</div>
-						</div>
-					</a>
-					
-				</div>
+			<div class="review-list">
+				<div class="top-content">
+				    <!-- <div class="container-fluid"> -->
+			        <div id="carousel-example-top-pro" class="carousel slide" data-ride="carousel" style="margin-bottom: 55.18px">
+			            <div class="carousel-inner row" role="listbox" style="width: auto;">
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4 active">
+			                	<div class="responsive new-product">
+								  	<div class="review-product">
+								    	<a href="/Products/detail">
+										<div class="container-image detail">
+											<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+											<div class="product-text">
+												<p>LUNA 3</p>
+												<hr>
+												<p>DECOUVRIR</p>
+											</div>
+										</div>
+									</a>
+								 	 </div>
+								</div>
+			                </div>
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+			                    <div class="responsive">
+								  	<div class="review-product new-product">
+								    	<a href="/Products/detail">
+										<div class="container-image detail">
+											<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+											<div class="product-text">
+												<p>LUNA 3</p>
+												<hr>
+												<p>DECOUVRIR</p>
+											</div>
+										</div>
+									</a>
+								  </div>
+								</div>
+			                </div>
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+			                    <div class="responsive">
+								  	<div class="review-product new-product">
+								    	<a href="/Products/detail">
+											<div class="container-image detail">
+												<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+												<div class="product-text">
+													<p>LUNA 3</p>
+													<hr>
+													<p>DECOUVRIR</p>
+												</div>
+											</div>
+										</a>
+
+								  </div>
+								</div>
+			                </div>
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+			                    <div class="responsive">
+								  	<div class="review-product new-product">
+								    	<a href="/Products/detail">
+											<div class="container-image detail">
+												<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+												<div class="product-text">
+													<p>LUNA 3</p>
+													<hr>
+													<p>DECOUVRIR</p>
+												</div>
+											</div>
+										</a>
+
+								  </div>
+								</div>
+			                </div>
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+			                    <div class="responsive">
+								  	<div class="review-product new-product">
+								    	<a href="/Products/detail">
+											<div class="container-image detail">
+												<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+												<div class="product-text">
+													<p>LUNA 3</p>
+													<hr>
+													<p>DECOUVRIR</p>
+												</div>
+											</div>
+										</a>
+
+								  </div>
+								</div>
+			                </div>
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+			                    <div class="responsive">
+								  	<div class="review-product new-product">
+								    	<a href="/Products/detail">
+											<div class="container-image detail">
+												<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+												<div class="product-text">
+													<p>LUNA 3</p>
+													<hr>
+													<p>DECOUVRIR</p>
+												</div>
+											</div>
+										</a>
+
+								  </div>
+								</div>
+			                </div>
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+			                    <div class="responsive">
+								  	<div class="review-product new-product">
+								    	<a href="/Products/detail">
+											<div class="container-image detail">
+												<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+												<div class="product-text">
+													<p>LUNA 3</p>
+													<hr>
+													<p>DECOUVRIR</p>
+												</div>
+											</div>
+										</a>
+
+								  </div>
+								</div>
+			                </div>
+			                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+			                    <div class="responsive">
+								  	<div class="review-product new-product">
+								    	<a href="/Products/detail">
+											<div class="container-image detail">
+												<?php echo $this->Html->image('products/image 26.png', array('class' => '')); ?>
+												<div class="product-text">
+													<p>LUNA 3</p>
+													<hr>
+													<p>DECOUVRIR</p>
+												</div>
+											</div>
+										</a>
+
+								  </div>
+								</div>
+			                </div>
+			            </div>
+			            <a class="carousel-control-prev" href="#carousel-example-top-pro" role="button" data-slide="prev">
+			                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			                <span class="sr-only">Previous</span>
+			            </a>
+			            <a class="carousel-control-next" href="#carousel-example-top-pro" role="button" data-slide="next">
+			                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			                <span class="sr-only">Next</span>
+			            </a>
+			        </div>
+			    <!-- </div> -->
 			</div>
 		</div>
 	</div>
@@ -266,94 +377,107 @@
         </div>
     </div>
 
-	<div class="slide-review">
-		<div class="top-content container">
-			<div id="carousel-example-video" class="carousel slide" data-ride="carousel">
-	            <div class="carousel-inner row" role="listbox" style="width: auto;">
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4 active">
-	                	<div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc" style="margin-top: 13.99px;"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
-	                    <div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
-	                    <div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 34.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
-	                    <div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
-	                    <div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
-	                    <div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 34.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
-	                    <div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
-	                    <div class="responsive">
-						  	<div class="review-product">
-						    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
-						    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-24" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
-						    	</div>
-						  	</div>
-						</div>
-	                </div>
-	            </div>
-	            <a class="carousel-control-prev" href="#carousel-example-video" role="button" data-slide="prev">
-	                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	                <span class="sr-only">Previous</span>
-	            </a>
-	            <a class="carousel-control-next" href="#carousel-example-video" role="button" data-slide="next">
-	                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	                <span class="sr-only">Next</span>
-	            </a>
-	        </div>
-        </div>
-	</div>
+	<!-- review -->
+		<div class="review-content">
+			<div class="container">
+				<div class="review-list">
+					<div class="top-content">
+					    <!-- <div class="container-fluid"> -->
+					        <div id="carousel-example" class="carousel slide" data-ride="carousel" style="margin-bottom: 55.18px">
+					            <div class="carousel-inner row" role="listbox" style="width: auto;">
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4 active">
+					                	<div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+										 	 </div>
+										</div>
+					                </div>
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+					                    <div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+										  </div>
+										</div>
+					                </div>
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+					                    <div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 34.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+
+										  </div>
+										</div>
+					                </div>
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+					                    <div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+
+										  </div>
+										</div>
+					                </div>
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+					                    <div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+
+										  </div>
+										</div>
+					                </div>
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+					                    <div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 34.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+
+										  </div>
+										</div>
+					                </div>
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+					                    <div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 32.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+
+										  </div>
+										</div>
+					                </div>
+					                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-4">
+					                    <div class="responsive">
+										  	<div class="review-product">
+										    	<?php echo $this->Html->image('/img/imagebeauty/image 33.png', array('class' => 'img-fluid mx-auto d-block')); ?>
+										    	<div class="desc"><span class="font-size-26", style="font-weight: bold;">Erika :</span><span class="font-size-18" style="line-height: 28px;"> "Tôi có thể thành thật nói rằng tôi rất ấn tượng. Khuôn mặt của tôi cảm thấy rất mềm mại. Nó cảm thấy được làm sạch hoàn toàn mà không bị tước đi và nó cảm thấy tổng thể trẻ trung và khỏe mạnh."</span>
+										    	</div>
+
+										  </div>
+										</div>
+					                </div>
+					            </div>
+					            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+					                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					                <span class="sr-only">Previous</span>
+					            </a>
+					            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+					                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					                <span class="sr-only">Next</span>
+					            </a>
+					        </div>
+					    <!-- </div> -->
+					</div>
+				</div>
+			</div>
+		</div>
 
     <div class="clear"></div>
 
