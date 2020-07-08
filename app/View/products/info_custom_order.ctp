@@ -1,4 +1,7 @@
 <div class="info-custom-order">
+    <div class="slide">
+        <?php echo $this->element("slide/slide-sub-page")?>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col col-md-7">

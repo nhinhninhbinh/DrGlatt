@@ -17,6 +17,11 @@ $(document).ready(function(){
         $('.txt-search-top').css('display', 'none');
         // $("#searchinput").val('');
     });
+    $('#searchinput').on('focus', function() {
+        // console.log('aaa');
+        $('.main-social-icon-top .txt-search-top img.icon-search-top').css('display', 'none');
+    })
+
 
     //phone number top
     $('.phone-number-top').mouseover(function() {
@@ -40,7 +45,6 @@ $(document).ready(function(){
     $('textarea').focus(function(){
         $(this).removeAttr('placeholder');
     });
-
 });
 function searchTop() {
   $('.txt-search-top').css('display', 'block');
@@ -52,6 +56,7 @@ function clickItemUse(tags) {
     getClassActive[0].className = getClassActive[0].className.replace("active","");
     $(tags).addClass('active');
     var expandedImgUse = document.getElementById("expandedImgUse");
+    console.log($(tags).children('img').attr('src'));
     expandedImgUse.src = $(tags).children('img').attr('src');
     expandedImgUse.parentElement.style.display = "block";
 }
@@ -62,20 +67,16 @@ function clickItemColor(tag) {
     $(tag).addClass('active');
 
     var color = '';
-   
-    var x = $(tag).css('color');
+    var x = $(tag).css('background-color');
     color = hexc(x);
-    if (color === '#92c4e2') {
-        // xanh
-         // $(".image-detail").html('products/color');
+
+    var getTagClass = document.getElementsByClassName('image-detail-item');
+    var length = getTagClass.length;
+    for(var i = 0; i < length; i++) {
+        getTagClass[i].style.display = "none";
     }
-    if (color === '#ff64b0') {
-        // hong
-    }
-    if (color === '#9828bf') {
-        // tim
-    }
-    
+    var getTagId = document.getElementById(color.toUpperCase());
+    getTagId.style.display = "block";
 }
 
 function hexc(colorval) {
@@ -85,6 +86,6 @@ function hexc(colorval) {
     parts[i] = parseInt(parts[i]).toString(16);
     if (parts[i].length == 1) parts[i] = '0' + parts[i];
   }
-  color = '#' + parts.join('');
+    color = parts.join('');
   return color;
 }

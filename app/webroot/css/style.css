@@ -1,9 +1,6 @@
-@font-face {
-font-family: 'Noticia';
-src: url('/fonts/NoticiaText-Bold.ttf') format('truetype'),
-     url('/fonts/NoticiaText-BoldItalic.ttf') format('truetype'),
-     url('/fonts/NoticiaText-Italic.ttf') format('truetype'),
-     url('/fonts/NoticiaText-Regular.ttf')  format('truetype')
+body, body * {
+    font-family: 'Roboto';
+    font-style: normal;
 }
 #main-menu-navbar{
   background: #135454;
@@ -23,7 +20,7 @@ src: url('/fonts/NoticiaText-Bold.ttf') format('truetype'),
 	flex-grow:0;
 	font-weight: bold;
 	font-size: 48px;
-	font-family: "Noticia";
+	font-family: "Roboto";
 }
 
 #home .rectangle-64 .image-container {
@@ -65,7 +62,7 @@ div.image-container img {
 	font-size: 24px;
 	line-height: 33px;
 	font-weight: bold;
-	font-family: "Noticia";
+	font-family: "Roboto";
 	font-style: normal;
 	color: rgba(0, 0, 0, 0.7);
 }
@@ -86,6 +83,10 @@ div.image-container img {
   width: 570px;
   height: 268px;
 }
+#home .product-list .product-img:hover{
+  opacity: 0.3;
+}
+
 
 #home .review-list{
   margin-top: 16px;
@@ -98,7 +99,7 @@ div.image-container img {
 }
 
 #home .review-content{
-  margin-top: 37px;
+  margin-top: 90px;
   background-image: linear-gradient(180deg, rgba(192, 205, 191, 0.66) 0%, rgba(192, 205, 191, 0) 96.18%);
   height: 732px;
   /*border: 1px solid black;*/
@@ -108,18 +109,18 @@ div.image-container img {
   font-size: 48px;
   font-weight: bold;
   font-style: normal;
-  font-family: "Noticia";
+  font-family: "Roboto";
   padding-top: 26px;
-  margin-bottom: -1rem;
+  margin-bottom: 10px;
 }
 
 #home .review-content .review-sub-title{
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
-  font-family: "Noticia";
+  font-family: "Roboto";
   width: 660.69px;
-  
+  padding-bottom: 16px;
 }
 
 * {
@@ -132,10 +133,11 @@ div.image-container img {
   position: relative;
 }
 
-div.review-product {
+#carousel-example div.review-product {
   background: #F2E2E2;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
+
 
 /*div.review-product:hover {
   border: 1px solid #777;
@@ -149,7 +151,7 @@ div.review-product img {
 #home .review-content .desc {
   padding: 15px;
   text-align: left;
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
@@ -193,7 +195,7 @@ div.review-product img {
   margin-right: 5px;
 }
 #home .promo-combo li {
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
@@ -209,7 +211,7 @@ div.review-product img {
 #home .promo-desc {
   padding: 15px;
   text-align: left;
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
@@ -221,6 +223,11 @@ button.cart-button{
   border-radius: 22px;
   color: #EB5757;
   background: #C0CDBF;
+  margin-right: 12px;
+}
+
+button.cart-button, button.buy-button{
+  cursor: pointer;
 }
 
 button.cart-button:hover{
@@ -232,7 +239,7 @@ button.buy-button{
   border: none;
   border-radius: 22px;
   background: #C0CDBF;
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   color: #EB5757;
@@ -364,19 +371,25 @@ button.buy-button:hover{
 }
 
 #home .text-title{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 66px;
+  margin-top: 27px;
+  margin-left: 6px;
+}
+
+#home .news .text-title{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  width: 164px;
 }
 
 #home .beauty-corner-text .content{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 33px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 #home .button-beauty-corner{
@@ -384,11 +397,18 @@ button.buy-button:hover{
   margin-top: 41px;
 }
 
-#home .beauty-corner-text .text{
-    width: 80%;
+@media (min-width: 768px){
+  #home .button-beauty-corner{
+    margin-top: -11px;
+    padding: 40px;
+  }
+}
+
+#home .beauty-corner-text .content{
+    width: 100%;
     max-height: 293px;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     overflow: hidden;
 }
 
@@ -425,23 +445,21 @@ button.buy-button:hover{
 #home .news .container-img-1{
     height: 703px;
     width: 100%;
-    margin-top: 221px;
+    margin-top: 314px;
+    cursor: pointer;
 }
 
-/*#home .news .container-img-1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 11px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}*/
+#home .news .container-img-1:hover, .image-col2-row1:hover, .image-col2-row2:hover,
+.image-col3-row1:hover, .image-col3-row2:hover{
+    opacity: 0.3;
+    transform: scale(1.05);
+}
+
 
 #home .image-col2-row1{
   height: 240px;
   width: 100%;
-  margin-top: 33px;
+  margin-top: 126px;
 }
 #home .news-content img{
   width: 100%;
@@ -470,38 +488,11 @@ button.buy-button:hover{
   width: 100%;
   margin-top: 16px;
 }
-/*#home .image-col2-row2 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 11px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+#carousel-example-video .desc{
+  margin-top: 13.99px;
 }
-*/
-
-/*#content-box{
-  width: 100px;
-  height: 100px;
-
-  background:
-    linear-gradient(to right, black 4px, transparent 4px) 0 0,
-    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
-    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
-    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
-    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
-    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
-    linear-gradient(to top, black 4px, transparent 4px) 0 100%,
-    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
-
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-}*/
-
-@media (min-width: 768px) and (max-width: 991px) {
-    /* Show 4th slide on md if col-md-4*/
-    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+@media(min-width: 768px){
+  #carousel-example-video .carousel-inner .active.col-lg-4.carousel-item + .carousel-item + .carousel-item {
         position: absolute;
         top: 0;
         right: -33.3333%;  /*change this with javascript in the future*/
@@ -510,7 +501,19 @@ button.buy-button:hover{
         visibility: visible;
     }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    #carousel-example .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 767,9999px) {
     /* Show 3rd slide on sm if col-sm-6*/
     .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
         position: absolute;
@@ -568,7 +571,11 @@ button.buy-button:hover{
 /* MD */
 @media (min-width: 768px) {
     /* show 3rd of 3 item slide */
-    .carousel-inner .active + .carousel-item + .carousel-item {
+    #carousel-example .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    #carousel-example-video .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
         display: block;
     }
     .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
@@ -653,7 +660,7 @@ button.buy-button:hover{
     }
 
   #product .text-desc{
-    transform: translate(0, 50%);
+    transform: translate(0, 100%);
     padding-right: 101px;
     display: block;
   }
@@ -665,7 +672,7 @@ button.buy-button:hover{
     }
 
   #product .text-desc{
-    transform: translate(0, 30%);
+    transform: translate(0,100%);
     display: block;
   }
 }
@@ -697,10 +704,11 @@ button.buy-button:hover{
 #product .product-text{
   position: absolute;
   bottom: 0px;
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-size: 24px;
   font-style: normal;
   font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
 }
 #product .container-image hr{
   background: rgba(0, 0, 0, 0.7);
@@ -783,20 +791,28 @@ button.buy-button:hover{
 }
 
 #product .text-desc p.title{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-size: 48px;
   font-weight: bold;
   font-style: normal;
   color: #000000;
   margin-bottom: 16.1px;
+  line-height: 56px;
 }
 
 #product .text-desc p.content{
-  font-family: "Noticia";
-  font-size: 24px;
+  font-family: "Roboto";
+  font-size: 18px;
   font-weight: bold;
   font-style: normal;
   color: rgba(0, 0, 0, 0.7);
+  line-height: 21px;
+}
+
+#product .text-desc .content{
+  max-height: 198.13px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 #product .action-desc{
@@ -807,12 +823,13 @@ button.buy-button:hover{
 }
 
 #product .action-desc-text p{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-style: 48px;
   text-align: center;
-  margin-bottom: 205px;
+  margin-bottom: 52px;
+  line-height: 56px;
 }
 
 #product .action-desc .video-container{
@@ -822,12 +839,11 @@ button.buy-button:hover{
 }
 
 #product .slide-review{
-  background: url('/img/background/slide-review.jpg');
+  background: url('/img/background/slide-back.svg');
   /*transform: rotate(179.96deg);*/
   /*background-image: url('/img/background/Vector 6.png');*/
   background-repeat: no-repeat;
   padding-top: 40px;
-  padding-bottom: 50px;
   margin-top: 80px;
 }
 
@@ -845,14 +861,14 @@ button.buy-button:hover{
 }
 
 #product .product-detail .title p{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
   text-align: center;
 }
 
 .title-text{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
   line-height:  33px;
@@ -865,7 +881,7 @@ button.buy-button:hover{
 }
 
 .desc-text{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
   line-height: 25px;
@@ -926,6 +942,18 @@ button.buy-button:hover{
     margin-bottom: 29px
 }
 
+#product .choose-color .fa-circle:active{
+  border: 2px solid #135454;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+#product .choose-color .fa-circle:hover{
+  border: 2px solid #92C4E2;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+
 /*detail*/
 
 #product .feature{
@@ -945,36 +973,36 @@ button.buy-button:hover{
 
 /*ABOUT*/
 #about .title{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-weight: 48px;
   font-style: normal;
-  line-height: 66px;
+  line-height: 56px;
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 
 }
 
 #about .content{
-  font-family: "Noticia";
-  font-weight: 30px;
+  font-family: "Roboto";
+  font-weight: 500;
   font-style: normal;
-  line-height: 41px;
+  line-height: 21px;
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
   margin-bottom: 19px;
 }
 
 #about .content1{
-  margin-bottom: 60px;
+  margin-bottom: 46px;
 }
 
 #faq ul.sub-menu.collapse p{
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 21px;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -1128,18 +1156,18 @@ button.buy-button:hover{
 }
 
 /*beauty-corner*/
-#beauty-corner .product-name p, .price p{
+.corner-beauty .title-text p, .content-text p{
     font-weight: bold;
     font-style: normal;
 }
 
-#beauty-corner .product-name p{
+.corner-beauty .title-text p{
     color: #000000;
     line-height: 33px;
     margin-top: 10px;
     margin-bottom: 7px;
 }
-#beauty-corner .price p{
+.corner-beauty .content-text p{
     color: rgba(0, 0, 0, 0.7);
     line-height: 25px;
 }
@@ -1159,7 +1187,7 @@ button.buy-button:hover{
   color: rgba(0, 0, 0, 0.2);
 }
 select#yearBirth, select#monthBirth, select#dateBirth {
-  font-family: Noticia Text;
+  font-family: Roboto Text;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1184,7 +1212,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
     padding-right: 21px;
 }
 #loginUser .content-text p{
-    font-family: "Noticia";
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -1195,7 +1223,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
     height: 100%;
 }
 #loginUser .right-content li a{
-    font-family:"Noticia";
+    font-family:"Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -1204,7 +1232,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
 }
 
 #loginUser .forget-pass{
-    font-family: "Noticia";
+    font-family: "Roboto";
     font-weight: bold;
     font-style: normal;
 }
@@ -1216,7 +1244,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
 
 #loginUser tr td input.form-enter {
     width: 100%;
-    font-family: "Noticia";
+    font-family: "Roboto";
     font-family: normal;
     font-weight: bold;
     font-size: 18px;
@@ -1231,7 +1259,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
 
 #loginUser tr td input.login, input.logFb, input.signUp {
     width: 100%;
-    font-family: "Noticia";
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -1309,7 +1337,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
 #loginUser .check-box .sex{
     margin-left: 20px;
     font-weight: bold;
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 
 #loginUser input.signUp, input.login, input.logFb{
@@ -1327,7 +1355,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
   box-sizing: border-box;
   border-radius: 20px;
   font-size: 36px;
-  font-family: "Noticia";
+  font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
   
@@ -1336,6 +1364,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
 @media(min-width: 1024px){
   button.button.button-more{
     padding: 4px 29.3px 10px;
+    /*width: 100%;*/
   }
   button.button.cart-button, button.button.buy-button{
     padding: 12px 16px;
@@ -1345,7 +1374,7 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
 
 @media (max-width: 1023px){
   button.button.button-more{
-    width: 100%;
+    /*width: 100%;*/
   }
 }
 @media(max-width: 768px){
@@ -1368,4 +1397,5 @@ select#yearBirth option, select#monthBirth option, select#dateBirth option{
     max-width: 100% !important;
   }
 }
+
 

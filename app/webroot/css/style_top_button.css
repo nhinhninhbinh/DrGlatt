@@ -49,7 +49,7 @@
 .font-size-24 {
     font-size: 24px;
     font-weight: bold;
-    font-family: "Noticia";
+    /*font-family: "Roboto";?*/
     font-style: normal; }
 
 .font-size-25 {
@@ -88,11 +88,11 @@ button:focus {
     outline: none;
 }
 
-body, body * {
-    font-family: 'Noticia', arial;
+body {
+    font-family: "Roboto";
     color: #000000;
-    font-size: 18px;
 }
+
 h2, h3, h4, p {
     margin-bottom: 0;
 }
@@ -113,7 +113,8 @@ h2, h3, h4, p {
     display: none;
 }
 
-/********/
+/**** main-menu ****/
+/****** menu for pc *****/
 .navbar-main-menu .head-nav-side-menu {
     overflow: inherit;
     float: left;
@@ -123,7 +124,7 @@ h2, h3, h4, p {
     line-height: 89px;
 }
 .navbar-main-menu .head-nav-side-menu .menu-list a, li{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .navbar-main-menu .head-nav-side-menu .brand {
     background-color: transparent;
@@ -190,7 +191,64 @@ h2, h3, h4, p {
 .navbar-main-menu .head-nav-side-menu ul .sub-menu li:before, .navbar-main-menu .head-nav-side-menu li .sub-menu li:before {
     display: none;
 }
-   
+/****** menu for mobile *****/
+.head-nav-side-menu ul .sub-menu li.active,
+.head-nav-side-menu li .sub-menu li.active {
+    color: #d19b3d;
+}
+.head-nav-side-menu ul .sub-menu li.active a,
+.head-nav-side-menu li .sub-menu li.active a {
+    color: #d19b3d;
+}
+.head-nav-side-menu ul .sub-menu li,
+.head-nav-side-menu li .sub-menu li {
+    border: none;
+    line-height: 28px;
+    border-bottom: 10px solid #fff;
+    margin-left: 0px;
+    padding: 7px 0px 10px;
+}
+.head-nav-side-menu ul .sub-menu li:hover,
+.head-nav-side-menu li .sub-menu li:hover {
+    background: rgba(37, 108, 108, 0.65);
+}
+
+.head-nav-side-menu li .sub-menu li:hover {
+    background: rgba(37, 108, 108, 0.65);
+}
+.head-nav-side-menu ul .sub-menu li:before,
+.head-nav-side-menu li .sub-menu li:before {
+    font-family: FontAwesome;
+    content: "\f054";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.head-nav-side-menu li {
+    border-bottom: 19px solid #fff;
+    background: #D6F2F2;
+    padding: 5px 0px 4px 12px;
+}
+.head-nav-side-menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Noticia";
+}
+.head-nav-side-menu li a i {
+    padding-left: 10px;
+    width: 20px;
+    padding-right: 20px;
+}
+.head-nav-side-menu li:hover {
+    background-color: rgba(37, 108, 108, 0.65);;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+/***** end main menu ******/
 
 .main-social-icon-top {
     float: right;
@@ -202,6 +260,7 @@ h2, h3, h4, p {
     margin-top: 32px;
     /*line-height: 89px;*/
 }
+.main-social-icon-top ul li:hover
 .main-social-icon-top a:first-child{
     visibility: visible;
 }
@@ -218,12 +277,23 @@ h2, h3, h4, p {
 .main-social-icon-top .search-main-top, .main-social-icon-top .phone-number-main-top, .cart-main-top, .contact-main-top {
     position: relative;
 }
-.txt-search-top {
+.main-social-icon-top .txt-search-top {
     z-index: 9;
     position: absolute;
     right: 0;
     top: 40px;
     display: none;
+}
+.main-social-icon-top .txt-search-top img.icon-search-top {
+    position: absolute;
+    top: 11px;
+    left: 8px;
+}
+.main-social-icon-top .txt-search-top img.icon-clear-search {
+    position: absolute;
+    top: 16px;
+    right: 5px;
+    cursor: pointer;
 }
 
 .txt-search-top #searchinput {
@@ -233,16 +303,17 @@ h2, h3, h4, p {
     padding-left: 8px;
     height: 42px;
     width: 220px;
+    font-size: 18px;
 }
 
-.txt-search-top #searchclear {
-    position: absolute;
-    right: 5px;
-    bottom: 6px;
-    margin: auto;
-    cursor: pointer;
-    color: #000;
-}
+/*.txt-search-top #searchclear {*/
+    /*position: absolute;*/
+    /*right: 5px;*/
+    /*bottom: 6px;*/
+    /*margin: auto;*/
+    /*cursor: pointer;*/
+    /*color: #000;*/
+/*}*/
 input#searchinput:focus {
     outline-width: 0;
 }
@@ -253,7 +324,7 @@ input#searchinput:focus {
     z-index: 9;
     position: absolute;
     right: 0;
-    top: 59px;
+    top: 40px;
     display: none;
     padding: 9px 15px;
 }
@@ -302,6 +373,9 @@ input#searchinput:focus {
     font-weight: 500;
     line-height: 21px;
 }
+.main-social-icon-top ul li.contact-main-top ul li a {
+    color: #000 !important;
+}
 .main-social-icon-top .contact-main-top ul li a:hover {
     text-decoration: none;
 }
@@ -321,11 +395,11 @@ input#searchinput:focus {
     padding: 30px 0;
 }
 .content-footer a, li, option{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 
 .content-footer input, .select-product-frm{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .content-footer .row div.col{
     padding-left: 0;
@@ -380,6 +454,11 @@ input#searchinput:focus {
 .icon-social-footer i{
     margin-right: 15px;
 }
+
+.icon-social-footer {
+   font-size: 18px;
+}
+
 .advisory-footer {
     border: 2px solid #E8A45F;
     box-sizing: border-box;
@@ -489,7 +568,10 @@ figure {
 div#captioned-gallery { 
   width: 100%; overflow: hidden; 
 }
-figure.slider { 
+div#captioned-gallery-sub {
+  width: 100%; overflow: hidden;
+}
+figure.slider {
   position: relative; width: 500%;
   font-size: 0; animation: 30s slidy infinite; 
   height: 670px;
@@ -511,11 +593,12 @@ figure.slider figure figcaption {
 }
 
 #captioned-gallery figure.slider figure figcaption{
-    width: 40%;
+    width: 462px;
+    /*height: 208px;*/
 }
 
 figcaption p{
-    font-family: "Noticia";
+    font-family: "Roboto";
     font-weight: bold;
     font-style: normal;
 }
@@ -528,25 +611,26 @@ figcaption p{
     line-height: 49px;
     color: #000;
     font-weight: bold;
-    margin-top: 17px;
-    font-family: "Noticia";
-    transform: translate(50%, 17px);
+    margin-top: 13px;
+    font-family: "Roboto";
+    transform: translate(17%, 17px);
     padding: 4px 25px 10px 33px;
 }
-#captioned-gallery-sub{
+#captioned-gallery, #captioned-gallery-sub{
     margin-bottom: 80px;
 }
 
-#captioned-gallery{
-    margin-bottom: 80px;
-}
-
-#captioned-gallery-subpage .container-text{
-    width: 40%;
+#captioned-gallery-sub figure.slider figure figcaption{
+    width: 100%;
     float: right;
 }
 
-#captioned-gallery-subpage figure.slider img{
+#captioned-gallery-sub figure.slider figure figcaption .desc-content{
+    width: 462px;
+    float: right;
+}
+
+#captioned-gallery-sub figure.slider img{
     transform: scaleX(-1);
 }
 
@@ -652,7 +736,6 @@ figcaption p{
     box-sizing: border-box;
     padding: 24px;
     display: flex;
-    height:147px;
 }
 .item-product-use .item-use-text ul li.active {
     background: #F4CA9A;
@@ -671,7 +754,9 @@ figcaption p{
 .item-product-use .item-use-text ul li p.text-use-product{
     margin-left: 22px;
     text-align: justify;
-
+}
+.item-product-use img#expandedImgUse {
+    height: 644px;
 }
 
 /*item-product*/
@@ -724,6 +809,21 @@ figcaption p{
 .content-item-product .choose-color span.text-color {
     margin-right: 22px;
 }
+.content-item-product ul li {
+    float: left;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.content-item-product ul li div {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.content-item-product ul li div.active {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
 .content-item-product .choose-color i.icon{
     margin-right: 7px;
 }
@@ -753,9 +853,6 @@ figcaption p{
 }
 
 /*cart product*/
-.cart-product {
-    margin-top: 81px;
-}
 .cart-product table {
     margin: 0px;
 }
@@ -773,7 +870,7 @@ figcaption p{
     line-height: 33px;
 }
 .detail-order h2{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .cart-product tr td, .detail-order .list-product-choose tr td {
     text-align: center;
@@ -824,7 +921,7 @@ figcaption p{
     background-color: transparent;
 }
 .info-custom-order h4, td, p{
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .cart-product .total-cart button, .info-custom-order .method-payment .detail-method-payment button {
     background: #FF1B1B;
@@ -837,9 +934,6 @@ figcaption p{
 }
 
 /*info custom order*/
-.info-custom-order {
-    margin-top: 80px;
-}
 .info-custom-order .row {
     margin:0px;
 }
@@ -993,15 +1087,12 @@ figcaption p{
 }
 
 /*detail-order*/
-.detail-order {
-    margin-top: 80px;
-}
 .detail-order h2 {
     margin-bottom: 60px;
 }
 .detail-order h2, .detail-order h4 {
     margin:0px;
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .detail-order h4 {
     padding-bottom: 30px;

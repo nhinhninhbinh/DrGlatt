@@ -33,7 +33,7 @@
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                             </ul>
 
-                            <li data-toggle="collapse" data-target="#question_4" class="collapsed faq active">
+                            <li data-toggle="collapse" data-target="#question_4" class="collapsed faq">
                               <a class="title-menu"></i> Lorem ipsum dolor sit amet, consetetur sadipscing elitr? <span class="arrow"></span></a>
                             </li>  
                             <ul class="sub-menu collapse faq" id="question_4">

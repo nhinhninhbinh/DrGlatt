@@ -1,3 +1,10 @@
+button.btn-slide-more:hover{
+  background: #429F9F;
+}
+button.btn-slide-more, button.button-more{
+  cursor: pointer;
+}
+
 .emulated-flex-gap > * {
   margin: 12px 0 0 12px;
 }
@@ -51,6 +58,9 @@
 .tab-product-image{
   background: #D5DBD0;
   padding: 29px 39px 31px 28px;
+  height: 389px;
+}
+.item-product-detail .tab-product-image{
   height: 449px;
 }
 .image-detail{
@@ -60,21 +70,29 @@
 
 /*nav-menu*/
 .sub-title-menu{
-	font-family: Noticia Text;
+	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 18px;
-	line-height: 25px;
+	line-height: 21px;
 	color: #000000;
 }
 
-.title-menu {
-	font-family: Noticia Text;
+#faq .title-menu {
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
-	line-height: 33px;
+	line-height: 28px;
 	color: #000000;
+}
+.nav-side-menu .title-menu {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
 }
 .nav-side-menu {
   overflow: auto;
@@ -88,9 +106,9 @@
   text-align: center;
   font-size: 14px;
 }
-/*.nav-side-menu .toggle-btn {*/
-  /*display: none;*/
-/*}*/
+.nav-side-menu .toggle-btn {
+  display: none;
+}
 .nav-side-menu ul,
 .nav-side-menu li {
   list-style: none;
@@ -98,19 +116,6 @@
   margin: 0px;
   line-height: 35px;
   cursor: pointer;
-  /*
-    .collapsed{
-       .arrow:before{
-                 font-family: FontAwesome;
-                 content: "\f053";
-                 display: inline-block;
-                 padding-left:10px;
-                 padding-right: 10px;
-                 vertical-align: middle;
-                 float:right;
-            }
-     }
-*/
 }
 .nav-side-menu ul :not(collapsed) .arrow:before,
 .nav-side-menu li :not(collapsed) .arrow:before {
@@ -177,17 +182,10 @@
   padding: 5px 0px 4px 12px;
 }
 
-/*#nav-bar .nav-side-menu li {
-  border-bottom: 19px solid #fff;
-}
-
-#faq .nav-side-menu li {
-  border-bottom: 30px solid #fff;
-}*/
 .nav-side-menu li a {
   text-decoration: none;
   color: #000000;
-  font-family: "Noticia";
+  font-family: "Roboto";
 }
 .nav-side-menu li a i {
   padding-left: 10px;
@@ -209,19 +207,19 @@
     width: 100%;
     margin-bottom: 10px;
   }
-  /*.nav-side-menu .toggle-btn {*/
-    /*display: block;*/
-    /*cursor: pointer;*/
-    /*position: absolute;*/
-    /*right: 10px;*/
-    /*top: 10px;*/
-    /*z-index: 10 !important;*/
-    /*padding: 3px;*/
-    /*background-color: #ffffff;*/
-    /*color: #000;*/
-    /*width: 40px;*/
-    /*text-align: center;*/
-  /*}*/
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center;
+  }
 }
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
@@ -248,7 +246,7 @@ body {
     margin: 0 10px;
     padding:0px 12px;
     font-size: 36px;
-    font-family: "Noticia";
+    font-family: "Roboto";
 }
 .pagination-corner-beauty img {
     margin-top: -10px;
@@ -260,15 +258,15 @@ body {
 
 .carousel-control-next-icon:after{
     font-family: FontAwesome;
-
 		color: #000;
 		content: "\f054";
     font-size: 24px;
 }
   .carousel-control-prev-icon:after{
     font-family: FontAwesome;
-      content: "\f053";
-      font-size: 24px;
+    content: "\f053";
+    font-size: 24px;
+    color: #000;
   }
   .carousel-control-next-icon, .carousel-control-prev-icon{
     background: none;
@@ -291,12 +289,19 @@ body {
     .carousel-control-prev-icon{
       transform: translate(-62px, -65px);
     }
+
+    #carousel-example-video .carousel-control-next-icon{
+      transform: translate(62px, -133px);
+    }
+    #carousel-example-video .carousel-control-prev-icon{
+      transform: translate(-62px, -133px);
+    }
   }
   @media (min-width: 320px) and (max-width: 1023px){
-      .carousel-control-next-icon{
-      transform: translate(40px, -65px);
+    #carousel-example-video .carousel-control-next-icon{
+      transform: translate(40px, -133px);
     }
-    .carousel-control-prev-icon{
-      transform: translate(-40px, -65px);
+    #carousel-example-video .carousel-control-prev-icon{
+      transform: translate(-40px, -133px);
     }
 	}

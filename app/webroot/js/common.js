@@ -10,8 +10,8 @@ $(document).ready(function(){
         if(index>imageCount-1){
             index=0;
         }
-        // sliderRadios[index].click();
-        // console.log(sliderRadios[index].id);
+        sliderRadios[index].click();
+        console.log(sliderRadios[index].id);
     },delay);
 
 
@@ -39,12 +39,13 @@ $(document).ready(function(){
     });
 
     $('.sub-gallery-1').on('click', function(){
-        var current = document.getElementsByClassName("active");
+        var header = document.getElementById("tab-gallery-1");
+        var current = header.getElementsByClassName("active");
         var expandImg = document.getElementById("expandedImg");
         expandImg.src = $(this).children().attr('src');
         expandImg.parentElement.style.display = "block";
 
-        current[1].className = current[1].className.replace(" active", "");
+        current[0].className = current[0].className.replace(" active", "");
         $(this).addClass('active');
 
     });
@@ -56,7 +57,7 @@ $(document).ready(function(){
         expandImg.src = $(this).children().attr('src');
         expandImg.parentElement.style.display = "block";
 
-        current[1].className = current[1].className.replace(" active", "");
+        current[0].className = current[0].className.replace(" active", "");
         $(this).addClass('active');
 
     });
@@ -115,7 +116,7 @@ $(document).ready(function(){
         $('#dateBirth').getDateSelect($('#yearBirth').val(), $('#monthBirth').val());
         $('#dateBirth').val(initDateBirth);
         $('#yearBirth, #monthBirth').change(function(){
-            $('#dateBirth').getDateSelect($('#yearBirth').val(), $('#monthBirth').val());
+            $('#dateBirth').getDateSelect($('#yearBirth').val(), $('#monthBirth').val());   
         });
     });
 

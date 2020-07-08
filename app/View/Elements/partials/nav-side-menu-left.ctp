@@ -2,7 +2,7 @@
         <div class="menu-list">
             <ul id="menu-content" class="menu-content collapse out">
 
-                <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                <li data-toggle="collapse" data-target="#products" class="collapsed">
                   <a class="title-menu"></i> Về chúng tôi <span class="arrow"></span></a>
                 </li>  
                 <ul class="sub-menu collapse" id="products">

@@ -1,4 +1,7 @@
 <div class="cart-product">
+    <div class="slide">
+        <?php echo $this->element("slide/slide-sub-page")?>
+    </div>
     <div class="container">
       <div class="table-responsive list-product-choose">
         <table class="table table-bordered">
@@ -68,4 +71,4 @@
   </div>
 </div>
 <div class="clear"></div>
-<?= $this->Html->script('cart'); ?>
+<?= $this->Html->script('cart'); 

@@ -1,4 +1,7 @@
 <div class="detail-order">
+    <div class="slide">
+        <?php echo $this->element("slide/slide-sub-page")?>
+    </div>
     <div class="container">
         <h2 class="font-size-48 font-weight">Chi Tiết Đơn Hàng</h2>
         <div class="row">
