@@ -17,11 +17,11 @@
                     </ul>
                 </li>
                 <li data-toggle="collapse" data-target="#main-product" class="collapsed">
-                    <a class="font-size-18 font-weight" href="#">Sản phẩm <span class="arrow"></span></a>
+                    <a class="font-size-18 font-weight" href="/product">Sản phẩm <span class="arrow"></span></a>
                     <ul class="sub-menu collapse" id="main-product">
-                        <li><a class="font-size-18 font-weight" href="/product">San pham 1</a></li>
-                        <li><a class="font-size-18 font-weight" href="/product">San pham 2</a></li>
-                        <li><a class="font-size-18 font-weight" href="/product">San pham 3</a></li>
+                        <li><a class="font-size-18 font-weight" href="/detail">San pham 1</a></li>
+                        <li><a class="font-size-18 font-weight" href="/detail">San pham 2</a></li>
+                        <li><a class="font-size-18 font-weight" href="/detail">San pham 3</a></li>
                     </ul>
                 </li>
                 <li><a class="font-size-18 font-weight" href="/buy">Mua hàng</a></li>
