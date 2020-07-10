@@ -295,7 +295,7 @@ h2, h3, h4, p {
     display: block;
 }
 /* end icon active and no-active*/
-.main-social-icon-top .contact-main-top:hover ul {
+.main-social-icon-top .contact-main-top ul.active, .main-social-icon-top .txt-search-top.active {
     display: block;
 }
 

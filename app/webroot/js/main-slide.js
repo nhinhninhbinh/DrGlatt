@@ -9,33 +9,19 @@ $(document).ready(function(){
         $('.navbar-main-menu .head-nav-side-menu ul li').unbind('mouseleave');
     }
 
-    // search icon top
-    $(".search-main-top").mouseover(function() {
-        $('.txt-search-top').css('display', 'block');
-    });
-
-    $('.search-main-top').on('click', function() {
+    $('.search-main-top .search-top').on('click', function() {
         $('.main-social-icon-top .search-main-top img.no-active').css('display', 'none');
         $('.main-social-icon-top .search-main-top img.active').css('display', 'block');
-        $('.txt-search-top').css('display', 'block');
+        $('.main-social-icon-top .search-main-top .txt-search-top').toggleClass('active');
     });
-    $('.search-main-top').focusout(function() {
-        $('.txt-search-top').css('display', 'none');
-
-    });
-
-
 
     $("#searchclear").click(function(){
-        $('.txt-search-top').css('display', 'none');
-        $('.main-social-icon-top .txt-search-top img.icon-search-top').css('display', 'block');
-        $("#searchinput").val('');
+        // $('.main-social-icon-top .search-main-top .txt-search-top').css('display', 'none');
+        $('#searchinput').val('');
     });
     $('#searchinput').on('focus', function() {
-        // console.log('aaa');
         $('.main-social-icon-top .txt-search-top img.icon-search-top').css('display', 'none');
     });
-
 
     //phone number top
     $('.phone-number-top').mouseover(function() {
@@ -47,28 +33,17 @@ $(document).ready(function(){
     $('.contact-main-top').on('click', function() {
         $('.main-social-icon-top .contact-main-top img.no-active').css('display', 'none');
         $('.main-social-icon-top .contact-main-top img.active').css('display', 'block');
-        $('.main-social-icon-top .contact-main-top ul').css('display', 'block');
+        $('.main-social-icon-top .contact-main-top ul').toggleClass('active');
     });
-    $('.contact-main-top').focusout(function() {
-        $('.main-social-icon-top .contact-main-top ul').css('display', 'none');
-        $('.main-social-icon-top .contact-main-top img.active').css('display', 'none');
-        $('.main-social-icon-top .contact-main-top img.no-active').css('display', 'block');
-    });
-    //khi click , sau do hover lai lan nua thi k nhan hover
-
 
     //select product form footer
     $('.select-product-frm').selectpicker();
-    // $('.bootstrap-select .dropdown-menu li').addClass("test");
 
     // remove placeholder on focus $('input,textarea') in comment product page
     $('textarea').focus(function(){
         $(this).removeAttr('placeholder');
     });
 });
-function searchTop() {
-  $('.txt-search-top').css('display', 'block');
-}
 
 function clickItemUse(tags) {
     var header = document.getElementById('method-use');
@@ -109,6 +84,3 @@ function hexc(colorval) {
     color = parts.join('');
   return color;
 }
-// function outClickSearch() {
-//     $('.main-social-icon-top .txt-search-top img.icon-search-top').css('display', 'block');
-// }

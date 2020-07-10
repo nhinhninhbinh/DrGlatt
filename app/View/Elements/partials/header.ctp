@@ -35,13 +35,13 @@
     <div class="main-social-icon-top">
         <ul>
             <li class="search-main-top">
-                <a href="javascript:void(0);" onclick="return searchTop();" class="search-top">
+                <a href="javascript:void(0);" class="search-top">
                     <img class="no-active" src="../img/icon_top/search.png">
                     <img class="active" src="../img/icon_top/search-active.png">
                 </a>
                 <div class="txt-search-top">
                     <img class="icon-search-top" src="../img/icon_top/search-top.png">
-                    <input type="text" class="" id="searchinput"/>
+                    <input type="text" id="searchinput"/>
                     <img id="searchclear" class="icon-clear-search" src="../img/icon_top/X.png">
                 </div>
             </li>
