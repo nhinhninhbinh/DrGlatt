@@ -976,7 +976,7 @@ figcaption p{
     max-width: 32.666667%;
 }
 .info-custom-order .col-sm-7 {
-    max-width: 63.0333333%;
+    /*max-width: 63.0333333%;*/
     flex: 63.0333333%;
 }
 .info-custom-order input[type="text"], .info-custom-order textarea {
@@ -1020,7 +1020,7 @@ figcaption p{
 }
 
 .info-custom-order .col-md-4 {
-    max-width: 35.333333%;
+    /*max-width: 35.333333%;*/
     flex: 0 0 35.333333%;
 }
 .info-custom-order .tbl-your-order tr td.total-price {

@@ -4,7 +4,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col col-md-7">
+            <div class="col col-md-7 col-sm-7 col-lg-7">
             	<h4 class="font-weight">THÔNG TIN KHÁCH HÀNG:</h4>
             	<div class="form-group row">
 				    <label for="inputName" class="col-sm-5 col-form-label font-size-24 font-weight">Họ và tên</label>
@@ -33,7 +33,7 @@
 				    </div>
 				</div>
             </div>
-            <div class="col col-md-4 your-order">
+            <div class="col col-md-4 col-sm-4 col-lg-4 your-order">
             	<h4 class="font-weight">ĐƠN HÀNG CỦA BẠN</h4>
                 <table class="table tbl-your-order">
                     <tbody>

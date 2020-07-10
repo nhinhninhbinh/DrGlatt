@@ -7,6 +7,7 @@
         margin:0px;
         padding-left: 0px;
     }
+
 }
 
 @media (min-width: 1023px) and (max-width: 1024px) {
@@ -81,6 +82,9 @@
     .main-social-icon-top {
         position: absolute;
         right: 0px;
+    }
+    .info-custom-order .your-order {
+        margin-left: 56px;
     }
 }
 
